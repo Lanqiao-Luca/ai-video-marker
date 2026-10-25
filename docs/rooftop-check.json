@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "video_sha256": "8b2b8e8fa95b974cf84109d2588def073bf1752f5bbd2c08d75cfa16bd280b2c",
+  "actual": {
+    "duration": 44.0,
+    "width": 720,
+    "height": 1280,
+    "fps": 24.0,
+    "has_video": true,
+    "has_audio": false,
+    "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/bt709/iec61966-2-1, progressive), 720x1280, 1642 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+    "audio_stream": "",
+    "decoded_frames": 1056
+  },
+  "errors": [],
+  "coverage": "stream headers and complete video decode",
+  "full_realtime_review": "NOT_RUN",
+  "audio_listening": "NOT_RUN",
+  "adoption": "PENDING"
+}

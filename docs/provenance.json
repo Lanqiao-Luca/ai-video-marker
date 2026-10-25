@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "project": "ai-video-marker",
+  "kind": "public_adaptations",
+  "note": "公开适配来源可追溯，源路径不作运行依赖；公开配乐为项目新编，原作品录音不进入分发。",
+  "files": [
+    {
+      "source": "standards/目的守恒.md",
+      "source_sha256": "1361e6abed3ab93038ff02b029ff1ba44d5b1de6ff8cd0e6d1e50de633fc1e3e",
+      "target": "standards/目的守恒.md",
+      "target_sha256": "16add28ec86147e237c736a76153c45ae63bdf21643fc3f29e0943786ada6c54",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/复用与影响边界.md",
+      "source_sha256": "1ec6000f1dbdcb4c725f7ead07acd67af93dc9cfe04f8690683f910876042385",
+      "target": "standards/复用与影响边界.md",
+      "target_sha256": "18abd221970fb952ff89724e15e81ee9277d771eb18946817fc1ed5a4d5b73aa",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/证据与结论.md",
+      "source_sha256": "0d43727decf12e67da7b9969481e662a5a12735f0f5a4b24f9c08dc708a59bf5",
+      "target": "standards/证据与结论.md",
+      "target_sha256": "1d0333455ab2ec84bc36f3ba29255c1526c748ae6eeebd7a48e5a6a022ea87fd",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/已确认基线保护.md",
+      "source_sha256": "7109f851219b16dfd72a7f0a1e9be39dcab34421a1d3d534cfa9a1590e6956e9",
+      "target": "standards/已确认基线保护.md",
+      "target_sha256": "07f033f8c437398036df1fc84d829e9ee21dcdf82239b0519e15e5863cf688fd",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/制作单与故事拆解.md",
+      "source_sha256": "66c821150ea970f1fe85105ccf8610f2e230bb059c5233b3b2ad988d4396723b",
+      "target": "standards/制作单与故事拆解.md",
+      "target_sha256": "83c20ab879554b2e8c53dd736f6c22df73f359fed5df772e3c9f7bffb8fa3230",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/角色与画面一致性.md",
+      "source_sha256": "b38d1fc15bd682ae04344102bac397c59b8565c445988cc81202281067747137",
+      "target": "standards/角色与画面一致性.md",
+      "target_sha256": "558103ecf101f5f39220b5f0143e771c7e859523d9586210be911669995a8c06",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/镜头空间与动态分镜.md",
+      "source_sha256": "99fbf41740587d719af6fd6bf7ff7f8cdb05ac02fc73e5848010e1df1b1f577f",
+      "target": "standards/镜头空间与动态分镜.md",
+      "target_sha256": "14add58a89feaf674a7984791909b1a7401dfb2f6df54a1ee9884268149f20d8",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/代表镜头与动作制作.md",
+      "source_sha256": "7862c7adcfbca4f9b8689fa7a621d5d14ce9a60868487a442a601f9b068cb461",
+      "target": "standards/代表镜头与动作制作.md",
+      "target_sha256": "a846df566d33ed45f980f2d4cc47ff9a46ee0074851727f9637dbe0ab84bcfd8",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/声音色彩与交付验收.md",
+      "source_sha256": "5fad0cfb6a2d626d13adc93f332e36868eb3fde7b00630e3c427504d6ec63262",
+      "target": "standards/声音色彩与交付验收.md",
+      "target_sha256": "98d58d804d9401f7aecd37ceb02d4e6b3366f3b12a348225b43367787aab2652",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/版本资产与返工.md",
+      "source_sha256": "a47c76f6fba17dafee0a0f1746ff9d1d38f7a063a662c8a1eea1366bfe62d84e",
+      "target": "standards/版本资产与返工.md",
+      "target_sha256": "a8c659489fe4061fb9b2943b446b38b1072df3d7675f4695061bb8c874c61219",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/制作验证与阶段验收.md",
+      "source_sha256": "443086b6f11f4e9a9a39d3a968290fac59394d21171516cc337549747d13b857",
+      "target": "standards/制作验证与阶段验收.md",
+      "target_sha256": "4c3d56a2108f95671edbcb460f7d51c96c2a0532a75e85e6ed1b0053746f8167",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/审核交接与定向复核.md",
+      "source_sha256": "b958f452275f1f0a6c7c9cab498ff69d29c8b1905b9f09fa6a473489326994b5",
+      "target": "standards/审核交接与定向复核.md",
+      "target_sha256": "b5b8dc3dbe6f435b1274479bab337491243f22dec57f594908c2e0c6077a6772",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/渲染和工具异常恢复.md",
+      "source_sha256": "fee71a0b5af6c872ab3c8afecb054766c1f43141f8a65cfc7775f48553e2f1a5",
+      "target": "standards/渲染和工具异常恢复.md",
+      "target_sha256": "e5248220a32df2fb94a624f68e8b4f17c0043ca3df5a442247428730d2965fe1",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/动作因果与场内节奏.md",
+      "source_sha256": "139762734bf31eade02ef2c0eddc7a1936ace8a23e2398740ef77a17584c12f2",
+      "target": "standards/动作因果与场内节奏.md",
+      "target_sha256": "986c41526cf608366dd7519df82fcd66c4a5843dae3fa27dfcd1d62b2e90bb41",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/像素节奏创意与连续性.md",
+      "source_sha256": "6c0ef0abfe2b308ccfa209990968876e6f517849e6cc6e911c746c54ecfbc10b",
+      "target": "standards/像素节奏创意与连续性.md",
+      "target_sha256": "a0f1eac5846e08db95f9cd61fd58bdabd668e0ab2d4e2fc3c1c8c1dd7dca5228",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/纸艺舞台与折页接触.md",
+      "source_sha256": "5ac6d3c035272c8e50393c1e108a4b572c71d7298f986a7181ee6442d6f6081e",
+      "target": "standards/纸艺舞台与折页接触.md",
+      "target_sha256": "596972a6bee5f81fab3e83713fa9e9f0038c1546b370ed74f0eaa9b5e37bb825",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/主体动作与连续换场.md",
+      "source_sha256": "9247470e69c01f69f99d37d6ecbbd474f0b0bec51cbf349d869312b4015006cf",
+      "target": "standards/主体动作与连续换场.md",
+      "target_sha256": "e4d026acccd40acf59e434aff9c0a058c270ef1dbd94564a11476a1ee9c6f975",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/情绪诗词短视频原子.md",
+      "source_sha256": "5c61ce43b3d0e4567d8daf428ecf9b24a98fc517aeebdd2e08242feb6b1cedca",
+      "target": "standards/情绪诗词短视频原子.md",
+      "target_sha256": "b3027c5c5aec6e113cb6ae7e0cd07176aa66500df4642d2c65fc675612017321",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/写入与原件边界.md",
+      "source_sha256": "a8addd688431d6d0808bf1c65fd8ffbc7c4f8e3a93ee979a62adde0281228a05",
+      "target": "standards/写入与原件边界.md",
+      "target_sha256": "8ec20ced66b26578778958eaa46683ec9898afeb585c2d58d92c9a1657e406ab",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/执行文档与跨窗口接续.md",
+      "source_sha256": "072f95ff945c5b39aea11450b097deeef35cbf019605374c92cb450250a92d68",
+      "target": "standards/执行文档与跨窗口接续.md",
+      "target_sha256": "4f1e89a2dd9190eddb52c913461fcf319e5150155a4f5f94534fd48eecc2b3f5",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "standards/项目留存与过程清理.md",
+      "source_sha256": "05853d7f1133a721d0e586fefae247f57be969e09e21b9295edf5627203dddac",
+      "target": "standards/项目留存与过程清理.md",
+      "target_sha256": "7d63a72069a4bf67cfcfbe25998b2e5e9ff7154945646dad3f6ab23ce126ff28",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "skills/animation-plan/SKILL.md",
+      "source_sha256": "eadef1ca039fd713a5a722483bfed3a33db95ba780833d0996f553a3f6a8c2f9",
+      "target": "skills/animation-plan/SKILL.md",
+      "target_sha256": "f2d12ef8d288857ca9a9b440196c3b5870d1613c7b6a1dffd1e6c22f1f2a92ba",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "skills/animation-shot/SKILL.md",
+      "source_sha256": "752d632138d766f7a981f7c14ce036ec0240c1264b2b386aeb7800237649ff19",
+      "target": "skills/animation-shot/SKILL.md",
+      "target_sha256": "fb9d04e80a30084f8054ccfb73ff35a17e0fb79c41e895f3ac3ab590ad78c6a6",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "skills/animation-finish/SKILL.md",
+      "source_sha256": "198ccff10007821366cbd21367bed85b4830c93ef5192ec96609e5403b90a6e2",
+      "target": "skills/animation-finish/SKILL.md",
+      "target_sha256": "f2160a111c148f03e5c44f23adb4f1d6c20a20b34a0b8a9b50ac70afce60d558",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "skills/animation-docs/SKILL.md",
+      "source_sha256": "5128546f43e2ba22e47601eafb61c23e39166f3793d61893127b7f9a3c110a21",
+      "target": "skills/animation-docs/SKILL.md",
+      "target_sha256": "09c23aa185a57a5ca3a371385a25aab6354145c87a99e010a94f594fd66b9f07",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "skills/pixel-rhythm-short/SKILL.md",
+      "source_sha256": "fa4395d44128a10fa90ecbe7f424dbe74a5da179fae9e9c30bbd938b2033feec",
+      "target": "skills/pixel-rhythm-short/SKILL.md",
+      "target_sha256": "eb89a1168bf413c63177f4acb3c3f6252c2595639855545f6d52257626970da1",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "skills/poetry-short-video/SKILL.md",
+      "source_sha256": "481cdbc69f5174f5dcfa721d760727bd64f1cc4858162966e8248bc42087bd1a",
+      "target": "skills/poetry-short-video/SKILL.md",
+      "target_sha256": "0def1d11eb25d77371461d0767e0ba12829532c56f35b800b2dca70eb5375589",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "skills/paperbook-mv/SKILL.md",
+      "source_sha256": "ef730ddea9e9d231ed46b97876ca1d61cea06f670f595f14d7e4f319093933d3",
+      "target": "skills/paperbook-mv/SKILL.md",
+      "target_sha256": "89a30746f791d3b60035c5c98b28952d41bbfeafa4c1dd21b08467f11099fcb9",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "agents/导演与策划.md",
+      "source_sha256": "335367445db4664d9ad7436f891dd3d1c62f25616af38519491d30f4bab92836",
+      "target": "agents/导演与策划.md",
+      "target_sha256": "d1a17a4511ad6242d9c86c2c02ff7ef089b08325cddd8f5fa9b6a663818310c0",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "agents/美术与一致性.md",
+      "source_sha256": "ac37fd3dccd1e9c56fcda3221334188c4e935f6490a4e3b0a75b118b0200dd57",
+      "target": "agents/美术与一致性.md",
+      "target_sha256": "02efab5a397d6d56b893269d77ccdbfd50819d08bb46926fdf14e57f6c527dc2",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "agents/动画与合成.md",
+      "source_sha256": "7775b1d9e8b74b33d4dcad3a3c037c633657fcf34c4c49741b39acf7d1441ca3",
+      "target": "agents/动画与合成.md",
+      "target_sha256": "c80916ecf40d216405be458ff6ccf61cd265b9c54db031aaf9ed4063e791c676",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "agents/声音与后期.md",
+      "source_sha256": "72120c67d58f57c2f8623f86660963e2600f16b44020f9bba1e8b8463654d597",
+      "target": "agents/声音与后期.md",
+      "target_sha256": "4eb6b126510000faa2cc7649e108ca89d5d23a9024dca5cc7ab19015a118b4a0",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "agents/作品验收.md",
+      "source_sha256": "ba055b10340bb01051b65503049996c87faa5f1a3caf1284f3fa1a1dce691cce",
+      "target": "agents/作品验收.md",
+      "target_sha256": "eaee35e11599422df5799b8565bd522ff512802d9e62a4cb7adcf74260d6b4a6",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "agents/文档维护.md",
+      "source_sha256": "5aa1e86786e7205ea3ad6f6a4bd7e8f9e31c11dba3f88b702efe325bff31ad62",
+      "target": "agents/文档维护.md",
+      "target_sha256": "98ff04957035993cf659323e585727d42a3be5e004158acb7ef0972a1d1bab86",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "agents/原则审查.md",
+      "source_sha256": "81f61f723dd79bdf272ea0aa9ebdcd7d0fba0370eafca98dd36a9ab865eca17a",
+      "target": "agents/原则审查.md",
+      "target_sha256": "b6804c56ffb2205a6eb544b4616931ff8e98c7c4bd50a8df0d262011e97c6925",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "agents/像素节奏短片制作.md",
+      "source_sha256": "960c5065634c6d44fe6344f4ad8b2d25daede6ab41f19e205ee1297ae1af4af9",
+      "target": "agents/像素节奏短片制作.md",
+      "target_sha256": "6d01579f2afacf1e3f0711e8847942ce66ccf1fe5ba31e9d7a1066d4e024fd53",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/短片制作.md",
+      "source_sha256": "10e5f391e21268d618327b6609a118bf087d890b5d7f7fef41eb35c7cfb35910",
+      "target": "workflows/短片制作.md",
+      "target_sha256": "70f8ee68ed919e75fcdd78051cb16ad7ade8bf983394ae2b18f6da0c6eecd4ff",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/古诗词动画制作.md",
+      "source_sha256": "b36a6163dd0aae24971863bc48793cef30f6458cd02736cb0c9bee2cf0db3263",
+      "target": "workflows/古诗词动画制作.md",
+      "target_sha256": "7dc7189050621188865b5aa812f4658ab912482726a439d5734b3c21920dec84",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/定格动画制作.md",
+      "source_sha256": "09fc4655ea50d2c2a3e40f6897a6a662149b8a764fa79f26dae990531e13a842",
+      "target": "workflows/定格动画制作.md",
+      "target_sha256": "b0404f9145b550e2fd6d11da294001b82e458bbd9e4b5a7a25f3e2f8e52d8c2a",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/像素节奏创意短片制作.md",
+      "source_sha256": "65b752978315bedcd19f60cf304c65e678aa1c1441402c2d2b11da933863dfcc",
+      "target": "workflows/像素节奏创意短片制作.md",
+      "target_sha256": "d048d96da8884da09cdfba3a98a553b3d433ccd1ddc456a44823030e5244f081",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/情绪诗词短视频制作.md",
+      "source_sha256": "a879efda5726f6aa6bd952800b935ee72326f0f73741c6f18e4e5146f6c2f888",
+      "target": "workflows/情绪诗词短视频制作.md",
+      "target_sha256": "94a15bd11b48fa9b18665728cbdbe38e930a89b8a55204211f09963b8647cfc9",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/歌词驱动程序动画MV制作.md",
+      "source_sha256": "ce1b1a1fe7ea4395ba5e02e5e5eb57da05700d4f5a856eadf1d561644a2be147",
+      "target": "workflows/歌词驱动程序动画MV制作.md",
+      "target_sha256": "080421f536b592bf83cbfabb1621a2c01aa8763c131aca8baf9ffdf271534f67",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/作品归档与复用.md",
+      "source_sha256": "1ec70e97187b721e75a3db660249b55f441fcdaeab2b055ff2451721d7599e11",
+      "target": "workflows/作品归档与复用.md",
+      "target_sha256": "6c04d3f1519385f2f5a668cfb8d7c284c1b4ae7fbd6a0d4feea36a2177696a01",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/文档维护与原则审查.md",
+      "source_sha256": "7d636f1900f2977e6b70a780598399d6a833fb70ea9ff1600293de6094c4758b",
+      "target": "workflows/文档维护与原则审查.md",
+      "target_sha256": "af48d551cb3b29d61f31f38d4bf094f29e681aa5ae057eb84e034457f013911e",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/01-创作任务单.txt",
+      "source_sha256": "11b9597601eca889194e322d713f01eceafe181bcbd557f8d0710d9c1801836f",
+      "target": "templates/pixel/01-创作任务单.txt",
+      "target_sha256": "21b23b61d17538c67a7431f1d88d6a940167524dca33a8e23fecf58075ab429c",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/02-音乐与情绪节拍表.csv",
+      "source_sha256": "3c197a822f9084500447ae98886fc707580a2fed5e434157e9d044e26496d014",
+      "target": "templates/pixel/02-音乐与情绪节拍表.csv",
+      "target_sha256": "928fff4497cda53c9e656294421cddb9ae94812dcce256f46f55f6773474b171",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/03-分镜执行表.csv",
+      "source_sha256": "0b05e523d4bd2c3194690e42570b5cdcf7dc2e3127e0399bf7691c2f27056640",
+      "target": "templates/pixel/03-分镜执行表.csv",
+      "target_sha256": "290753ee5426a3c2b1e0c598009837a2ca1c7ba8d8a8794da68a68362a0c8123",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/04-执行计划.json",
+      "source_sha256": "ac44db1edef61671d9049bffd5387ba3964f5664c1d539782f4bbff93ac7de13",
+      "target": "templates/pixel/04-执行计划.json",
+      "target_sha256": "21e303273dff2bf723d21eb1f5d7838587ec4ebc1a3f11702e2fe70fb19725f0",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/05-检查与反馈.txt",
+      "source_sha256": "28423b3c49999a523c89e1bc7293a1086070295c67ea904fb91dcfa03282d135",
+      "target": "templates/pixel/05-检查与反馈.txt",
+      "target_sha256": "14658e53d1002fda008b7c8db77ef09ab5c42f1262fda2e1cd5148e1e59d05cd",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/06-修改单.txt",
+      "source_sha256": "31f7062772e15cedf83e5e6a9a3f537356aab0e260084b413cc6503acc1dbaad",
+      "target": "templates/pixel/06-修改单.txt",
+      "target_sha256": "31f7062772e15cedf83e5e6a9a3f537356aab0e260084b413cc6503acc1dbaad",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/07-全局动画表.txt",
+      "source_sha256": "d456f989bdbb0b51e63197faad38f86d6a26e1f229f3d34d10bcf1c834119a6c",
+      "target": "templates/pixel/07-全局动画表.txt",
+      "target_sha256": "d456f989bdbb0b51e63197faad38f86d6a26e1f229f3d34d10bcf1c834119a6c",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/08-用户反馈与落实.txt",
+      "source_sha256": "a672abf81d086e31922d89b520d393aaaf76b868d991b1102b84af49d51a92ad",
+      "target": "templates/pixel/08-用户反馈与落实.txt",
+      "target_sha256": "a672abf81d086e31922d89b520d393aaaf76b868d991b1102b84af49d51a92ad",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/09-镜头连续性.csv",
+      "source_sha256": "8cdbafe81a002e05a6e830774ff886c1208fbe3943dc3d94ea35fcd2d3d475cb",
+      "target": "templates/pixel/09-镜头连续性.csv",
+      "target_sha256": "8cdbafe81a002e05a6e830774ff886c1208fbe3943dc3d94ea35fcd2d3d475cb",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/10-空间连续性核对.csv",
+      "source_sha256": "1b5ba092f32fa8fe2d462ea55e9ac3d475e576e0046a8360c119bb49aa55352c",
+      "target": "templates/pixel/10-空间连续性核对.csv",
+      "target_sha256": "1b5ba092f32fa8fe2d462ea55e9ac3d475e576e0046a8360c119bb49aa55352c",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/11-原子原则应用记录.txt",
+      "source_sha256": "c447c878b454817c834c0104c749bddc5a14d7acbe3d4833e1b8237a9cd9206e",
+      "target": "templates/pixel/11-原子原则应用记录.txt",
+      "target_sha256": "c447c878b454817c834c0104c749bddc5a14d7acbe3d4833e1b8237a9cd9206e",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "workflows/资源/像素节奏创意短片/当前模板/12-物体唤醒机制表.csv",
+      "source_sha256": "567089eeabc9cc57d50b0e1f1fff1c1ebd4110420a30d04b729faf9fcc6a57de",
+      "target": "templates/pixel/12-物体唤醒机制表.csv",
+      "target_sha256": "0b36c00987887366b29e00bfc8bc0cbf80c9ed78d254c51e3e64db62eea21056",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "模板/制作单.md",
+      "source_sha256": "c1e68cbc8c8f20037b5bdefd74c6614d5edf2fbb88b8af51a2421b6689aee13d",
+      "target": "templates/制作单.md",
+      "target_sha256": "f84a4c475cf1efcb858e918c7ab4af695c32ffc629f7167f94298903334a49c8",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "模板/古诗词制作单.md",
+      "source_sha256": "4e1a15af6807a03c3a3c243bf92e7ef67a83cd6467add0d85998c1e93328c139",
+      "target": "templates/古诗词制作单.md",
+      "target_sha256": "d44bd26002da8d9d953bfc6cedb94fc41d268c6a0756516021a9a692d619da05",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "模板/定格动画制作单.md",
+      "source_sha256": "c5e83bad8dc417d3e5015e4793a075c2ac010ef139dc07fd6c30618bc6f2435f",
+      "target": "templates/定格动画制作单.md",
+      "target_sha256": "b1777de6d44b94bf092b73c16a6cf03fe47b61473418ec8f28ad94d81e2f4ff5",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "模板/情绪诗词短视频制作单.md",
+      "source_sha256": "b602d6c5b47410cc31feb6cbd4fb70df0bbd20765538726ccfe555f1c37915d4",
+      "target": "templates/情绪诗词短视频制作单.md",
+      "target_sha256": "b7462cbfae630e5178f183824a70a20509c14dd009f77a4e71840d23f4243a0e",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "模板/镜头表.csv",
+      "source_sha256": "a3f0c0ae1c7c3c58fc918b684103060bf23d507f33dedab008ac889847849969",
+      "target": "templates/镜头表.csv",
+      "target_sha256": "a2f22515ec6d24a7b1e01f8d1db77ac46b59fcdffb42324278babef7d68ad1f3",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "模板/阶段记录.md",
+      "source_sha256": "807b8640199b7de0a3182b8a20f16b73a8f64399c17da7679133e0a7d73a6601",
+      "target": "templates/阶段记录.md",
+      "target_sha256": "46e8ddab2ce56c5620a9929d0ac35473d5272fbbd0c851e9644b6d9243d85a07",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+    },
+    {
+      "source": "作品/PIXEL-010/tools/render.py",
+      "source_sha256": "94036009b17de5e9e51612c6f1a0b6ddbaa3137930b9f4ec14d5c3d4a16d0d56",
+      "target": "tools/pixel_drawing.py",
+      "target_sha256": "0fe9d51656724ca9cf8043bc0e06300c7364e07c65d6756fd265b6d8970c3f4a",
+      "adaptation": "保留18个原绘图函数；移除旧CLI及本机输入绑定，新增显式初始化。"
+    },
+    {
+      "source": "作品/PIXEL-010/assets/scene.json",
+      "source_sha256": "851f7781784bc0cb37763f188d68339883c5ee6ddade76787a1767f869527e8b",
+      "target": "examples/pixel/scene.json",
+      "target_sha256": "107b7441b0ff9fc5256ec73484a855731aae3d9a7a1f39421aad50e9726123ec",
+      "adaptation": "保留实际画面/路径/机位/44秒时序；音频改为null，增加公开schema身份。"
+    },
+    {
+      "source": "作品/PIXEL-010/tools/render.py",
+      "source_sha256": "94036009b17de5e9e51612c6f1a0b6ddbaa3137930b9f4ec14d5c3d4a16d0d56",
+      "target": "examples/pixel/source-frame-baseline.json",
+      "target_sha256": "3ec8105421eb3c0dfb952eaf58328646e6c8fc9366439fe1512a0262e4b96465",
+      "adaptation": "由未改原绘图函数生成的1056帧RGB哈希与函数AST身份；不加载原音乐。"
+    }
+  ],
+  "generated_assets": [
+    {
+      "target": "examples/pixel/audio/music.wav",
+      "generator": "tools/make_demo_music.py",
+      "sha256": "85138dbdaee6faf6b769086c0040d958c988504093ba7e8033484a7ee6e9e763",
+      "license": "MIT"
+    }
+  ]
+}

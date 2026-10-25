@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "project": "ai-video-marker",
+  "routes": [
+    {
+      "id": "story",
+      "name": "通用故事短片",
+      "workflow": "workflows/短片制作.md",
+      "status": "active",
+      "scope": "故事、角色行动、镜头因果与后期",
+      "implementation": "documented_workflow",
+      "example": null
+    },
+    {
+      "id": "poetry",
+      "name": "古诗词动画",
+      "workflow": "workflows/古诗词动画制作.md",
+      "status": "active",
+      "scope": "文本与字音、早期声音、逐句声画与全文复习",
+      "implementation": "documented_workflow",
+      "example": null
+    },
+    {
+      "id": "stop-motion",
+      "name": "定格动画",
+      "workflow": "workflows/定格动画制作.md",
+      "status": "active",
+      "scope": "路线、曝光保持、接触锚点与逐格节奏",
+      "implementation": "documented_workflow",
+      "example": null
+    },
+    {
+      "id": "pixel",
+      "name": "像素节奏创意短片",
+      "workflow": "workflows/像素节奏创意短片制作.md",
+      "status": "active",
+      "scope": "物体结构触发、累积回报、音乐和连续空间",
+      "implementation": "runnable_demo",
+      "example": "examples/pixel/README.md"
+    },
+    {
+      "id": "emotional-poetry",
+      "name": "情绪诗词短视频",
+      "workflow": "workflows/情绪诗词短视频制作.md",
+      "status": "candidate",
+      "scope": "参考拆解、情绪脚本、声音和字幕母版",
+      "implementation": "documented_workflow",
+      "example": null
+    },
+    {
+      "id": "paperbook",
+      "name": "立体书剪纸 MV",
+      "workflow": "workflows/歌词驱动程序动画MV制作.md",
+      "status": "candidate",
+      "scope": "音乐与歌词意象、纸页舞台、主体动作和折页接缝",
+      "implementation": "documented_workflow",
+      "example": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# 本机环境与产物
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+outputs/*
+!outputs/.gitkeep
+work/
+# 凭据与账户状态
+.env
+.env.*
+*.cookie
+cookies*.json
+.browser-profile/

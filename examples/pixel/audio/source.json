@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "audio_id": "ROOFTOP-ORIGINAL-44S",
+  "title": "屋顶晴天 · Rooftop Daylight",
+  "author": "ai-video-marker contributors",
+  "origin": "Original procedural score authored for this project",
+  "generator": "tools/make_demo_music.py",
+  "file": "music.wav",
+  "sha256": "85138dbdaee6faf6b769086c0040d958c988504093ba7e8033484a7ee6e9e763",
+  "sample_rate": 22050,
+  "channels": 2,
+  "source_start": 0,
+  "source_end": 44,
+  "video_start": 0,
+  "duration": 44,
+  "speed": 1,
+  "repeated_splice": false,
+  "bpm": 120,
+  "license": "MIT",
+  "redistribution_status": "PROJECT_AUTHORED_MIT",
+  "timing_status": "Independent new score; full artistic listening review not run"
+}

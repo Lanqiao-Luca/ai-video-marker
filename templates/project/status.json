@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project_id": null,
+  "workflow": null,
+  "stage": "brief",
+  "status": "PLANNED",
+  "adoption": "PENDING",
+  "asset_strategy": null,
+  "asset_gaps": [],
+  "generation_budget": {"time": null, "tokens": null, "cost": null},
+  "artifacts": [],
+  "checks": [],
+  "unknowns": [],
+  "next_action": null
+}

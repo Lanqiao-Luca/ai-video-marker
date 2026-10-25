@@ -1,0 +1,183 @@
+{
+  "workflow_version": "public-0.1.0",
+  "status": "FORMAT_NOT_INSTANTIATED",
+  "steps": [
+    {
+      "id": "P1",
+      "action": "范围/基线和选题授权",
+      "required_atoms": [],
+      "input": [],
+      "output": [],
+      "dependencies": [],
+      "pass_condition": "",
+      "status": "planned"
+    },
+    {
+      "id": "P2",
+      "action": "现成歌曲少量候选核实与初步主题",
+      "required_atoms": [
+        "CRT-004"
+      ],
+      "input": [
+        "P1范围/既有选歌授权"
+      ],
+      "output": [
+        "候选音源页/录音版/拟用片段及熟悉度/钩子/情绪动作/推进依据"
+      ],
+      "dependencies": [
+        "P1"
+      ],
+      "pass_condition": "未来实际浏览搜索核实；不造链接，不把老热门当当前热榜；按既有授权选择，不新增逐首审批",
+      "status": "planned"
+    },
+    {
+      "id": "P3",
+      "action": "固定真实音乐版本与片段",
+      "required_atoms": [],
+      "input": [
+        "P2经核实歌曲候选"
+      ],
+      "output": [
+        "music_selection.locked_audio"
+      ],
+      "dependencies": [
+        "P2"
+      ],
+      "pass_condition": "固定audio_id/真实音源页/录音或原声版、源起止/时长/视频起点及实际可用路径；文件若有记SHA，否则平台原声链接+时间范围，不自造/仿唱替换",
+      "status": "planned"
+    },
+    {
+      "id": "P4",
+      "action": "依冻结音乐设计结构机制/cue并冻结唯一空间",
+      "required_atoms": [
+        "CRT-001",
+        "CRT-002",
+        "CRT-003",
+        "VIS-001",
+        "VIS-002",
+        "VIS-005"
+      ],
+      "input": [
+        "P3冻结音乐版本/片段/可用路径"
+      ],
+      "output": [
+        "结构唤醒机制/初始与终态",
+        "cue及timing_status",
+        "唯一对象/空间关系基线"
+      ],
+      "dependencies": [
+        "P3"
+      ],
+      "pass_condition": "固定音乐后再写机制和cue；源片段/视频cue同口径，未精确听核保待核，不宣称精确同步",
+      "status": "planned"
+    },
+    {
+      "id": "P5",
+      "action": "基于冻结音乐/cue与空间的动作分镜、代表段预演和连续镜头",
+      "required_atoms": [
+        "VIS-001",
+        "VIS-002",
+        "VIS-003",
+        "VIS-005",
+        "VIS-004",
+        "CAM-001",
+        "CRT-002",
+        "CRT-003"
+      ],
+      "input": [
+        "P4机制/cue/唯一空间",
+        "P3已固定音乐身份"
+      ],
+      "output": [],
+      "dependencies": [
+        "P4"
+      ],
+      "pass_condition": "与固定音乐版本/片段/cue对应；结构/连续性仍按原十二原则，实际试片未做不称通过",
+      "status": "planned"
+    },
+    {
+      "id": "P6",
+      "action": "完整制作与高潮兑现",
+      "required_atoms": [
+        "CRT-001",
+        "CRT-002",
+        "CRT-003"
+      ],
+      "input": [
+        "P5已验证代表段与有效前缀"
+      ],
+      "output": [],
+      "dependencies": [
+        "P5"
+      ],
+      "pass_condition": "保持音乐锁定与实际可用路径；需要时交静音母版走抖音加音乐，不要求现成曲凭空分轨",
+      "status": "planned"
+    },
+    {
+      "id": "P7",
+      "action": "技术/创作/空间/镜头分别核对",
+      "required_atoms": [
+        "QA-001",
+        "QA-002",
+        "CRT-004"
+      ],
+      "input": [
+        "同候选实际编码/平台加音乐状态"
+      ],
+      "output": [],
+      "dependencies": [
+        "P6"
+      ],
+      "pass_condition": "分别记录来源与音乐身份、cue可信度、技术/创作/空间/镜头和实际听看；母版或链接不冒称已完成平台加音乐",
+      "status": "planned"
+    },
+    {
+      "id": "P8",
+      "action": "候选交付和真实反馈",
+      "required_atoms": [],
+      "input": [],
+      "output": [
+        "候选成片或静音母版",
+        "音乐真实链接/版本/时间范围/cue与实际音频（若有）",
+        "反馈及平台加音乐完成状态"
+      ],
+      "dependencies": [
+        "P7"
+      ],
+      "pass_condition": "",
+      "status": "planned"
+    }
+  ],
+  "template_only": true,
+  "music_selection": {
+    "default_path": "douyin_existing_familiar_song",
+    "original_score_only_on_explicit_owner_choice": true,
+    "owner_choice_authorization": null,
+    "account_capability_fact": null,
+    "account_fact_source": null,
+    "candidates": [],
+    "locked_audio": {
+      "audio_id": null,
+      "title": null,
+      "recording_or_platform_original_version": null,
+      "verified_source_url": null,
+      "verified_at": null,
+      "source_start_seconds": null,
+      "source_end_seconds": null,
+      "duration_seconds": null,
+      "video_start_seconds": null,
+      "actual_audio_file_if_available": null,
+      "actual_audio_sha256_if_available": null,
+      "available_path": null,
+      "platform_add_music_mute_master_if_needed": null,
+      "cue": [],
+      "timing_status": null,
+      "lock_status": "NOT_LOCKED"
+    }
+  },
+  "music_lock_required_before": [
+    "P4",
+    "P5",
+    "P6"
+  ]
+}

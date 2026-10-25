@@ -1,0 +1,9 @@
+{
+  "visual_frames": 1056,
+  "all_visual_frames_preserved": true,
+  "portable_video_same_sha": true,
+  "bundled_audio_sha256": "85138dbdaee6faf6b769086c0040d958c988504093ba7e8033484a7ee6e9e763",
+  "public_redistribution": "PROJECT_AUTHORED_MIT",
+  "video_sha256": "8abd3fbcafb70df9a434704f28cae734dd076f24daf7008309015c037888ebd5",
+  "coverage": "Complete standalone public-file render from another working directory; all 1056 decoded visual frames preserved; not artistic listening approval"
+}

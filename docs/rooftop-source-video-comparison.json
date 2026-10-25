@@ -1,0 +1,10 @@
+{
+  "source_work": "PIXEL-010",
+  "reference_frames": 1056,
+  "new_frames": 1056,
+  "same_decoded_frames": 1056,
+  "full_decoded_video_match": true,
+  "scope": "all decoded YUV video frames, original local silent master vs newly rendered public example; audio excluded",
+  "reference_video_sha256": "8a41f9c53df81dcfe1c5da24ac7d0530a4ab37089940ebcbfa4c8ba4931bad2b",
+  "new_video_sha256": "8b2b8e8fa95b974cf84109d2588def073bf1752f5bbd2c08d75cfa16bd280b2c"
+}

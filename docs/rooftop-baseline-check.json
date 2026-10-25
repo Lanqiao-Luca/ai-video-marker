@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "source_work": "PIXEL-010",
+  "frames_checked": 1056,
+  "mismatched_frames": [],
+  "source_drawing_functions_unchanged": true,
+  "coverage": "all original RGB drawing frames before video encoding; not audio or artistic adoption",
+  "baseline_sha256": "3ec8105421eb3c0dfb952eaf58328646e6c8fc9366439fe1512a0262e4b96465"
+}

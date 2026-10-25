@@ -1,0 +1,273 @@
+{
+  "work_id": "PIXEL-010",
+  "title": "屋顶晒太阳",
+  "world_id": "ROOFTOP-010",
+  "logical_size": [
+    360,
+    640
+  ],
+  "output_size": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "duration": 44,
+  "audio": null,
+  "objects": {
+    "wheel": {
+      "center": [
+        165,
+        461
+      ],
+      "radius": 27
+    },
+    "basin": {
+      "center": [
+        97,
+        430
+      ]
+    },
+    "gear": {
+      "center": [
+        227,
+        450
+      ]
+    },
+    "flower": {
+      "center": [
+        265,
+        327
+      ]
+    },
+    "clothesline": {
+      "span": [
+        30,
+        228,
+        326,
+        228
+      ]
+    },
+    "umbrella": {
+      "placed_center": [
+        97,
+        382
+      ]
+    },
+    "cloud": {
+      "center": [
+        130,
+        236
+      ]
+    }
+  },
+  "rabbit_path": [
+    [
+      0,
+      105,
+      495
+    ],
+    [
+      3.6,
+      105,
+      495
+    ],
+    [
+      6.8,
+      98,
+      495
+    ],
+    [
+      13.5,
+      98,
+      495
+    ],
+    [
+      16,
+      135,
+      495
+    ],
+    [
+      18.9,
+      188,
+      495
+    ],
+    [
+      20.5,
+      188,
+      495
+    ],
+    [
+      22.5,
+      210,
+      495
+    ],
+    [
+      33.5,
+      210,
+      495
+    ],
+    [
+      36,
+      205,
+      495
+    ],
+    [
+      44,
+      205,
+      495
+    ]
+  ],
+  "camera_keys": [
+    [
+      0,
+      130,
+      423,
+      245
+    ],
+    [
+      7.9,
+      130,
+      423,
+      245
+    ],
+    [
+      13.5,
+      158,
+      420,
+      260
+    ],
+    [
+      19.1,
+      190,
+      417,
+      270
+    ],
+    [
+      22.7,
+      210,
+      400,
+      275
+    ],
+    [
+      29.8,
+      190,
+      400,
+      295
+    ],
+    [
+      33.5,
+      180,
+      385,
+      310
+    ],
+    [
+      40.766,
+      180,
+      320,
+      360
+    ],
+    [
+      44,
+      180,
+      320,
+      360
+    ]
+  ],
+  "timing_status": "Original action/camera timing preserved; source music is not distributed; new audio synchronization is not verified.",
+  "segments": [
+    {
+      "start": 0,
+      "end": 3.4,
+      "task": "雨滴落在小兔头上",
+      "action": "抬头/受惊跳起",
+      "reaction": "发现可用雨水",
+      "next": "抬伞",
+      "reason": "建立问题"
+    },
+    {
+      "start": 3.4,
+      "end": 7.9,
+      "task": "收集雨水",
+      "action": "打开雨伞/移动至水槽",
+      "reaction": "伞接住雨滴",
+      "next": "倒置并放到槽上",
+      "reason": "结构触发"
+    },
+    {
+      "start": 7.9,
+      "end": 11.7,
+      "task": "引水",
+      "action": "倒伞/放稳",
+      "reaction": "槽水位上升/管口出水",
+      "next": "水轮尝试旋转",
+      "reason": "累积可见"
+    },
+    {
+      "start": 11.7,
+      "end": 15.3,
+      "task": "寻找卡点",
+      "action": "靠近水轮观察",
+      "reaction": "轮辐被叶片卡住",
+      "next": "伸手抓叶",
+      "reason": "失败提供新任务"
+    },
+    {
+      "start": 15.3,
+      "end": 19.1,
+      "task": "解除卡点",
+      "action": "抓住叶片/向右拉出",
+      "reaction": "叶片脱轴/水轮启动",
+      "next": "观察齿轮",
+      "reason": "接触风险段"
+    },
+    {
+      "start": 19.1,
+      "end": 22.7,
+      "task": "传递动力",
+      "action": "退到花盆旁",
+      "reaction": "皮带与齿轮联动",
+      "next": "花开始展开",
+      "reason": "机械连接"
+    },
+    {
+      "start": 22.7,
+      "end": 29.8,
+      "task": "机械花绽开",
+      "action": "抬头等待/看花",
+      "reaction": "铜花瓣逐片张开/中心笑脸露出",
+      "next": "阳光变化",
+      "reason": "累积跃迁"
+    },
+    {
+      "start": 29.8,
+      "end": 33.5,
+      "task": "屋顶变晴",
+      "action": "挥手庆祝",
+      "reaction": "叶子长出/盆花开放/鱼旗展开",
+      "next": "准备全景",
+      "reason": "晴天段落"
+    },
+    {
+      "start": 33.5,
+      "end": 37.266,
+      "task": "拓展全景",
+      "action": "欢跳",
+      "reaction": "鱼旗摆动/云移开/彩虹显现",
+      "next": "进入全局",
+      "reason": "同世界拉远"
+    },
+    {
+      "start": 37.266,
+      "end": 44,
+      "task": "全屋顶合奏",
+      "action": "举臂踏步",
+      "reaction": "花瓣/水轮/传动/鱼旗同时运转",
+      "next": "保持新终态",
+      "reason": "全局回报不重播"
+    }
+  ],
+  "adoption": "candidate, no Owner selection claimed",
+  "style": "Original Pillow pixel drawing, fixed rabbit identity, no raster AI generation, no text/numbers/logos",
+  "schema_version": 1,
+  "id": "rooftop-sunshine"
+}
