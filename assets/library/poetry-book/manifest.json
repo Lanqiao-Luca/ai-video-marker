@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "poetry-book",
+  "name": "山水与翻页书本",
+  "source_work": "古诗词学习片头-20261023",
+  "origin": "Existing built-in imagegen artwork and production cutouts from maintainer animation projects",
+  "license": "MIT",
+  "files": [
+    {
+      "file": "book-state-0.png",
+      "size": [
+        780,
+        620
+      ],
+      "alpha_channel": true,
+      "bytes": 321487,
+      "sha256": "a878c55932a14b65948100473c86f223871ef3d7d2004ded81a2b4c8577e6926",
+      "source_sha256": "a878c55932a14b65948100473c86f223871ef3d7d2004ded81a2b4c8577e6926",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "book-state-1.png",
+      "size": [
+        780,
+        620
+      ],
+      "alpha_channel": true,
+      "bytes": 355277,
+      "sha256": "67ed06caced21ecf8e3530c6c83d950e2a36e37af6d8a2159572298bb7eb4fb3",
+      "source_sha256": "67ed06caced21ecf8e3530c6c83d950e2a36e37af6d8a2159572298bb7eb4fb3",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "book-state-2.png",
+      "size": [
+        780,
+        620
+      ],
+      "alpha_channel": true,
+      "bytes": 388992,
+      "sha256": "fa90583ff274c000a8b07f217541d3871bb99c3368425de27f9d5b1f9bde1382",
+      "source_sha256": "fa90583ff274c000a8b07f217541d3871bb99c3368425de27f9d5b1f9bde1382",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "landscape.png",
+      "size": [
+        740,
+        485
+      ],
+      "alpha_channel": true,
+      "bytes": 697229,
+      "sha256": "a15109bc37b179fe0260878d25ce4c6b9f5a1dcf8c2c90222957d45a88a52e2f",
+      "source_sha256": "a15109bc37b179fe0260878d25ce4c6b9f5a1dcf8c2c90222957d45a88a52e2f",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "paper-background.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 1750389,
+      "sha256": "3a12a7e64cbabcc374d7af0cc6019f27ddb52ce9266bb436e9436c29ef50e5fc",
+      "source_sha256": "3a12a7e64cbabcc374d7af0cc6019f27ddb52ce9266bb436e9436c29ef50e5fc",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "book-opening-sprites.png",
+      "size": [
+        2172,
+        724
+      ],
+      "alpha_channel": true,
+      "bytes": 1620776,
+      "sha256": "3fb40da02ce99db3a774a13bc33710f1c3e8759939185187f5398b6672bc7be0",
+      "source_sha256": "3fb40da02ce99db3a774a13bc33710f1c3e8759939185187f5398b6672bc7be0",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "poetry-landscape.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "alpha_channel": true,
+      "bytes": 2637767,
+      "sha256": "3fba757b538e1ff8068ad4f5cd3aba4f9208ef30010386ed94b7d136a2a6d371",
+      "source_sha256": "3fba757b538e1ff8068ad4f5cd3aba4f9208ef30010386ed94b7d136a2a6d371",
+      "processing": "byte-for-byte copy"
+    }
+  ],
+  "scope": "Visual artwork only; original music, speech, reference media, private records and local paths excluded."
+}

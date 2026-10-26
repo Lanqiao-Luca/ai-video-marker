@@ -59,5 +59,6 @@
       "implementation": "documented_workflow",
       "example": null
     }
-  ]
+  ],
+  "visual_asset_library": "assets/library/catalog.json"
 }

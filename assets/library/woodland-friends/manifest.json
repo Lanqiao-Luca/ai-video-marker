@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "id": "woodland-friends",
+  "name": "狐狸与獾的水彩绘本",
+  "source_work": "把晴天借给你-20261024",
+  "origin": "Existing built-in imagegen artwork and production cutouts from maintainer animation projects",
+  "license": "MIT",
+  "files": [
+    {
+      "file": "badger-blink.png",
+      "size": [
+        323,
+        533
+      ],
+      "alpha_channel": true,
+      "bytes": 329840,
+      "sha256": "80a6816f93a230e76b1b291b956d115a3e482ff7a55679101d5f4bbaf9ae6c81",
+      "source_sha256": "80a6816f93a230e76b1b291b956d115a3e482ff7a55679101d5f4bbaf9ae6c81",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "badger-happy.png",
+      "size": [
+        323,
+        536
+      ],
+      "alpha_channel": true,
+      "bytes": 333316,
+      "sha256": "1abb05296a2ff59efe340895e37ce43dc25b62593215f9813dff970300d8dae7",
+      "source_sha256": "1abb05296a2ff59efe340895e37ce43dc25b62593215f9813dff970300d8dae7",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "badger-sad.png",
+      "size": [
+        341,
+        531
+      ],
+      "alpha_channel": true,
+      "bytes": 339292,
+      "sha256": "03cb84ca3bc9a92234201a81f84b65cb247e95dc227188a5eb060f03fb90d8d2",
+      "source_sha256": "03cb84ca3bc9a92234201a81f84b65cb247e95dc227188a5eb060f03fb90d8d2",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "badger-wave.png",
+      "size": [
+        355,
+        533
+      ],
+      "alpha_channel": true,
+      "bytes": 329664,
+      "sha256": "05ac5feadda35ffcd8caa2b9e83cba578dc9de37bb50c606fcc64e43baeafbf0",
+      "source_sha256": "05ac5feadda35ffcd8caa2b9e83cba578dc9de37bb50c606fcc64e43baeafbf0",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-arm-l.png",
+      "size": [
+        214,
+        296
+      ],
+      "alpha_channel": true,
+      "bytes": 104691,
+      "sha256": "050a2dc53a5e6831e9d7f303ad7f46a6597d62d1690bbc87cf686c18fd44ccad",
+      "source_sha256": "050a2dc53a5e6831e9d7f303ad7f46a6597d62d1690bbc87cf686c18fd44ccad",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-arm-r.png",
+      "size": [
+        218,
+        306
+      ],
+      "alpha_channel": true,
+      "bytes": 108354,
+      "sha256": "5a9b87f88b895f8a030aa2bcba69ca8dc822c2449aa6ccdf8026cd9fa2d0be64",
+      "source_sha256": "5a9b87f88b895f8a030aa2bcba69ca8dc822c2449aa6ccdf8026cd9fa2d0be64",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-blink.png",
+      "size": [
+        397,
+        413
+      ],
+      "alpha_channel": true,
+      "bytes": 267075,
+      "sha256": "4fad5f7979dd3fc05b540f595799eb3bdf025506f9c68f847db3ebd408ed3e14",
+      "source_sha256": "4fad5f7979dd3fc05b540f595799eb3bdf025506f9c68f847db3ebd408ed3e14",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-body.png",
+      "size": [
+        1275,
+        1234
+      ],
+      "alpha_channel": true,
+      "bytes": 2140885,
+      "sha256": "f066f02fdf83c0188ecc7b522ffad1ee3f4a18b65f7cbaa0783f11c8b35b1fcf",
+      "source_sha256": "f066f02fdf83c0188ecc7b522ffad1ee3f4a18b65f7cbaa0783f11c8b35b1fcf",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-boot-l.png",
+      "size": [
+        139,
+        220
+      ],
+      "alpha_channel": true,
+      "bytes": 60922,
+      "sha256": "d91cc8655141a6be22a8411c22c3613baf5e41c1511e3c9e3bc0e83c9ea100cc",
+      "source_sha256": "d91cc8655141a6be22a8411c22c3613baf5e41c1511e3c9e3bc0e83c9ea100cc",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-boot-r.png",
+      "size": [
+        154,
+        218
+      ],
+      "alpha_channel": true,
+      "bytes": 60474,
+      "sha256": "b8175b9ea38fe5b5e4317d8447856bef142188563a9c2d009870dd8462fde3be",
+      "source_sha256": "b8175b9ea38fe5b5e4317d8447856bef142188563a9c2d009870dd8462fde3be",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-crouch.png",
+      "size": [
+        598,
+        542
+      ],
+      "alpha_channel": true,
+      "bytes": 430840,
+      "sha256": "783b26827ddaac4846545f24174ecb1db3fcad093d74fabf190893f680019799",
+      "source_sha256": "783b26827ddaac4846545f24174ecb1db3fcad093d74fabf190893f680019799",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-head.png",
+      "size": [
+        393,
+        413
+      ],
+      "alpha_channel": true,
+      "bytes": 264474,
+      "sha256": "1587346820c4f2c66f3ce1b032cb04d3e06584aef14bfaacf58959959ddec9f7",
+      "source_sha256": "1587346820c4f2c66f3ce1b032cb04d3e06584aef14bfaacf58959959ddec9f7",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-sit-blink.png",
+      "size": [
+        561,
+        586
+      ],
+      "alpha_channel": true,
+      "bytes": 432423,
+      "sha256": "e5a1256c776a62507005c70bc286504bd5e6a3e899d4a49a76b90c918393f86c",
+      "source_sha256": "e5a1256c776a62507005c70bc286504bd5e6a3e899d4a49a76b90c918393f86c",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-sit.png",
+      "size": [
+        389,
+        433
+      ],
+      "alpha_channel": true,
+      "bytes": 258918,
+      "sha256": "ed0807f5eb0b6e3ed102fac2cad057955f16a39febddb9ecaae763c7af6e01fd",
+      "source_sha256": "ed0807f5eb0b6e3ed102fac2cad057955f16a39febddb9ecaae763c7af6e01fd",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-tail.png",
+      "size": [
+        390,
+        322
+      ],
+      "alpha_channel": true,
+      "bytes": 222384,
+      "sha256": "b264df68e53a7f46dcc0777c5747f94799a2e11144c6ce94aa12ee3c7d1626b2",
+      "source_sha256": "b264df68e53a7f46dcc0777c5747f94799a2e11144c6ce94aa12ee3c7d1626b2",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "jar.png",
+      "size": [
+        211,
+        301
+      ],
+      "alpha_channel": true,
+      "bytes": 149359,
+      "sha256": "d50fb5ce67ef8b95f5c1b6a112868184b2a06cd590d4f2d14e28635dd2901ed3",
+      "source_sha256": "d50fb5ce67ef8b95f5c1b6a112868184b2a06cd590d4f2d14e28635dd2901ed3",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "plate.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": true,
+      "bytes": 3499911,
+      "sha256": "efa38c16a91a933afae70befa6a4bcd9e83270aff4b58532b8a56b67f6a1c7af",
+      "source_sha256": "efa38c16a91a933afae70befa6a4bcd9e83270aff4b58532b8a56b67f6a1c7af",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "village.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": true,
+      "bytes": 3872771,
+      "sha256": "9b0f31d6bd1dbb4d588ac03370b6e6fa8478b298d45604e99d6ccbd31d4169cc",
+      "source_sha256": "9b0f31d6bd1dbb4d588ac03370b6e6fa8478b298d45604e99d6ccbd31d4169cc",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "window.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": true,
+      "bytes": 3589702,
+      "sha256": "39fe1b805cc457004dd3fc49f7ce9df793840cb1c5263f57a4df24054c92e4c8",
+      "source_sha256": "39fe1b805cc457004dd3fc49f7ce9df793840cb1c5263f57a4df24054c92e4c8",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fox-reference.png",
+      "size": [
+        1774,
+        887
+      ],
+      "alpha_channel": true,
+      "bytes": 1679368,
+      "sha256": "26cf564ab4f3778334561b31f045116e41727d390650aa76e5509dd834167ace",
+      "source_sha256": "26cf564ab4f3778334561b31f045116e41727d390650aa76e5509dd834167ace",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "badger-reference.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "alpha_channel": true,
+      "bytes": 1450345,
+      "sha256": "9b4933b45d88c8203c3f2c3842d52a95a757e46459ed19c5c0d94068e88ca693",
+      "source_sha256": "9b4933b45d88c8203c3f2c3842d52a95a757e46459ed19c5c0d94068e88ca693",
+      "processing": "byte-for-byte copy"
+    }
+  ],
+  "scope": "Visual artwork only; original music, speech, reference media, private records and local paths excluded."
+}

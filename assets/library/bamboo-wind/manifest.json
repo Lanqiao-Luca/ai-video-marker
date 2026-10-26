@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "bamboo-wind",
+  "name": "竹林与风雨山岩",
+  "source_work": "竹石-撑住这阵风",
+  "origin": "Existing built-in imagegen artwork and production cutouts from maintainer animation projects",
+  "license": "MIT",
+  "files": [
+    {
+      "file": "bamboo-close.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": false,
+      "bytes": 2785735,
+      "sha256": "a316c8b533994f3616c836a2114258437063479b9557ccd9275488c10bb343ee",
+      "source_sha256": "a316c8b533994f3616c836a2114258437063479b9557ccd9275488c10bb343ee",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "bamboo-wide.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": false,
+      "bytes": 2963577,
+      "sha256": "f100e9cc5dc7cedd8805a80b4394c42b3b555225a6e2959c9087686e77b1dbee",
+      "source_sha256": "f100e9cc5dc7cedd8805a80b4394c42b3b555225a6e2959c9087686e77b1dbee",
+      "processing": "byte-for-byte copy"
+    }
+  ],
+  "scope": "Visual artwork only; original music, speech, reference media, private records and local paths excluded."
+}

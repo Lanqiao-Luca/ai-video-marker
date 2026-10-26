@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "paper-classroom",
+  "name": "纸艺少年与教室",
+  "source_work": "把晴天折进书里-20261024",
+  "origin": "Existing built-in imagegen artwork and production cutouts from maintainer animation projects",
+  "license": "MIT",
+  "files": [
+    {
+      "file": "classroom-v1.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": false,
+      "bytes": 1947575,
+      "sha256": "7420109d91a83402e4c6d6d8a8e66ad687c4304048f46090a02f69c266e7f172",
+      "source_sha256": "7420109d91a83402e4c6d6d8a8e66ad687c4304048f46090a02f69c266e7f172",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "character-atlas-v1.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_channel": true,
+      "bytes": 2204505,
+      "sha256": "8084f976b92313173992827920ba3a8684419960d35cd8e682c7925af929bb78",
+      "source_sha256": "8084f976b92313173992827920ba3a8684419960d35cd8e682c7925af929bb78",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "action-atlas-v3.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_channel": true,
+      "bytes": 2818491,
+      "sha256": "221ced89463c42c01395bd8ccfa5d9e6de698b650ae3e914513e1b69249f6f2d",
+      "source_sha256": "221ced89463c42c01395bd8ccfa5d9e6de698b650ae3e914513e1b69249f6f2d",
+      "processing": "byte-for-byte copy"
+    }
+  ],
+  "scope": "Visual artwork only; original music, speech, reference media, private records and local paths excluded."
+}

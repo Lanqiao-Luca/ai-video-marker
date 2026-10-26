@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "packs": 5,
+  "images": 43,
+  "bytes": 45985906,
+  "errors": [],
+  "coverage": "catalog identity, path safety, image bytes, SHA, dimensions and PNG decode; not animation or artistic adoption",
+  "date": "2026-10-26",
+  "source_group_count": 19,
+  "published_group_count": 5,
+  "ratio": 0.2631578947368421,
+  "fraction_basis": "work groups with existing still images under assets/materials; not file count or bytes",
+  "source_and_copy_sha_match": true,
+  "originals_unchanged": true,
+  "standalone_public_copy_verify": "PASS",
+  "standalone_preview_from_other_working_directory": "PASS",
+  "image_metadata_private_identifier_hits": 0,
+  "visual_review": "43 images inspected via five actual asset contact sheets",
+  "new_image_model_calls": 0,
+  "artistic_adoption": "NOT_INFERRED"
+}

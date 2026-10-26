@@ -10,7 +10,7 @@
 
 *《屋顶晒太阳》：小兔集雨、解开水轮卡点，带动齿轮花开放，最后同一屋顶共同活动。以上为16–30秒原速节选；[44秒完整带音乐视频](examples/pixel/preview.mp4)。示例直接抽取真实作品绘图代码，保留角色、层次、动作和镜头。*
 
-**0.1.6**：六条制作流程、四层AI协作方法，以及三个可运行的像素场景和一套12张PNG的海港机器人素材。新手默认用新素材制作《小机器人与归航灯塔》，首页《屋顶晒太阳》保留为展示复现。配乐使用项目原创音乐，源码和示例采用MIT许可。其余五条路线提供方法与模板，媒体能力依实际环境核实。正式/候选表示方法状态，详见 [发布范围](docs/RELEASE_REVIEW.md)。
+**0.1.7**：六条制作流程、四层AI协作方法，以及三个可运行的像素场景和一套12张PNG的海港机器人素材。新手默认用新素材制作《小机器人与归航灯塔》，首页《屋顶晒太阳》保留为展示复现。配乐使用项目原创音乐，源码和示例采用MIT许可。其余五条路线提供方法与模板，媒体能力依实际环境核实。正式/候选表示方法状态，详见 [发布范围](docs/RELEASE_REVIEW.md)。
 
 ## 做你的第一支视频
 
@@ -58,6 +58,30 @@ python tools/contact_sheet.py outputs/my-first-video/video.mp4 --out outputs/my-
 Windows创建环境可用 `py -3 -m venv .venv`，激活使用 `.venv\Scripts\activate`；当前macOS已实跑，Windows/Linux尚未实测。
 
 如果明确想复现首页44秒展示片，使用 `python tools/render_pixel.py --out outputs/pixel-rooftop`，详见 [屋顶示例](examples/pixel/README.md)。它的原绘图函数和1056帧基线继续保留。视频解码和静态联系表不代替正常速度观看、听审或最终采用。
+
+## 更多现成素材：从本地制作库精选5组
+
+![精选素材](docs/images/library-overview.jpg)
+
+新增[素材库](assets/library/README.md)，含**43张PNG，约43.86MiB**：
+
+| 素材组 | 图片数 | 可复用内容 |
+|---|---:|---|
+| [狐狸与獾](assets/library/woodland-friends/README.md) | 21 | 角色拆件/姿态、暖光罐、村庄和室内背景 |
+| [撑伞机器人与小鸟](assets/library/rainy-umbrella/README.md) | 10 | 雨伞、雨天背景和修订后的角色部件 |
+| [纸艺少年与教室](assets/library/paper-classroom/README.md) | 3 | 男女孩角色/动作图集、教室场景 |
+| [竹林与山岩](assets/library/bamboo-wind/README.md) | 2 | 无字竹石远景/近景 |
+| [山水与书本](assets/library/poetry-book/README.md) | 7 | 翻页三状态、山水、纸面与原图集 |
+
+本次从19个含静图的作品素材分组中选择5组，**约26.3%，接近四分之一**；按作品组统计，未按全库文件数或字节量计算。复制的是可复用视觉素材，未打包参考歌曲、配音、视频、雨滴缓存帧或个人记录。
+
+```bash
+python tools/asset_library.py list
+python tools/asset_library.py verify
+python tools/asset_library.py preview --pack woodland-friends --out outputs/woodland-preview.png
+```
+
+可以直接对AI说：“用素材库里的狐狸和獾，做一个新故事，先给我分镜和代表段；优先复用图片与包内音乐。”助手应读取相应素材清单，按工作流适配动画。**新增的是素材，不是5个完整影片生成器**；完整PNG、部件、图集和背景各有不同用法，预览命令生成资产联系表。默认的海港机器人短片保持不变。
 
 ## 素材从哪里来，会花多少时间和Token
 

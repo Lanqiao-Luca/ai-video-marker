@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "rainy-umbrella",
+  "name": "雨天撑伞机器人与小鸟",
+  "source_work": "把伞分你一半",
+  "origin": "Existing built-in imagegen artwork and production cutouts from maintainer animation projects",
+  "license": "MIT",
+  "files": [
+    {
+      "file": "background.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 4334983,
+      "sha256": "6caa33d8a06c5ae0ce4a4c441a1a666d3c4c899494d47d19607eec12483c859e",
+      "source_sha256": "6caa33d8a06c5ae0ce4a4c441a1a666d3c4c899494d47d19607eec12483c859e",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "bird.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 56135,
+      "sha256": "b7945ca67fdebffb97708ef78a12e1a74ed1ed6ffc84bf28d53063a0b5d1ee42",
+      "source_sha256": "b7945ca67fdebffb97708ef78a12e1a74ed1ed6ffc84bf28d53063a0b5d1ee42",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "body.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 195694,
+      "sha256": "4820c16f6fe313abac3beb91258855b1e60a8696d6354811831a39038e51269d",
+      "source_sha256": "4820c16f6fe313abac3beb91258855b1e60a8696d6354811831a39038e51269d",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fore.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 37516,
+      "sha256": "3d65f8b9977cc72e43dbaab9ba68e54a46a01652ed65347fe30efc11276972c6",
+      "source_sha256": "3d65f8b9977cc72e43dbaab9ba68e54a46a01652ed65347fe30efc11276972c6",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "hand.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 23447,
+      "sha256": "41013d332fcc3c9601be842eabb6364c82d1acaa899b34cea50703514a2b2ea1",
+      "source_sha256": "41013d332fcc3c9601be842eabb6364c82d1acaa899b34cea50703514a2b2ea1",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "head.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 218238,
+      "sha256": "a264afeef21595fad3a7aaf38a019e64aef9d0c05fe37c263b4890ee48f25636",
+      "source_sha256": "a264afeef21595fad3a7aaf38a019e64aef9d0c05fe37c263b4890ee48f25636",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "shadow.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 8695,
+      "sha256": "2c240ed78a0a441ae816f6723f6538175f7bbb65662e79c70a7c6c1166a5bf2f",
+      "source_sha256": "2c240ed78a0a441ae816f6723f6538175f7bbb65662e79c70a7c6c1166a5bf2f",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "shoulder_joint-clean.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 14896,
+      "sha256": "7269ec96db3c0e6a0bc86058e04680a432933f8b154963f0076c27834ded66c2",
+      "source_sha256": "7269ec96db3c0e6a0bc86058e04680a432933f8b154963f0076c27834ded66c2",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "umbrella.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 630206,
+      "sha256": "9abf7a85e7814193c2589b6a8d6dbf245519a5cc4fed94751c6d58e5e5cffd98",
+      "source_sha256": "9abf7a85e7814193c2589b6a8d6dbf245519a5cc4fed94751c6d58e5e5cffd98",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "upper.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha_channel": true,
+      "bytes": 49288,
+      "sha256": "9c16529e02dd5805a38384fca5b464cea2c59e61334e95048df01e4c0a57f091",
+      "source_sha256": "9c16529e02dd5805a38384fca5b464cea2c59e61334e95048df01e4c0a57f091",
+      "processing": "byte-for-byte copy"
+    }
+  ],
+  "scope": "Visual artwork only; original music, speech, reference media, private records and local paths excluded."
+}

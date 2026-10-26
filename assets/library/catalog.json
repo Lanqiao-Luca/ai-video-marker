@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "title": "既有制作素材精选",
+  "license": "MIT",
+  "selection": {
+    "unit": "work-group with existing still images under assets/materials folders",
+    "source_work_groups": 19,
+    "published_work_groups": 5,
+    "ratio": 0.2631578947368421,
+    "rounded_fraction": "approximately one quarter",
+    "not_a_file_or_byte_quota": true
+  },
+  "packs": [
+    {
+      "id": "woodland-friends",
+      "name": "狐狸与獾的水彩绘本",
+      "description": "狐狸拆件、獾的表情姿态、暖光罐与村庄/室内背景",
+      "manifest": "woodland-friends/manifest.json",
+      "image_count": 21,
+      "source_work": "把晴天借给你-20261024"
+    },
+    {
+      "id": "rainy-umbrella",
+      "name": "雨天撑伞机器人与小鸟",
+      "description": "已修订的机器人手臂拆件、小鸟、雨伞与雨天背景；不包含雨滴缓存帧",
+      "manifest": "rainy-umbrella/manifest.json",
+      "image_count": 10,
+      "source_work": "把伞分你一半"
+    },
+    {
+      "id": "paper-classroom",
+      "name": "纸艺少年与教室",
+      "description": "男女孩角色/动作图集与教室背景，适合分格拆件和纸艺动画",
+      "manifest": "paper-classroom/manifest.json",
+      "image_count": 3,
+      "source_work": "把晴天折进书里-20261024"
+    },
+    {
+      "id": "bamboo-wind",
+      "name": "竹林与风雨山岩",
+      "description": "竹石远景与近景，无文字、无人像；适合诗词/氛围画面",
+      "manifest": "bamboo-wind/manifest.json",
+      "image_count": 2,
+      "source_work": "竹石-撑住这阵风"
+    },
+    {
+      "id": "poetry-book",
+      "name": "山水与翻页书本",
+      "description": "书本三状态、透明山水、纸面背景及原始书本图集",
+      "manifest": "poetry-book/manifest.json",
+      "image_count": 7,
+      "source_work": "古诗词学习片头-20261023"
+    }
+  ],
+  "image_count": 43,
+  "total_image_bytes": 45985906
+}

@@ -6,6 +6,7 @@
 
 | 工具 | 输入 → 输出 | 边界 |
 |---|---|---|
+| [asset_library.py](asset_library.py) | 5组43张素材 → 列表、SHA/图片验证、新预览联系表 | 离线使用，不调用AI，不自动生成新剧情 |
 | [doctor.py](doctor.py) | 当前环境 → 检查 JSON | 不安装、不联网、不读凭据 |
 | [init_project.py](init_project.py) | 路线、ID、新目录 → 模板与状态 | 只初始化，不生成视频 |
 | [make_video.py](make_video.py) | theme、seed、配色 → 新手短片、配置、trace、run身份 | 默认做海港机器人；--theme garden选小兔，--list列出内容；不调用AI服务 |
