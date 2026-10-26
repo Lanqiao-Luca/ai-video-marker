@@ -12,3 +12,5 @@
 
 [ai-promo-video-maker](https://github.com/liyupi/ai-promo-video-maker)用于研究工作流的组织展示，本包没有复制其代码、素材或案例。
 代码、方法与项目原创示例采用 [MIT许可证](../LICENSE)，发布范围见 [发布审阅](RELEASE_REVIEW.md)。
+
+0.1.5新增的garden_drawing.py为本公开仓库新实现，沿用pixel_drawing.py的基础绘图函数、齿轮函数及小兔的造型/配色，另编手臂接触动作与花园机制；不修改原18个函数或来源基线。默认音乐复用包内原创配乐前32秒，末尾0.8秒淡出，没有新增外部素材。make_video.py保存seed/配色并调用共用编码入口；它与原屋顶同作抽取分开记述。

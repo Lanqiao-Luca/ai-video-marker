@@ -16,6 +16,63 @@ from init_project import create
 from media import decode_frames,ffmpeg_path,probe,run,sha256
 from pixel_engine import PixelRenderer,load_scene,validate_scene
 from check_pixel_baseline import verify
+from garden_drawing import GardenRenderer,PALETTES
+from make_video import make_scene
+
+
+class FirstVideoTests(unittest.TestCase):
+    def test_seed_is_repeatable_and_distinct_from_showcase(self):
+        scene=make_scene(42,'moon')
+        first=GardenRenderer(scene)
+        picture=first.frame(8)[0].tobytes()
+        self.assertEqual(picture,GardenRenderer(scene).frame(8)[0].tobytes())
+        self.assertNotEqual(picture,GardenRenderer(make_scene(43,'moon')).frame(8)[0].tobytes())
+        self.assertNotEqual(picture,PixelRenderer(load_scene(ROOT/'examples/pixel/scene.json')).frame(8)[0].tobytes())
+        for palette in PALETTES:
+            other=GardenRenderer(make_scene(42,palette))
+            if palette!='moon':self.assertNotEqual(picture,other.frame(8)[0].tobytes())
+        self.assertEqual(picture,first.frame(8)[0].tobytes())
+
+    def test_crank_contact_and_progress_are_preserved(self):
+        renderer=GardenRenderer(make_scene(42,'moon'))
+        previous=0
+        for k in range(4*24,12*24+1):
+            trace=renderer.frame(k/24)[1]
+            self.assertLess(sum(abs(a-b) for a,b in zip(trace['right_hand_world'],trace['crank_world'])),1e-8)
+            self.assertGreaterEqual(trace['spring_charge'],previous)
+            previous=trace['spring_charge']
+            self.assertTrue(all(0<=v<=1 for v in trace['rabbit_normalized_bbox']))
+        start=renderer.frame(0)[1];finish=renderer.frame(31)[1]
+        self.assertEqual(start['flower_openings'],[0,0,0])
+        self.assertEqual(finish['flower_openings'],[1,1,1])
+        self.assertEqual(finish['bird_opening'],1)
+
+    def test_entry_writes_to_caller_and_records_scene_with_audio(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            args=[sys.executable,'-B',str(ROOT/'tools/make_video.py'),'--seed','42','--start','8','--end','8.25']
+            result=subprocess.run(args,cwd=temporary,capture_output=True,text=True)
+            self.assertEqual(result.returncode,0,result.stderr)
+            folders=list((Path(temporary)/'outputs').iterdir());self.assertEqual(len(folders),1)
+            out=folders[0];data=json.loads((out/'run.json').read_text())
+            self.assertEqual(data['example'],'moonlight-chimes')
+            self.assertEqual(data['expected']['frames'],6)
+            self.assertEqual(data['audio_source_start'],8)
+            scene=json.loads((out/'scene.json').read_text())
+            self.assertEqual(scene['seed'],42)
+            self.assertEqual(data['scene_sha256'],sha256(out/'scene.json'))
+            self.assertEqual(data['audio_fade_out'],.125)
+            self.assertTrue(probe(out/'video.mp4',ffmpeg_path())['has_audio'])
+            before=sha256(out/'video.mp4')
+            again=subprocess.run(args+['--out',str(out)],cwd=temporary,capture_output=True)
+            self.assertNotEqual(again.returncode,0)
+            self.assertEqual(before,sha256(out/'video.mp4'))
+
+    def test_bad_seed_fails_without_output(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            out=Path(temporary)/'bad'
+            result=subprocess.run([sys.executable,str(ROOT/'tools/make_video.py'),'--seed','-1','--out',str(out)],capture_output=True)
+            self.assertNotEqual(result.returncode,0)
+            self.assertFalse(out.exists())
 
 
 class ProjectTests(unittest.TestCase):

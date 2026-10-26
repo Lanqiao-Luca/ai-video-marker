@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "date": "2026-10-26",
+  "scene": "moonlight-chimes",
+  "seed": 20261026,
+  "palette": "moon",
+  "public_files_only": true,
+  "rendered_from_other_working_directory": true,
+  "external_private_assets_required": false,
+  "ai_api_calls": 0,
+  "video_sha256": "ada7848931778bef65ac8d64641c2da722aa205cb199a282b2e91d47483d277e",
+  "standalone_video_sha256": "ada7848931778bef65ac8d64641c2da722aa205cb199a282b2e91d47483d277e",
+  "identical_video": true,
+  "coverage": "same local Python/Pillow/FFmpeg runtime; no separate OS or dependency installation tested",
+  "full_realtime_review": "NOT_RUN",
+  "audio_listening": "NOT_RUN",
+  "adoption": "PENDING"
+}

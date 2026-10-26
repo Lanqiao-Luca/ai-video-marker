@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "video_sha256": "ada7848931778bef65ac8d64641c2da722aa205cb199a282b2e91d47483d277e",
+  "actual": {
+    "duration": 32.0,
+    "width": 720,
+    "height": 1280,
+    "fps": 24.0,
+    "has_video": true,
+    "has_audio": true,
+    "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/bt709/iec61966-2-1, progressive), 720x1280, 1184 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+    "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 22050 Hz, stereo, fltp, 135 kb/s (default)",
+    "decoded_frames": 768,
+    "audio_decode": "PASS"
+  },
+  "errors": [],
+  "coverage": "stream headers and complete video decode; complete audio decode when present",
+  "full_realtime_review": "NOT_RUN",
+  "audio_listening": "NOT_RUN",
+  "adoption": "PENDING"
+}

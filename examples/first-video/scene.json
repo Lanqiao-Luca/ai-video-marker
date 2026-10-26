@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "moonlight-chimes",
+  "work_id": "GARDEN-STARTER",
+  "title": "月光风铃",
+  "logical_size": [360, 640],
+  "output_size": [720, 1280],
+  "fps": 24,
+  "duration": 32,
+  "palette": "moon",
+  "seed": 20261026,
+  "camera_keys": [[0, 163, 404, 266], [4, 163, 404, 266], [12, 163, 404, 266], [17, 166, 371, 288], [23, 180, 349, 316], [28, 180, 320, 360], [32, 180, 320, 360]],
+  "segments": [
+    {"start": 0, "end": 4, "action": "小兔走向花园音乐盒"},
+    {"start": 4, "end": 12, "action": "手握曲柄转四圈，发条和四盏蓄能灯逐步推进"},
+    {"start": 12, "end": 14, "action": "松手后齿轮驱动立轴"},
+    {"start": 14, "end": 23, "action": "三朵铜瓣风铃花先后展开并摆动铃锤"},
+    {"start": 23, "end": 28, "action": "顶端铜鸟展翼，吊饰、盆花与萤火共同活动"},
+    {"start": 28, "end": 32, "action": "同一花园全景保持新的合奏状态"}
+  ],
+  "adoption": "PENDING",
+  "music": "Reuses the bundled project-original track; exact musical cue listening remains pending."
+}
