@@ -55,12 +55,22 @@ def check(root):
                 errors.append(rel+': missing anchor '+target)
     catalog=json.loads((root/'catalog.json').read_text(encoding='utf-8'))
     routes=catalog['routes']
-    if len(routes)!=6 or len({r['id'] for r in routes})!=6:errors.append('Catalog must contain six unique production routes.')
+    if not routes or len({r['id'] for r in routes})!=len(routes):errors.append('Catalog needs unique production routes.')
+    framework=catalog.get('framework',{})
+    layers=framework.get('layers',[])
+    if layers!=['graphs','loops','workflows','agents','skills','standards']:
+        errors.append('Catalog must declare the six method layers in handoff order.')
+    for layer in layers:
+        if not (root/layer/'README.md').is_file():errors.append('Missing method layer entry: '+layer)
     for route in routes:
+        if route.get('status') not in {'active','candidate'}:errors.append('Unknown route status: '+route['id'])
         p=root/route['workflow']
         if not p.is_file():errors.append('Missing workflow '+str(p));continue
         status=re.search(r'^status: (\w+)$',p.read_text(encoding='utf-8'),re.M)
         if not status or status[1]!=route['status']:errors.append('Catalog status mismatch: '+route['id'])
+        if route.get('implementation') not in {'documented_workflow','runnable_demo'}:
+            errors.append('Unknown implementation scope: '+route['id'])
+        if route.get('template') and not (root/route['template']).is_file():errors.append('Missing route template: '+route['id'])
     provenance=json.loads((root/'docs/provenance.json').read_text(encoding='utf-8'))
     for entry in provenance['files']:
         path=root/entry['target']

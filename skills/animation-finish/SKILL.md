@@ -3,7 +3,7 @@ name: animation-finish
 description: 处理动画声音、混音、编码和交付检查；也用于版本范围及作品验收。
 metadata:
   status: active
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 **目的**：按实际请求选择后期、验收或版本方法。
@@ -19,3 +19,7 @@ metadata:
 
 [check_video.py](../../tools/check_video.py)可全解码和读规格；[contact_sheet.py](../../tools/contact_sheet.py)抽编码帧；[attach_audio.py](../../tools/attach_audio.py)为静音母版附加用户提供的音轨。命令和真实边界见 [工具说明](../../tools/README.md)。
 音乐/录音/生成/合成来源分开，不能以母带数值代替最终音轨，也不能以自动检查代替听感。
+
+按[AN05单源事件](../../standards/声音色彩与交付验收.md#event-source)让动画/声音/文字实际读取同一cue版本或同一值派生；记录唯一写者和失效区间，不能各处硬编码再声称共享。按[容器/码流色彩](../../standards/声音色彩与交付验收.md#container-bitstream-color)区分元数据与真实转换；技术、感知同步、正常速度听看和用户采用分别返回。
+
+实际调用沿原角色交入的输入/过程/交付位置，参数改变先返回缺项或变更，不反向调度上层。长任务记录/预算读取范围沿[文档技能](../animation-docs/SKILL.md)交回原角色；不复制另一份总体进度。

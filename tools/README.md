@@ -16,6 +16,7 @@
 | [attach_audio.py](attach_audio.py) | 视频、自带音轨、偏移 → 新带声MP4及来源记录 | 画面复制、AAC编码，不循环或推定许可 |
 | [check_pixel_baseline.py](check_pixel_baseline.py) | 默认场景 → 原绘图函数与全部1056帧RGB回归 | 只覆盖同作品编码前画面，不替艺术采用 |
 | [check_package.py](check_package.py) | 公开包 → 链接/语法/目录/来源检查 | 窄范围静态检查，不是完整安全审计 |
+| [painted_world_reveal.py](painted_world_reveal.py) | 内图/外图RGB数组、画布四角、进度 → 同源退出揭示RGB帧 | 可选NumPy/OpenCV纯函数，不读写文件、不生成视频、不构建三维 |
 
 [pixel_engine.py](pixel_engine.py)负责场景校验与实例隔离，[pixel_drawing.py](pixel_drawing.py)保留原作18个绘图函数，[media.py](media.py)为共用FFmpeg适配，[garden_drawing.py](garden_drawing.py)实现花园场景及校验，[harbor_drawing.py](harbor_drawing.py)读取新机器人PNG素材并实现海港故事，均非用户CLI入口。
 
@@ -33,3 +34,26 @@ python tools/check_video.py outputs/pixel-rooftop-with-audio/video.mp4
 
 所有工具拒绝覆盖既有输出。渲染失败保留 run.json 和部分现场，先看 render.log，再在新目录恢复。用 `--help` 看参数。
 FFmpeg由系统或本机imageio-ffmpeg安装提供，二进制与虚拟环境不进入源码分发。
+
+<a id="painted-world"></a>
+## 可选：从画中拉回画框
+
+先核[PW05合同](../standards/画中世界退出与载体揭示.md)。只有使用该合成函数时安装可选依赖；默认像素示例继续只用requirements.txt：
+
+```bash
+python -m pip install -r requirements-painting.txt
+```
+
+在仓库根目录可这样调用（变量须由调用者提供真实数组/坐标）：
+
+```python
+from tools.painted_world_reveal import reveal_painted_world
+
+# inner/outer: H×W×3 uint8 RGB或[0,1]浮点RGB，尺寸可以不同。
+# quad: outer像素坐标中的左上、右上、右下、左下，凸且不退化。
+frame = reveal_painted_world(inner, outer, quad, progress=0.5)
+```
+
+progress为调用者已经缓动后的[0,1]进度：0让画中图充满输出，1回到外部场景内的固定画布；返回outer尺寸的float32 RGB。live_inner_rgb/live_weight可把动态画中帧逐渐冻结；RGBA输入、错误顺序/凹面/越界/退化四角和非有限进度会报错。函数采用直立画布的无歧义左上约定，不支持任意旋转画框。
+
+读图时由调用者明确RGB（OpenCV默认BGR须转换）、裁切/比例、四角坐标与身份；不同宽高比须先选裁切/留边，不静默拉伸。图内动效先合入内图，前景遮挡/屏幕字幕在视野变换后由调用者合成。大角度画框可能拉伸外图边缘，不会生成未知场景。完整时序、音轨、编码和正常速度审看仍沿实际制作流程。

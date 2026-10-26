@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "artifacts": [],
+  "note": "Each actual entry records a project-relative path, sha256, source/derivation, version, checks and adoption scope. Empty means no artifact has been produced."
+}

@@ -3,7 +3,7 @@ name: animation-plan
 description: 为动画短片收敛故事、角色方向和镜头计划；用于策划、分镜与动态分镜阶段。
 metadata:
   status: active
-  version: 0.1.6
+  version: 0.2.0
 ---
 
 **目的**：把当前创意变为可制作的范围和镜头任务。
@@ -21,3 +21,7 @@ metadata:
 
 填写 [项目模板](../../templates/project/README.md)。返回制作单、角色候选/采用、唯一空间和镜头时序、当前未知与下一进入条件。
 动态分镜的平移缩放不冒称完整角色动画。缺素材或工具只停相交步骤；工具能力见 [工具入口](../../tools/README.md)。
+
+新增制作前恢复[AN01观看用途与创意差异](../../standards/制作单与故事拆解.md#creative-difference)、[AN03目标画布](../../standards/镜头空间与动态分镜.md#target-canvas)与[AN10观看信息](../../standards/动作因果与场内节奏.md#viewing-information)：返回声音/文字类型、独特观看承诺、已知/新增信息及主要兑现停留。只换名或配色不能自证新故事，结尾已知信息不能误称反转。
+
+实际调用沿原角色交入的输入/过程/交付位置，参数改变先返回缺项或变更，不反向调度上层。长任务记录/预算读取范围沿[文档技能](../animation-docs/SKILL.md)交回原角色；不复制另一份总体进度。

@@ -3,7 +3,7 @@ name: animation-docs
 description: 维护动画制作记录、方法文档和交接状态；用于文档变更与跨会话接续。
 metadata:
   status: active
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 **目的**：保持目的、方法和真实执行记录一致。
@@ -15,5 +15,7 @@ metadata:
 3. 当前制作状态使用 [EX01](../../standards/执行文档与跨窗口接续.md)及 [项目模板](../../templates/project/README.md)，来源和作品参数与共享方法分开。
 4. 缓存与交付依 [RET01](../../standards/项目留存与过程清理.md)定位，不自动清理或扫描用户其他目录。
 5. 核差异、来源、相对链接与状态；仓库文档可运行 [check_package.py](../../tools/check_package.py)。检查只证其覆盖范围。
+
+长任务把EX01的计划/状态/事件/产出职责适配到同一[项目目录](../../templates/project/README.md)，按[CX01](../../standards/上下文预算与可执行单元拆解.md)登记就绪单元、必要读取范围、累计预算及失败接续。沿原角色返回位置/记录身份，不反向调度所有层；根路径改变先交回原Workflow再写相交位置。
 
 文档维护和原则复核是不同职责；由同一助手完成时明确标为自检。发布、付费、外部审核或后台流程不从文档更新推定授权。

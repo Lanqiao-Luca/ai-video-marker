@@ -52,12 +52,22 @@
     },
     {
       "id": "paperbook",
-      "name": "立体书剪纸 MV",
+      "name": "歌词／短句驱动程序动画 MV（含立体书剪纸分支）",
       "workflow": "workflows/歌词驱动程序动画MV制作.md",
       "status": "candidate",
-      "scope": "音乐与歌词意象、纸页舞台、主体动作和折页接缝",
+      "scope": "真实声音/文字、材质选择、单源事件、观看信息和风险覆盖；纸艺另取PB方法",
       "implementation": "documented_workflow",
       "example": null
+    },
+    {
+      "id": "painting-world",
+      "name": "绘画世界穿行短片",
+      "workflow": "workflows/绘画世界穿行短片制作.md",
+      "status": "candidate",
+      "scope": "结尾逆推路线、关键帧与代表接缝，可选平面画框退出",
+      "implementation": "documented_workflow",
+      "example": null,
+      "template": "templates/绘画世界穿行制作单.md"
     }
   ],
   "visual_asset_library": "assets/library/catalog.json",
@@ -66,5 +76,19 @@
     "count": 12,
     "kind": "story opening copy and production prompts",
     "media_implementation": "requires workflow-specific adaptation"
+  },
+  "framework": {
+    "version": "0.2.0",
+    "layers": [
+      "graphs",
+      "loops",
+      "workflows",
+      "agents",
+      "skills",
+      "standards"
+    ],
+    "execution": "documented contracts, applied by the host assistant; no scheduler or native agent installation",
+    "resume_contract": "standards/执行文档与跨窗口接续.md",
+    "context_contract": "standards/上下文预算与可执行单元拆解.md"
   }
 }

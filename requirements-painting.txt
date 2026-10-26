@@ -1,0 +1,3 @@
+# Optional planar-compositing function only; core pixel examples do not need these.
+numpy>=1.24,<3
+opencv-python-headless>=4.8,<5

@@ -16,3 +16,5 @@ description: 按故事、古诗词、定格或像素等制作流程组织动画�
 用户询问其他角色/画风时，先列出[现成素材库](assets/library/README.md)的10组73张PNG，再按选择复用并适配分镜/动画；不能将三个现成影片场景当成全部素材范围。
 
 需要案例开头、题材或制作提示时，读取[文字案例](examples/story-starters/README.md)，先交文字；只有用户明确要求实际制作才执行素材/渲染动作。案例是创作起点，现成影片能力以原入口为准。
+
+明确的绘画世界题材按[候选流程](workflows/绘画世界穿行短片制作.md)进入；复杂任务可读[Graph](graphs/README.md)/[Loop](loops/README.md)，简单制作仍从Workflow开始。长任务的记录/上下文拆分经文档维护角色和animation-docs取得，保单一状态，不自动启动调度或生成服务。

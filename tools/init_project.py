@@ -24,6 +24,8 @@ def create(route_id,project_id,out,asset_mode=None):
     if asset_mode is None:state['next_action']='Confirm reuse, mixed or generate asset strategy before new asset production.'
     (out/'status.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     if route_id=='pixel':shutil.copytree(ROOT/'templates/pixel',out/'worksheets',ignore=shutil.ignore_patterns('README.md'))
+    if route_id=='painting-world':
+        shutil.copy2(ROOT/'templates/绘画世界穿行制作单.md',out/'painting-world-brief.md')
     (out/'README.md').write_text('**目的**：定位本作当前状态与必要输入。\n\n# '+project_id+
         '\n\n制作路线：'+route['name']+'（'+route['status']+'）。\n\n填写 brief.md 和 shots.csv；实际进度见 status.json，反馈见 feedback.md。\n'+
         '本目录仅完成初始化，尚未制作视频或取得用户采用。\n',encoding='utf-8')
