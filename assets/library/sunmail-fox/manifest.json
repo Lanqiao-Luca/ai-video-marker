@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "sunmail-fox",
+  "name": "太阳邮差狐狸图集",
+  "source_work": "把太阳寄给你-20261025",
+  "origin": "Existing built-in imagegen artwork and production cutouts from maintainer animation projects",
+  "license": "MIT",
+  "batch": 2,
+  "files": [
+    {
+      "file": "sunmail-fox-atlas.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_channel": true,
+      "bytes": 2544792,
+      "sha256": "702d2ae3232689431827d803429b31e70158583b0bac1e8a6b25fc03a93aa5b6",
+      "source_sha256": "702d2ae3232689431827d803429b31e70158583b0bac1e8a6b25fc03a93aa5b6",
+      "processing": "byte-for-byte copy"
+    }
+  ],
+  "scope": "Visual artwork only; audio, speech, third-party references, cache frames and private records excluded."
+}

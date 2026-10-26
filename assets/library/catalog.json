@@ -5,10 +5,24 @@
   "selection": {
     "unit": "work-group with existing still images under assets/materials folders",
     "source_work_groups": 19,
-    "published_work_groups": 5,
-    "ratio": 0.2631578947368421,
-    "rounded_fraction": "approximately one quarter",
-    "not_a_file_or_byte_quota": true
+    "published_work_groups": 10,
+    "ratio": 0.5263157894736842,
+    "rounded_fraction": "approximately half cumulatively; two batches of approximately one quarter",
+    "not_a_file_or_byte_quota": true,
+    "batches": [
+      {
+        "batch": 1,
+        "work_groups": 5,
+        "images": 43,
+        "ratio_of_source_groups": 0.2631578947368421
+      },
+      {
+        "batch": 2,
+        "work_groups": 5,
+        "images": 30,
+        "ratio_of_source_groups": 0.2631578947368421
+      }
+    ]
   },
   "packs": [
     {
@@ -17,7 +31,8 @@
       "description": "狐狸拆件、獾的表情姿态、暖光罐与村庄/室内背景",
       "manifest": "woodland-friends/manifest.json",
       "image_count": 21,
-      "source_work": "把晴天借给你-20261024"
+      "source_work": "把晴天借给你-20261024",
+      "batch": 1
     },
     {
       "id": "rainy-umbrella",
@@ -25,7 +40,8 @@
       "description": "已修订的机器人手臂拆件、小鸟、雨伞与雨天背景；不包含雨滴缓存帧",
       "manifest": "rainy-umbrella/manifest.json",
       "image_count": 10,
-      "source_work": "把伞分你一半"
+      "source_work": "把伞分你一半",
+      "batch": 1
     },
     {
       "id": "paper-classroom",
@@ -33,7 +49,8 @@
       "description": "男女孩角色/动作图集与教室背景，适合分格拆件和纸艺动画",
       "manifest": "paper-classroom/manifest.json",
       "image_count": 3,
-      "source_work": "把晴天折进书里-20261024"
+      "source_work": "把晴天折进书里-20261024",
+      "batch": 1
     },
     {
       "id": "bamboo-wind",
@@ -41,7 +58,8 @@
       "description": "竹石远景与近景，无文字、无人像；适合诗词/氛围画面",
       "manifest": "bamboo-wind/manifest.json",
       "image_count": 2,
-      "source_work": "竹石-撑住这阵风"
+      "source_work": "竹石-撑住这阵风",
+      "batch": 1
     },
     {
       "id": "poetry-book",
@@ -49,9 +67,55 @@
       "description": "书本三状态、透明山水、纸面背景及原始书本图集",
       "manifest": "poetry-book/manifest.json",
       "image_count": 7,
-      "source_work": "古诗词学习片头-20261023"
+      "source_work": "古诗词学习片头-20261023",
+      "batch": 1
+    },
+    {
+      "id": "snail-lantern",
+      "name": "蜗牛与温暖灯光",
+      "description": "水彩机器人和蜗牛姿态、暮色背景、地面光与阴影",
+      "manifest": "snail-lantern/manifest.json",
+      "image_count": 18,
+      "source_work": "新30秒短片-20261023",
+      "batch": 2
+    },
+    {
+      "id": "sunset-room",
+      "name": "晚霞房间与圆润机器人",
+      "description": "已选圆润机器人参考图、推凳/走路/晚霞姿态、房间和凳子",
+      "manifest": "sunset-room/manifest.json",
+      "image_count": 8,
+      "source_work": "窗外有晚霞",
+      "batch": 2
+    },
+    {
+      "id": "snow-river",
+      "name": "雪江与独钓渔舟",
+      "description": "无字雪江背景与独立渔舟原画，适合冬景/诗词有限动画",
+      "manifest": "snow-river/manifest.json",
+      "image_count": 2,
+      "source_work": "江雪-20261023",
+      "batch": 2
+    },
+    {
+      "id": "sunmail-fox",
+      "name": "太阳邮差狐狸图集",
+      "description": "狐狸邮递员与朋友/动作部件图集，按主体框拆分使用",
+      "manifest": "sunmail-fox/manifest.json",
+      "image_count": 1,
+      "source_work": "把太阳寄给你-20261025",
+      "batch": 2
+    },
+    {
+      "id": "starlight-fox",
+      "name": "星光邮差狐狸图集",
+      "description": "六姿态纸艺狐狸原图集，适合折星、追星与送信动作适配",
+      "manifest": "starlight-fox/manifest.json",
+      "image_count": 1,
+      "source_work": "把星光寄给你-20261025",
+      "batch": 2
     }
   ],
-  "image_count": 43,
-  "total_image_bytes": 45985906
+  "image_count": 73,
+  "total_image_bytes": 77324985
 }

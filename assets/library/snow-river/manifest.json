@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "snow-river",
+  "name": "雪江与独钓渔舟",
+  "source_work": "江雪-20261023",
+  "origin": "Existing built-in imagegen artwork and production cutouts from maintainer animation projects",
+  "license": "MIT",
+  "batch": 2,
+  "files": [
+    {
+      "file": "snow-river.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": false,
+      "bytes": 2735972,
+      "sha256": "542a852feeafd0edb8ee81da8404c10895e52167d5457814fbbfc1f326138959",
+      "source_sha256": "542a852feeafd0edb8ee81da8404c10895e52167d5457814fbbfc1f326138959",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "fishing-boat.png",
+      "size": [
+        1774,
+        887
+      ],
+      "alpha_channel": true,
+      "bytes": 1089833,
+      "sha256": "6d61bd50f9314291041e191440d8d63ca6a6d6a1a6fe98ff7de241dbb3f79ae3",
+      "source_sha256": "6d61bd50f9314291041e191440d8d63ca6a6d6a1a6fe98ff7de241dbb3f79ae3",
+      "processing": "byte-for-byte copy"
+    }
+  ],
+  "scope": "Visual artwork only; audio, speech, third-party references, cache frames and private records excluded."
+}

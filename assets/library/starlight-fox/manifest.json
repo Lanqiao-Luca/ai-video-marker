@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "starlight-fox",
+  "name": "星光邮差狐狸图集",
+  "source_work": "把星光寄给你-20261025",
+  "origin": "Existing built-in imagegen artwork and production cutouts from maintainer animation projects",
+  "license": "MIT",
+  "batch": 2,
+  "files": [
+    {
+      "file": "starlight-fox-atlas.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_channel": true,
+      "bytes": 2352580,
+      "sha256": "82070f2c9cbf94bf8d187ecafd116d5ab24c8a77fa2a8d2229a9d6bed8b6bea4",
+      "source_sha256": "82070f2c9cbf94bf8d187ecafd116d5ab24c8a77fa2a8d2229a9d6bed8b6bea4",
+      "processing": "byte-for-byte copy"
+    }
+  ],
+  "scope": "Visual artwork only; audio, speech, third-party references, cache frames and private records excluded."
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "image": "sunmail-fox-atlas.png",
+  "source_sha256": "702d2ae3232689431827d803429b31e70158583b0bac1e8a6b25fc03a93aa5b6",
+  "method": "observed complete-object boxes then alpha bbox, preserve all components; unequal source grid corrected by slicing only",
+  "sprites": [
+    {
+      "name": "fox",
+      "source_cell": [
+        20,
+        25,
+        380,
+        485
+      ],
+      "alpha_bbox_in_cell": [
+        0,
+        2,
+        360,
+        460
+      ],
+      "size": [
+        360,
+        458
+      ]
+    },
+    {
+      "name": "carry",
+      "source_cell": [
+        385,
+        25,
+        785,
+        485
+      ],
+      "alpha_bbox_in_cell": [
+        0,
+        13,
+        400,
+        460
+      ],
+      "size": [
+        400,
+        447
+      ]
+    },
+    {
+      "name": "cycle",
+      "source_cell": [
+        790,
+        20,
+        1235,
+        495
+      ],
+      "alpha_bbox_in_cell": [
+        1,
+        1,
+        445,
+        475
+      ],
+      "size": [
+        444,
+        474
+      ]
+    },
+    {
+      "name": "reach",
+      "source_cell": [
+        1232,
+        35,
+        1520,
+        495
+      ],
+      "alpha_bbox_in_cell": [
+        0,
+        0,
+        288,
+        453
+      ],
+      "size": [
+        288,
+        453
+      ]
+    },
+    {
+      "name": "rabbit",
+      "source_cell": [
+        40,
+        500,
+        352,
+        997
+      ],
+      "alpha_bbox_in_cell": [
+        3,
+        1,
+        312,
+        494
+      ],
+      "size": [
+        309,
+        493
+      ]
+    },
+    {
+      "name": "wave",
+      "source_cell": [
+        375,
+        520,
+        722,
+        986
+      ],
+      "alpha_bbox_in_cell": [
+        0,
+        3,
+        347,
+        457
+      ],
+      "size": [
+        347,
+        454
+      ]
+    },
+    {
+      "name": "cottage",
+      "source_cell": [
+        748,
+        498,
+        1236,
+        1005
+      ],
+      "alpha_bbox_in_cell": [
+        5,
+        0,
+        485,
+        499
+      ],
+      "size": [
+        480,
+        499
+      ]
+    },
+    {
+      "name": "mailbox",
+      "source_cell": [
+        1274,
+        520,
+        1511,
+        1000
+      ],
+      "alpha_bbox_in_cell": [
+        5,
+        1,
+        230,
+        472
+      ],
+      "size": [
+        225,
+        471
+      ]
+    }
+  ]
+}

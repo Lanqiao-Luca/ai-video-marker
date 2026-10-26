@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "image": "starlight-fox-atlas.png",
+  "source_sha256": "82070f2c9cbf94bf8d187ecafd116d5ab24c8a77fa2a8d2229a9d6bed8b6bea4",
+  "columns": 3,
+  "rows": 2,
+  "cell_size": [
+    512,
+    512
+  ],
+  "alpha_clear_below": 12,
+  "bbox_alpha_threshold": 70,
+  "bbox_margin": 3,
+  "note": "Existing source derivation parameters; cropping is not a complete animation rig."
+}

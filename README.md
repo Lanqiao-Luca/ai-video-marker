@@ -10,7 +10,7 @@
 
 *《屋顶晒太阳》：小兔集雨、解开水轮卡点，带动齿轮花开放，最后同一屋顶共同活动。以上为16–30秒原速节选；[44秒完整带音乐视频](examples/pixel/preview.mp4)。示例直接抽取真实作品绘图代码，保留角色、层次、动作和镜头。*
 
-**0.1.7**：六条制作流程、四层AI协作方法，以及三个可运行的像素场景和一套12张PNG的海港机器人素材。新手默认用新素材制作《小机器人与归航灯塔》，首页《屋顶晒太阳》保留为展示复现。配乐使用项目原创音乐，源码和示例采用MIT许可。其余五条路线提供方法与模板，媒体能力依实际环境核实。正式/候选表示方法状态，详见 [发布范围](docs/RELEASE_REVIEW.md)。
+**0.1.8**：六条制作流程、四层AI协作方法，以及三个可运行的像素场景和一套12张PNG的海港机器人素材。新手默认用新素材制作《小机器人与归航灯塔》，首页《屋顶晒太阳》保留为展示复现。配乐使用项目原创音乐，源码和示例采用MIT许可。其余五条路线提供方法与模板，媒体能力依实际环境核实。正式/候选表示方法状态，详见 [发布范围](docs/RELEASE_REVIEW.md)。
 
 ## 做你的第一支视频
 
@@ -59,11 +59,11 @@ Windows创建环境可用 `py -3 -m venv .venv`，激活使用 `.venv\Scripts\ac
 
 如果明确想复现首页44秒展示片，使用 `python tools/render_pixel.py --out outputs/pixel-rooftop`，详见 [屋顶示例](examples/pixel/README.md)。它的原绘图函数和1056帧基线继续保留。视频解码和静态联系表不代替正常速度观看、听审或最终采用。
 
-## 更多现成素材：从本地制作库精选5组
+## 更多现成素材：从本地制作库精选10组
 
-![精选素材](docs/images/library-overview.jpg)
+![第一批素材](docs/images/library-overview.jpg)
 
-新增[素材库](assets/library/README.md)，含**43张PNG，约43.86MiB**：
+新增[素材库](assets/library/README.md)，累计含**73张PNG，约73.74MiB**：
 
 | 素材组 | 图片数 | 可复用内容 |
 |---|---:|---|
@@ -72,8 +72,15 @@ Windows创建环境可用 `py -3 -m venv .venv`，激活使用 `.venv\Scripts\ac
 | [纸艺少年与教室](assets/library/paper-classroom/README.md) | 3 | 男女孩角色/动作图集、教室场景 |
 | [竹林与山岩](assets/library/bamboo-wind/README.md) | 2 | 无字竹石远景/近景 |
 | [山水与书本](assets/library/poetry-book/README.md) | 7 | 翻页三状态、山水、纸面与原图集 |
+| [蜗牛与温暖灯光](assets/library/snail-lantern/README.md) | 18 | 水彩机器人和蜗牛姿态、暮色背景、地面光与阴影 |
+| [晚霞房间与圆润机器人](assets/library/sunset-room/README.md) | 8 | 已选圆润机器人参考图、推凳/走路/晚霞姿态、房间和凳子 |
+| [雪江与独钓渔舟](assets/library/snow-river/README.md) | 2 | 无字雪江背景与独立渔舟原画，适合冬景/诗词有限动画 |
+| [太阳邮差狐狸图集](assets/library/sunmail-fox/README.md) | 1 | 狐狸邮递员与朋友/动作部件图集，按主体框拆分使用 |
+| [星光邮差狐狸图集](assets/library/starlight-fox/README.md) | 1 | 六姿态纸艺狐狸原图集，适合折星、追星与送信动作适配 |
 
-本次从19个含静图的作品素材分组中选择5组，**约26.3%，接近四分之一**；按作品组统计，未按全库文件数或字节量计算。复制的是可复用视觉素材，未打包参考歌曲、配音、视频、雨滴缓存帧或个人记录。
+![第二批素材](docs/images/library-batch2-overview.jpg)
+
+两批各选择5/19组，每批约26.3%，累计**10组、约52.6%**；按作品组统计，未按全库文件数或字节量计算。复制的是可复用视觉素材，未打包参考歌曲、配音、视频、雨滴缓存帧或个人记录。
 
 ```bash
 python tools/asset_library.py list
@@ -81,7 +88,7 @@ python tools/asset_library.py verify
 python tools/asset_library.py preview --pack woodland-friends --out outputs/woodland-preview.png
 ```
 
-可以直接对AI说：“用素材库里的狐狸和獾，做一个新故事，先给我分镜和代表段；优先复用图片与包内音乐。”助手应读取相应素材清单，按工作流适配动画。**新增的是素材，不是5个完整影片生成器**；完整PNG、部件、图集和背景各有不同用法，预览命令生成资产联系表。默认的海港机器人短片保持不变。
+可以直接对AI说：“用素材库里的狐狸和獾，做一个新故事，先给我分镜和代表段；优先复用图片与包内音乐。”助手应读取相应素材清单，按工作流适配动画。**导入素材不代表已有对应的完整影片渲染器**；完整PNG、部件、图集和背景各有不同用法，预览命令生成资产联系表。默认的海港机器人短片保持不变。
 
 ## 素材从哪里来，会花多少时间和Token
 

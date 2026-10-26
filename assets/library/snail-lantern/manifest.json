@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "id": "snail-lantern",
+  "name": "蜗牛与温暖灯光",
+  "source_work": "新30秒短片-20261023",
+  "origin": "Existing built-in imagegen artwork and production cutouts from maintainer animation projects",
+  "license": "MIT",
+  "batch": 2,
+  "files": [
+    {
+      "file": "original-background.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": false,
+      "bytes": 2652201,
+      "sha256": "ff85d9dadf5e9e54ad6fffca47fc21d69c950013aa897f49b952d79a9b6834e4",
+      "source_sha256": "ff85d9dadf5e9e54ad6fffca47fc21d69c950013aa897f49b952d79a9b6834e4",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "original-robot-poses.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "alpha_channel": true,
+      "bytes": 1700190,
+      "sha256": "576146015111bbe127616d6ccc9a273306f4d99c86627eeabbf03beb89ba34a1",
+      "source_sha256": "576146015111bbe127616d6ccc9a273306f4d99c86627eeabbf03beb89ba34a1",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "original-snail-poses.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_channel": true,
+      "bytes": 1152338,
+      "sha256": "68655edd90c54530fdcaf8437afc8c290de4a7fe0b8277e44d5f939e5a7dcca5",
+      "source_sha256": "68655edd90c54530fdcaf8437afc8c290de4a7fe0b8277e44d5f939e5a7dcca5",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "robot-pose-0.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 154223,
+      "sha256": "6888d27c06dec1da0447480563797789a99de50fbcc99b51afb166d7a60a28c1",
+      "source_sha256": "6888d27c06dec1da0447480563797789a99de50fbcc99b51afb166d7a60a28c1",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "robot-pose-1.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 146373,
+      "sha256": "5675958bacd90f71b7c7322023f13fee178047777188bd2372a3ab997e498ae9",
+      "source_sha256": "5675958bacd90f71b7c7322023f13fee178047777188bd2372a3ab997e498ae9",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "robot-pose-2.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 150637,
+      "sha256": "9d5faff111b24433d30d90c5e3aae2c124003330abe849f885c08f46b5db174a",
+      "source_sha256": "9d5faff111b24433d30d90c5e3aae2c124003330abe849f885c08f46b5db174a",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "robot-pose-3.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 137391,
+      "sha256": "4fa08f405f09d01977f6ab910ca36b336b9dbfda1b82567790690d56817716d9",
+      "source_sha256": "4fa08f405f09d01977f6ab910ca36b336b9dbfda1b82567790690d56817716d9",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "robot-pose-4.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 145885,
+      "sha256": "0905fbf888b20c515972248f363abc831c56a26d4b6fb68dadf87e6d95014838",
+      "source_sha256": "0905fbf888b20c515972248f363abc831c56a26d4b6fb68dadf87e6d95014838",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "robot-pose-5.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 133004,
+      "sha256": "ebdb3e76f5620aba2c89b82384e6532383df46e41c8dcc4dbb77f7cc464d381d",
+      "source_sha256": "ebdb3e76f5620aba2c89b82384e6532383df46e41c8dcc4dbb77f7cc464d381d",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "robot-pose-6.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 128400,
+      "sha256": "eb1101b67ad6b20efce4a83bd9bf768e3e8abd76187373b2289257560b0c629b",
+      "source_sha256": "eb1101b67ad6b20efce4a83bd9bf768e3e8abd76187373b2289257560b0c629b",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "robot-pose-7.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 128875,
+      "sha256": "19da80fded6a6bdcf2d66975af090dd689da71faf7f432a303d93f8c899299be",
+      "source_sha256": "19da80fded6a6bdcf2d66975af090dd689da71faf7f432a303d93f8c899299be",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "snail-pose-0.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 19422,
+      "sha256": "182dd710feba7f6f6deed75e5ea2090b2b7006239c74f0a5735e4ed5c4478c78",
+      "source_sha256": "182dd710feba7f6f6deed75e5ea2090b2b7006239c74f0a5735e4ed5c4478c78",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "snail-pose-1.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 18033,
+      "sha256": "866204d75ba83d3646a9faf56a5cfeb283639c38933a99156b5ee7d14fd43fd3",
+      "source_sha256": "866204d75ba83d3646a9faf56a5cfeb283639c38933a99156b5ee7d14fd43fd3",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "snail-pose-2.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 17324,
+      "sha256": "6e0009e0327ec9d5cecef34dc489d9969f5e4810ef6195735ec0b59fdacfa38a",
+      "source_sha256": "6e0009e0327ec9d5cecef34dc489d9969f5e4810ef6195735ec0b59fdacfa38a",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "snail-pose-3.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 19166,
+      "sha256": "49203be5f14048a85af7868c957bc71b7811b45d788d13224ad06d4884121179",
+      "source_sha256": "49203be5f14048a85af7868c957bc71b7811b45d788d13224ad06d4884121179",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "background.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 1803163,
+      "sha256": "42cb8d5b9afdd7f18e86f6c9b2108db57307ee850227153b5de12f8241a69224",
+      "source_sha256": "42cb8d5b9afdd7f18e86f6c9b2108db57307ee850227153b5de12f8241a69224",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "robot-shadow.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 11593,
+      "sha256": "ba5f37cb1cbebde1aa1660e99bc6c8957d899ef2c56da9022c7117d5cffa9842",
+      "source_sha256": "ba5f37cb1cbebde1aa1660e99bc6c8957d899ef2c56da9022c7117d5cffa9842",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "ground-light.png",
+      "size": [
+        1280,
+        720
+      ],
+      "alpha_channel": true,
+      "bytes": 67096,
+      "sha256": "2f99a91dffecf73d046e3d2e631b95a08a589d212f428022e56c2b997debd26e",
+      "source_sha256": "2f99a91dffecf73d046e3d2e631b95a08a589d212f428022e56c2b997debd26e",
+      "processing": "byte-for-byte copy"
+    }
+  ],
+  "scope": "Visual artwork only; audio, speech, third-party references, cache frames and private records excluded."
+}

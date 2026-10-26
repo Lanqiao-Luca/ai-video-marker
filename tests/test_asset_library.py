@@ -16,12 +16,33 @@ class AssetLibraryTests(unittest.TestCase):
     def test_all_published_images_decode_and_match_frozen_source_bytes(self):
         result=verify()
         self.assertEqual(result['status'],'PASS',result['errors'])
-        self.assertEqual((result['packs'],result['images']),(5,43))
+        self.assertEqual((result['packs'],result['images']),(10,73))
         base,data=catalog()
+        batches={1:set(),2:set()}
         for pack in data['packs']:
             m=json.loads((base/pack['manifest']).read_text())
             self.assertTrue(all(x['sha256']==x['source_sha256'] for x in m['files']))
-        self.assertAlmostEqual(data['selection']['ratio'],5/19)
+            batches[pack['batch']].update(x['sha256'] for x in m['files'])
+        self.assertAlmostEqual(data['selection']['ratio'],10/19)
+        self.assertEqual(len(batches[2]),30)
+        self.assertFalse(batches[1]&batches[2])
+        self.assertEqual([b['images'] for b in data['selection']['batches']],[43,30])
+
+    def test_atlas_layouts_bind_to_the_actual_image_and_stay_within_it(self):
+        base,_=catalog()
+        for pack in ['sunmail-fox','starlight-fox']:
+            layout=json.loads((base/pack/'atlas-layout.json').read_text())
+            manifest=json.loads((base/pack/'manifest.json').read_text())
+            image=next(f for f in manifest['files'] if f['file']==layout['image'])
+            self.assertEqual(layout['source_sha256'],image['sha256'])
+            width,height=image['size']
+            if 'sprites' in layout:
+                for sprite in layout['sprites']:
+                    x0,y0,x1,y1=sprite['source_cell']
+                    self.assertTrue(0<=x0<x1<=width and 0<=y0<y1<=height)
+            else:
+                self.assertEqual(layout['columns']*layout['cell_size'][0],width)
+                self.assertEqual(layout['rows']*layout['cell_size'][1],height)
 
     def test_preview_is_actual_image_and_refuses_overwrite(self):
         with tempfile.TemporaryDirectory() as temp:

@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "sunset-room",
+  "name": "晚霞房间与圆润机器人",
+  "source_work": "窗外有晚霞",
+  "origin": "Existing built-in imagegen artwork and production cutouts from maintainer animation projects",
+  "license": "MIT",
+  "batch": 2,
+  "files": [
+    {
+      "file": "robot-rounded-reference.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "alpha_channel": false,
+      "bytes": 2104489,
+      "sha256": "a0db678e6547869a3f6d5ae5e29d0ef99f78b83c17448ed56fface20836830b1",
+      "source_sha256": "a0db678e6547869a3f6d5ae5e29d0ef99f78b83c17448ed56fface20836830b1",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "robot-reference-sheet.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_channel": false,
+      "bytes": 2247962,
+      "sha256": "35db4ce07c7d8fd201b6d6f0b7dcb57b7930de2d0de8572b623a9d0dd0334008",
+      "source_sha256": "35db4ce07c7d8fd201b6d6f0b7dcb57b7930de2d0de8572b623a9d0dd0334008",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "room.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": false,
+      "bytes": 2258853,
+      "sha256": "ce58de8bb4b9b8c7112bc41fabba681fa21effe26f6a7e916f2463322570640b",
+      "source_sha256": "ce58de8bb4b9b8c7112bc41fabba681fa21effe26f6a7e916f2463322570640b",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "stool.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": true,
+      "bytes": 659492,
+      "sha256": "fb06d2d68aa8a336a91a7b43ba7990a4550f7d619d99086b03fa43603967d0ee",
+      "source_sha256": "fb06d2d68aa8a336a91a7b43ba7990a4550f7d619d99086b03fa43603967d0ee",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "push-poses.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_channel": true,
+      "bytes": 1900780,
+      "sha256": "2b97859d0a6b82cb4417fd488669196e3191b278d2a2c999b6918efe73c1a8f0",
+      "source_sha256": "2b97859d0a6b82cb4417fd488669196e3191b278d2a2c999b6918efe73c1a8f0",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "sunset-poses.png",
+      "size": [
+        2172,
+        724
+      ],
+      "alpha_channel": true,
+      "bytes": 867920,
+      "sha256": "df3d010f94efa65da95b96e032ab06ab977c728472f3d5c6b59be8dbf184b5ef",
+      "source_sha256": "df3d010f94efa65da95b96e032ab06ab977c728472f3d5c6b59be8dbf184b5ef",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "walk-poses.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_channel": true,
+      "bytes": 1987505,
+      "sha256": "34e96025bdfb1a6c89fcc92fb351a2b75b228e93d488b5c272da3532011a1f1c",
+      "source_sha256": "34e96025bdfb1a6c89fcc92fb351a2b75b228e93d488b5c272da3532011a1f1c",
+      "processing": "byte-for-byte copy"
+    },
+    {
+      "file": "sunset-room.png",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_channel": false,
+      "bytes": 2003587,
+      "sha256": "5f6082b432da1a2433591fdcaeafa6513ec08bc4ecbb85ac039f1c97fd87362d",
+      "source_sha256": "5f6082b432da1a2433591fdcaeafa6513ec08bc4ecbb85ac039f1c97fd87362d",
+      "processing": "byte-for-byte copy"
+    }
+  ],
+  "scope": "Visual artwork only; audio, speech, third-party references, cache frames and private records excluded."
+}
