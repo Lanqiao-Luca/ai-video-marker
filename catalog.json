@@ -60,5 +60,11 @@
       "example": null
     }
   ],
-  "visual_asset_library": "assets/library/catalog.json"
+  "visual_asset_library": "assets/library/catalog.json",
+  "text_examples": {
+    "path": "examples/story-starters/README.md",
+    "count": 12,
+    "kind": "story opening copy and production prompts",
+    "media_implementation": "requires workflow-specific adaptation"
+  }
 }

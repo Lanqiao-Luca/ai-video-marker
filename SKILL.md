@@ -14,3 +14,5 @@ description: 按故事、古诗词、定格或像素等制作流程组织动画�
 新手创作入口是 [海港机器人](examples/harbor/README.md)，新素材在 [assets/harbor](assets/harbor/README.md)；[月光风铃](examples/first-video/README.md)为可选入口；[像素屋顶晒太阳](examples/pixel/README.md)保留为展示复现。现成像素场景共3个、2套角色，其他路线的具体媒体工具需在当前环境核实。
 
 用户询问其他角色/画风时，先列出[现成素材库](assets/library/README.md)的10组73张PNG，再按选择复用并适配分镜/动画；不能将三个现成影片场景当成全部素材范围。
+
+需要案例开头、题材或制作提示时，读取[文字案例](examples/story-starters/README.md)，先交文字；只有用户明确要求实际制作才执行素材/渲染动作。案例是创作起点，现成影片能力以原入口为准。
