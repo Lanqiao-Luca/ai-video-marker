@@ -4,13 +4,13 @@
 
 把创意交给 AI，按流程做一支可以修改、可以接续的视频。
 
-这里包含 **Workflow → Agent → Skill → Standards** 四层制作方法，以及制作模板、本地工具和两个可独立运行的像素场景。AI 组织阶段工作和调用工具，使用者确认创作方向与最终采用版本。
+这里包含 **Workflow → Agent → Skill → Standards** 四层制作方法，以及制作模板、本地工具和三个可独立运行的像素场景。AI 组织阶段工作和调用工具，使用者确认创作方向与最终采用版本。
 
 ![像素示例：屋顶晒太阳](docs/images/rooftop-preview.gif)
 
 *《屋顶晒太阳》：小兔集雨、解开水轮卡点，带动齿轮花开放，最后同一屋顶共同活动。以上为16–30秒原速节选；[44秒完整带音乐视频](examples/pixel/preview.mp4)。示例直接抽取真实作品绘图代码，保留角色、层次、动作和镜头。*
 
-**0.1.5**：六条制作流程、四层AI协作方法，以及两个可运行的像素场景。新手默认用仓库素材制作《月光风铃》，首页《屋顶晒太阳》保留为展示复现。配乐使用项目原创音乐，源码和示例采用MIT许可。其余五条路线提供方法与模板，媒体能力依实际环境核实。正式/候选表示方法状态，详见 [发布范围](docs/RELEASE_REVIEW.md)。
+**0.1.6**：六条制作流程、四层AI协作方法，以及三个可运行的像素场景和一套12张PNG的海港机器人素材。新手默认用新素材制作《小机器人与归航灯塔》，首页《屋顶晒太阳》保留为展示复现。配乐使用项目原创音乐，源码和示例采用MIT许可。其余五条路线提供方法与模板，媒体能力依实际环境核实。正式/候选表示方法状态，详见 [发布范围](docs/RELEASE_REVIEW.md)。
 
 ## 做你的第一支视频
 
@@ -20,9 +20,9 @@
 
 助手的默认开场是：
 
-> 我们先用仓库自带的素材，做一支新的《月光风铃》吧。它和首页展示的屋顶视频是不同场景，不用准备图片和音乐。我会生成一份新的布局，先检查短预览，再导出完整视频；你也可以直接告诉我想做的主题。
+> 我们先用仓库新带的机器人、海港和灯塔素材，做一支《小机器人与归航灯塔》吧。它与首页展示的兔子视频不同，不用准备图片和音乐。我先检查装电池的短段，再导出完整视频；你也可以直接指定其他主题。
 
-新手默认片《月光风铃》是**32秒的花园短片**：小兔给音乐盒上弦，三朵风铃花依次展开，铜鸟和萤火加入花园合奏。它不是对屋顶片换标题、换配乐或重新编码。通过seed调整星点、水纹和花位，moon/dawn/forest可选三种配色；每次都保存配置，便于继续修改。
+新手默认片是**36秒的机器人海港短片**：机器人拾起三枚电池，逐个装入控制台，点亮灯塔引导渔船归港。新的角色、道具、场景和动作均已放进仓库；[12张PNG素材及使用说明](assets/harbor/README.md)可供后续创作复用，含站立、搬运和挥手三种完整姿态以及拆分角色部件。
 
 自己运行时，需要Python 3.9+，按下面操作：
 
@@ -34,26 +34,34 @@ python tools/doctor.py
 python tools/make_video.py
 ```
 
-最后一条命令会选择新seed，导出到新的 `outputs/first-video-时间-seed/`，包含32秒、720×1280、24fps的 `video.mp4`、静音母版、场景配置、动作trace及运行记录。不需要API Key、Node.js或私有素材。Pillow负责程序绘图，imageio-ffmpeg提供FFmpeg；已有系统版本也可使用。
+最后一条命令会选择新seed，导出到新的 `outputs/first-video-时间-seed/`，包含36秒、720×1280、24fps的 `video.mp4`、静音母版、场景配置、动作trace及运行记录。不需要API Key、Node.js或私有素材。Pillow负责程序绘图，imageio-ffmpeg提供FFmpeg；已有系统版本也可使用。
 
-先试握柄动作，再完整导出（两次使用相同seed）：
+先试装电池动作，再完整导出（两次使用相同seed）：
 
 ```bash
-python tools/make_video.py --seed 42 --start 8 --end 10 --out outputs/my-first-pilot
+python tools/make_video.py --seed 42 --start 7 --end 9 --out outputs/my-first-pilot
 python tools/make_video.py --seed 42 --out outputs/my-first-video
 python tools/check_video.py outputs/my-first-video/video.mp4 --manifest outputs/my-first-video/run.json --out outputs/my-first-video/check.json
 python tools/contact_sheet.py outputs/my-first-video/video.mp4 --out outputs/my-first-video/review
 ```
 
-换成暖色清晨：`python tools/make_video.py --palette dawn --seed 42`；完整说明见 [首次创作](examples/first-video/README.md)。Windows创建环境可用 `py -3 -m venv .venv`，激活使用 `.venv\Scripts\activate`；当前macOS已实跑，Windows/Linux尚未实测。
+查看其他内容：`python tools/make_video.py --list`。
 
-**仓库素材可以复用，现成的渲染脚本有明确范围。** 目前有2个可运行场景：月光风铃（默认创作）与屋顶晒太阳（展示复现）；三种配色和seed只改变花园的视觉细节，不是无限故事生成器。指定新主题时，AI应按工作流复用角色、绘图函数和音乐，设计新分镜并适配代码，不能强制套用现成片。
+| 内容 | 主角与素材 | 入口 |
+|---|---|---|
+| 小机器人与归航灯塔（默认） | 新机器人、12张海港PNG | `python tools/make_video.py --theme harbor` |
+| 月光风铃（可选） | 小兔、音乐盒花园 | `python tools/make_video.py --theme garden` |
+| 屋顶晒太阳（展示复现） | 小兔、雨水与机械屋顶 | `python tools/render_pixel.py` |
+
+海港可选sunset/midnight/mist配色，花园可选moon/dawn/forest。例如 `python tools/make_video.py --theme harbor --palette midnight --seed 42`。配色和seed只改变视觉细节；新主题需要AI沿工作流设计并适配代码，不强制复用同一角色或剧情。详见[新手海港入口](examples/harbor/README.md)和[可选花园](examples/first-video/README.md)。
+
+Windows创建环境可用 `py -3 -m venv .venv`，激活使用 `.venv\Scripts\activate`；当前macOS已实跑，Windows/Linux尚未实测。
 
 如果明确想复现首页44秒展示片，使用 `python tools/render_pixel.py --out outputs/pixel-rooftop`，详见 [屋顶示例](examples/pixel/README.md)。它的原绘图函数和1056帧基线继续保留。视频解码和静态联系表不代替正常速度观看、听审或最终采用。
 
 ## 素材从哪里来，会花多少时间和Token
 
-制作默认花园短片或复现屋顶片都不需要原电脑的图片、角色文件或私有归档：绘图源码、场景配置和原创配乐及其生成源码均已带齐。安装依赖后可直接生成画面和声音。
+制作包内三个场景都不需要原电脑的图片、角色文件或私有归档：绘图源码、场景配置和原创配乐及其生成源码均已带齐。安装依赖后可直接生成画面和声音。
 
 创作新主题时，AI应先确认素材方式：
 
@@ -63,7 +71,7 @@ python tools/contact_sheet.py outputs/my-first-video/video.mp4 --out outputs/my-
 | 复用并补缺 | 保留已有角色/风格，只制作缺少的背景、道具或动作 |
 | 全部重新制作 | 可能需要更多样稿、编程/生图/配音与反复修改，通常更慢，可能消耗更多Token或调用费用 |
 
-用户已选方式时不重复问；未选时在新素材制作前提示，先确认实际能力与预算，再做代表段。**运行两个包内场景不会额外调用大模型或生图API**，但让AI解释、修改代码或重新造素材仍会消耗对话Token。没有可靠依据时不编造耗时或价格。
+用户已选方式时不重复问；未选时在新素材制作前提示，先确认实际能力与预算，再做代表段。**运行三个包内场景不会额外调用大模型或生图API**，但让AI解释、修改代码或重新造素材仍会消耗对话Token。没有可靠依据时不编造耗时或价格。
 详细边界见 [素材与复现说明](docs/ASSETS.md)。
 
 ## 体验之后，做自己的视频
@@ -91,7 +99,7 @@ python tools/init_project.py --route pixel --id my-video --assets reuse --out ou
 | [通用故事短片](workflows/短片制作.md) | 故事、角色行动、分镜、试镜和后期 | 正式 | 流程与模板，媒体工具另核 |
 | [古诗词动画](workflows/古诗词动画制作.md) | 文本字音、早期声样、逐句声画与全文复习 | 正式 | 流程与模板，媒体工具另核 |
 | [定格动画](workflows/定格动画制作.md) | 路线、姿态与曝光保持、接触锚点 | 正式 | 流程与模板，拍摄/渲染能力另核 |
-| [像素节奏创意短片](workflows/像素节奏创意短片制作.md) | 音乐、物体机制、累积回报与连续空间 | 正式 | 流程、12份工作表与2个可运行场景 |
+| [像素节奏创意短片](workflows/像素节奏创意短片制作.md) | 音乐、物体机制、累积回报与连续空间 | 正式 | 流程、12份工作表与3个可运行场景 |
 | [情绪诗词短视频](workflows/情绪诗词短视频制作.md) | 参考、情绪脚本、声样与字幕母版 | 候选 | 方法草案，尚无本包媒体实跑 |
 | [立体书剪纸 MV](workflows/歌词驱动程序动画MV制作.md) | 音乐意象、纸页舞台、主体动作和折页 | 候选 | 既有实践的方法适配，未附历史渲染工程 |
 
@@ -116,10 +124,12 @@ ai-video-marker/
 ├── skills/                          # 七项按阶段读取的技能
 ├── standards/                       # 共用方法和判断依据
 ├── templates/                       # 通用、专题及像素12份工作表
+├── assets/harbor/                  # 新机器人与海港12张PNG素材
 ├── tools/                           # 初始化、渲染、音频、抽帧与检查
 ├── examples/pixel/                  # 场景配置与可运行示例
 ├── docs/                            # 预览、验证、来源与发布审阅
-├── examples/first-video/            # 默认新手创作：月光风铃
+├── examples/first-video/            # 可选创作：月光风铃
+├── examples/harbor/                 # 默认新手创作：机器人灯塔
 └── outputs/                         # 本机产物，默认不提交
 ```
 

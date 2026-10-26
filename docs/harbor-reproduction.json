@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "date": "2026-10-26",
+  "scene": "robot-lighthouse",
+  "default_entry": "tools/make_video.py",
+  "seed": 20261026,
+  "palette": "sunset",
+  "public_files_only": true,
+  "asset_kit_png_count": 12,
+  "private_assets_required": false,
+  "ai_api_calls": 0,
+  "video_sha256": "0f75e2312e40035907c9198cb1247aa7112e04189c2d3e613bfe9aa431c9f91d",
+  "standalone_video_sha256": "0f75e2312e40035907c9198cb1247aa7112e04189c2d3e613bfe9aa431c9f91d",
+  "identical_video": true,
+  "coverage": "public-file copy from a different working directory, same local Python/Pillow/FFmpeg runtime; no new OS installation tested",
+  "full_realtime_review": "NOT_RUN",
+  "audio_listening": "NOT_RUN",
+  "adoption": "PENDING"
+}

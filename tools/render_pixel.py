@@ -26,7 +26,12 @@ def main(argv=None):
     parser.add_argument('--audio-fade-out',type=float,default=0,help='Optional audio fade duration at clip end.')
     args=parser.parse_args(argv)
     raw=json.loads(args.scene.read_text(encoding='utf-8'))
-    if raw.get('id')=='moonlight-chimes':
+    asset_manifest=None
+    if raw.get('id')=='robot-lighthouse':
+        from harbor_drawing import HarborRenderer,validate_harbor
+        scene=validate_harbor(raw);renderer=HarborRenderer(scene)
+        drawing=ROOT/'tools/harbor_drawing.py';asset_manifest=ROOT/'assets/harbor/manifest.json'
+    elif raw.get('id')=='moonlight-chimes':
         from garden_drawing import GardenRenderer,validate_garden
         scene=validate_garden(raw);renderer=GardenRenderer(scene)
         drawing=ROOT/'tools/garden_drawing.py'
@@ -59,7 +64,8 @@ def main(argv=None):
     identity=dict(schema_version=1,project='ai-video-marker',example=scene['id'],status='RUNNING',
         source_work=scene['work_id'],scene_sha256=sha256(args.scene),renderer_sha256=sha256(Path(__file__)),
         engine_sha256=sha256(ROOT/'tools/pixel_engine.py'),drawing_sha256=sha256(drawing),
-        shared_assets_sha256=sha256(ROOT/'tools/pixel_drawing.py'),
+        shared_assets_sha256=sha256(ROOT/'tools/pixel_drawing.py') if asset_manifest is None else None,
+        asset_manifest_sha256=sha256(asset_manifest) if asset_manifest else None,
         expected=dict(width=width,height=height,fps=fps,frames=count,duration=count/fps,audio=audio is not None),
         source_start=start,source_end=end,adoption='PENDING',
         music_status='BUNDLED_PROJECT_ORIGINAL' if bundled else ('USER_PROVIDED' if audio is not None else 'SILENT'),

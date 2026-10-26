@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "kit": "harbor-robot",
+  "origin": "Original code-native pixel artwork for ai-video-marker",
+  "license": "MIT",
+  "generation": "Pillow only; no image-model API or external assets",
+  "files": {
+    "harbor-background.png": {
+      "size": [
+        360,
+        640
+      ],
+      "sha256": "372e3d06758484ad3d1be240d21c461d39d5ee96c069ad4aa04ab20893d5308e"
+    },
+    "robot-head.png": {
+      "size": [
+        50,
+        43
+      ],
+      "sha256": "b7b70683003f8e3a5a4d8ffb00769f560d24d6e0aa7bea83996f3c8217382784"
+    },
+    "robot-body.png": {
+      "size": [
+        36,
+        34
+      ],
+      "sha256": "e6fa0a1b08f47a9b24697b05f1f1c16a4f0b939cdcb3896ff4a00b4b6490f65c"
+    },
+    "lighthouse.png": {
+      "size": [
+        116,
+        350
+      ],
+      "sha256": "9c2e7f36cb1fb36ef19804ddeba4000f30d6ca8a84a59368df4eeb0706e8fa19"
+    },
+    "charging-console.png": {
+      "size": [
+        46,
+        96
+      ],
+      "sha256": "0346f2ba8dec3ae42fa7cdaed70acf198a01964df072a634b6518fca75c2419b"
+    },
+    "sailboat.png": {
+      "size": [
+        76,
+        62
+      ],
+      "sha256": "05f50a8ccd915d61d0f1aefc2b2466e3e0c68807e2734c85ed8b6e859ce694dd"
+    },
+    "cell-amber.png": {
+      "size": [
+        15,
+        20
+      ],
+      "sha256": "2a2d5c5c12b0702d6584a6b5f3ee6c736079392b9c9469e20dff1ffc3cb1405c"
+    },
+    "cell-coral.png": {
+      "size": [
+        15,
+        20
+      ],
+      "sha256": "0feb9e147c0851991a500f174dff8cb1c868d413d7d0a446aac7fb6760f3a5d1"
+    },
+    "cell-teal.png": {
+      "size": [
+        15,
+        20
+      ],
+      "sha256": "c6c5ee9df0130e7d135079983844af911cd16f8b9e314e722c14b14e546b50f9"
+    },
+    "robot-idle.png": {
+      "size": [
+        90,
+        110
+      ],
+      "sha256": "27a944e340f1c01b5d0c66532e32083e96ab6146c998674f426f55d5ae41a804"
+    },
+    "robot-carry.png": {
+      "size": [
+        90,
+        110
+      ],
+      "sha256": "bf6026a31e2167fc09bf9a21f3d58e1b56d0c8061f8bac9a04712f3b14bb3758"
+    },
+    "robot-wave.png": {
+      "size": [
+        90,
+        110
+      ],
+      "sha256": "7859c4b4a0286665424c29a74fc0390d644b1224ec4ca0c06a2717a700fc37a5"
+    }
+  }
+}

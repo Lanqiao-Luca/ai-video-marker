@@ -155,8 +155,8 @@
       "source": "skills/animation-plan/SKILL.md",
       "source_sha256": "eadef1ca039fd713a5a722483bfed3a33db95ba780833d0996f553a3f6a8c2f9",
       "target": "skills/animation-plan/SKILL.md",
-      "target_sha256": "96f1f836270db246e6236358358c79bc8fda505d434e1ac65de9e4211d54fcc3",
-      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口；0.1.5新增首次创作路由，展示复现与新主题制作分开"
+      "target_sha256": "67c5c6ebf5c4a8317d74033451444a4ca1560ca3f42fceb89a0f4b6a775a4a99",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口；0.1.5新增首次创作路由，展示复现与新主题制作分开；0.1.6默认路由改为新机器人素材包"
     },
     {
       "source": "skills/animation-shot/SKILL.md",
@@ -183,8 +183,8 @@
       "source": "skills/pixel-rhythm-short/SKILL.md",
       "source_sha256": "fa4395d44128a10fa90ecbe7f424dbe74a5da179fae9e9c30bbd938b2033feec",
       "target": "skills/pixel-rhythm-short/SKILL.md",
-      "target_sha256": "a911b956ce367f3a21d870028bc7781394e276efdf6ecf11d6a6dd0efe521383",
-      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口；0.1.5新增首次创作路由，展示复现与新主题制作分开"
+      "target_sha256": "0acbf8a326557079990681755b612e90c15baf324c4e941f8bc7e17d7b72b102",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口；0.1.5新增首次创作路由，展示复现与新主题制作分开；0.1.6默认路由改为新机器人素材包"
     },
     {
       "source": "skills/poetry-short-video/SKILL.md",

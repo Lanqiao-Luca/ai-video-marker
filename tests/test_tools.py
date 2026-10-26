@@ -5,6 +5,7 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
+import shutil
 import unittest
 import wave
 
@@ -18,6 +19,59 @@ from pixel_engine import PixelRenderer,load_scene,validate_scene
 from check_pixel_baseline import verify
 from garden_drawing import GardenRenderer,PALETTES
 from make_video import make_scene
+from harbor_drawing import HarborRenderer
+from harbor_assets import build as build_harbor_assets
+
+
+class HarborTests(unittest.TestCase):
+    def test_asset_kit_can_be_regenerated_and_reused_without_overwrite(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            out=Path(temporary)/'kit'
+            manifest=build_harbor_assets(out)
+            shipped=json.loads((ROOT/'assets/harbor/manifest.json').read_text())
+            self.assertEqual(manifest,shipped)
+            self.assertEqual(len(manifest['files']),12)
+            self.assertTrue(all(sha256(out/name)==v['sha256'] for name,v in manifest['files'].items()))
+            with self.assertRaises(FileExistsError):build_harbor_assets(out)
+
+    def test_broken_asset_is_rejected(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            kit=Path(temporary)/'kit';shutil.copytree(ROOT/'assets/harbor',kit)
+            (kit/'robot-head.png').write_bytes(b'changed')
+            with self.assertRaisesRegex(ValueError,'SHA mismatch'):
+                HarborRenderer(make_scene(42,'sunset','harbor'),asset_root=kit)
+
+    def test_pickup_installation_and_power_have_continuous_identity(self):
+        scene=make_scene(42,'sunset','harbor');scene['output_size']=[180,320]
+        renderer=HarborRenderer(scene)
+        for c in scene['cells']:
+            for event in (c['pick'],c['insert']):
+                before=renderer.frame(event-.001)[1];after=renderer.frame(event+.001)[1]
+                b=next(x for x in before['cells'] if x['asset']==c['asset'])
+                a=next(x for x in after['cells'] if x['asset']==c['asset'])
+                self.assertLess(sum(abs(x-y) for x,y in zip(a['world'],b['world'])),.02)
+        previous=0
+        for k in range(36*24):
+            tr=renderer.frame(k/24)[1]
+            self.assertLess(sum(abs(a-b) for a,b in zip(tr['right_hand_world'],tr['requested_hand_world'])),1e-7)
+            self.assertGreaterEqual(tr['inserted_cells'],previous);previous=tr['inserted_cells']
+            if k<24*24:self.assertEqual(tr['beacon_power'],0)
+            self.assertTrue(all(0<=v<=1 for v in tr['robot_normalized_bbox']))
+        final=renderer.frame(35)[1]
+        self.assertEqual([c['state'] for c in final['cells']],['installed']*3)
+        self.assertEqual(final['beacon_power'],1)
+        self.assertGreater(final['boat_world'][0],renderer.frame(0)[1]['boat_world'][0]+100)
+
+    def test_theme_selection_and_list_are_explicit(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            result=subprocess.run([sys.executable,str(ROOT/'tools/make_video.py'),'--list'],cwd=temporary,capture_output=True,text=True)
+            self.assertEqual(result.returncode,0,result.stderr)
+            listed=json.loads(result.stdout);self.assertEqual(listed['default'],'harbor')
+            self.assertEqual(len(listed['stories']),3)
+            self.assertFalse((Path(temporary)/'outputs').exists())
+        robot=HarborRenderer(make_scene(42,'sunset','harbor')).frame(8)[0].tobytes()
+        rabbit=GardenRenderer(make_scene(42,'moon','garden')).frame(8)[0].tobytes()
+        self.assertNotEqual(robot,rabbit)
 
 
 class FirstVideoTests(unittest.TestCase):
@@ -54,7 +108,7 @@ class FirstVideoTests(unittest.TestCase):
             self.assertEqual(result.returncode,0,result.stderr)
             folders=list((Path(temporary)/'outputs').iterdir());self.assertEqual(len(folders),1)
             out=folders[0];data=json.loads((out/'run.json').read_text())
-            self.assertEqual(data['example'],'moonlight-chimes')
+            self.assertEqual(data['example'],'robot-lighthouse')
             self.assertEqual(data['expected']['frames'],6)
             self.assertEqual(data['audio_source_start'],8)
             scene=json.loads((out/'scene.json').read_text())

@@ -37,8 +37,9 @@
       "scope": "物体结构触发、累积回报、音乐和连续空间",
       "implementation": "runnable_demo",
       "example": "examples/pixel/README.md",
-      "first_creation": "examples/first-video/README.md",
-      "runnable_scenes": 2
+      "first_creation": "examples/harbor/README.md",
+      "runnable_scenes": 3,
+      "asset_kit": "assets/harbor/README.md"
     },
     {
       "id": "emotional-poetry",

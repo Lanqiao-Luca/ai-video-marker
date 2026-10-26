@@ -8,15 +8,17 @@
 |---|---|---|
 | [doctor.py](doctor.py) | 当前环境 → 检查 JSON | 不安装、不联网、不读凭据 |
 | [init_project.py](init_project.py) | 路线、ID、新目录 → 模板与状态 | 只初始化，不生成视频 |
-| [make_video.py](make_video.py) | seed、配色 → 新手花园短片、配置、trace、run身份 | 默认做月光风铃，与首页展示不同；不调用AI服务 |
-| [render_pixel.py](render_pixel.py) | 两种已支持场景JSON → 带音乐视频/静音母版、配置、trace、run身份 | 未指定scene时仍为屋顶复现；不生成任意故事 |
+| [make_video.py](make_video.py) | theme、seed、配色 → 新手短片、配置、trace、run身份 | 默认做海港机器人；--theme garden选小兔，--list列出内容；不调用AI服务 |
+| [render_pixel.py](render_pixel.py) | 三种已支持场景JSON → 带音乐视频/静音母版、配置、trace、run身份 | 未指定scene时仍为屋顶复现；不生成任意故事 |
 | [check_video.py](check_video.py) | 最终视频、可选run → 规格/完整声画解码 | 不代实时观看、听审和采用 |
 | [contact_sheet.py](contact_sheet.py) | 视频、时点 → 编码帧与联系表 | 静态取样，不称全程观看 |
 | [attach_audio.py](attach_audio.py) | 视频、自带音轨、偏移 → 新带声MP4及来源记录 | 画面复制、AAC编码，不循环或推定许可 |
 | [check_pixel_baseline.py](check_pixel_baseline.py) | 默认场景 → 原绘图函数与全部1056帧RGB回归 | 只覆盖同作品编码前画面，不替艺术采用 |
 | [check_package.py](check_package.py) | 公开包 → 链接/语法/目录/来源检查 | 窄范围静态检查，不是完整安全审计 |
 
-[pixel_engine.py](pixel_engine.py)负责场景校验与实例隔离，[pixel_drawing.py](pixel_drawing.py)保留原作18个绘图函数，[media.py](media.py)为共用FFmpeg适配，[garden_drawing.py](garden_drawing.py)实现花园场景及校验，均非用户CLI入口。
+[pixel_engine.py](pixel_engine.py)负责场景校验与实例隔离，[pixel_drawing.py](pixel_drawing.py)保留原作18个绘图函数，[media.py](media.py)为共用FFmpeg适配，[garden_drawing.py](garden_drawing.py)实现花园场景及校验，[harbor_drawing.py](harbor_drawing.py)读取新机器人PNG素材并实现海港故事，均非用户CLI入口。
+
+[harbor_assets.py](harbor_assets.py)用可编辑源码生成12张可复用PNG到新的--out目录，见[海港素材包](../assets/harbor/README.md)。
 
 render_pixel.py默认读取包内原创配乐，--silent可只导出画面，--audio FILE可替换音轨，--audio-offset指定音源起点；导出局部片段时自动加入片段起点，避免错用开头音乐。仓库配乐采用MIT许可。
 init_project.py的--assets reuse|mixed|generate只记录素材策略，不调用AI或自动生成素材；未选时将下一步记为确认策略。
