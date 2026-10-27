@@ -25,6 +25,8 @@
 render_pixel.py默认读取包内原创配乐，--silent可只导出画面，--audio FILE可替换音轨，--audio-offset指定音源起点；导出局部片段时自动加入片段起点，避免错用开头音乐。仓库配乐采用MIT许可。
 init_project.py的--assets reuse|mixed|generate只记录素材策略，不调用AI或自动生成素材；未选时将下一步记为确认策略。
 
+`--route reference-comic`会带入AI漫画/参考音轨的文字制作单，新项目均有未交付的delivery.md；初始化不调用剪映、生图或音源下载。实际交视频沿声音与后期角色/animation-finish消费AN11，不因填交付文案重渲或发布。
+
 音频必须覆盖整个片段，不够长时工具拒绝自动循环：
 
 ```bash

@@ -17,6 +17,26 @@ except ImportError:
 
 
 class FrameworkProjectTests(unittest.TestCase):
+    def test_reference_comic_initializes_without_claiming_a_video_or_overwriting(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            out = Path(temporary) / 'comic'
+            result = create('reference-comic', 'night-tram', out, 'mixed')
+            state = json.loads((out / 'status.json').read_text())
+            self.assertEqual(result['status'], 'INITIALIZED')
+            self.assertEqual(state['workflow_status'], 'active')
+            self.assertEqual(state['status'], 'PLANNED')
+            self.assertEqual(state['adoption'], 'PENDING')
+            self.assertEqual(state['asset_strategy'], 'mixed')
+            self.assertEqual(state['artifacts'], [])
+            self.assertTrue((out / 'delivery.md').is_file())
+            self.assertEqual((out / 'reference-comic-brief.md').read_bytes(),
+                             (ROOT / 'templates/参考音轨与AI漫画制作单.md').read_bytes())
+            snapshot = {p.relative_to(out): p.read_bytes() for p in out.rglob('*') if p.is_file()}
+            self.assertFalse(any(p.suffix in {'.mp4', '.png', '.wav'} for p in snapshot))
+            with self.assertRaises(FileExistsError):
+                create('reference-comic', 'replacement', out, 'generate')
+            self.assertEqual(snapshot, {p.relative_to(out): p.read_bytes() for p in out.rglob('*') if p.is_file()})
+
     def test_painting_project_has_resume_inputs_but_no_generated_media(self):
         with tempfile.TemporaryDirectory() as temporary:
             out = Path(temporary) / 'painting'

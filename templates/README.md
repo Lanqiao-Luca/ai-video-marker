@@ -13,3 +13,5 @@ version: 0.1.0
 [最小项目目录](project/README.md)用于 init_project.py 创建的新任务。模板不代表已执行或已验收。
 
 新增候选[绘画世界穿行制作单](绘画世界穿行制作单.md)。`init_project.py --route painting-world`会将其带入新项目；不生成关键帧或视频。长任务的plan/events/artifacts模板见最小项目目录，status.json仍为唯一当前状态。
+
+[参考音轨与AI漫画制作单](参考音轨与AI漫画制作单.md)支持新route `reference-comic`，先定画布/题材/音轨再做代表图与样段。[项目交付记录](project/delivery.md)随初始化复制，只有实际交视频时才填写；空表不代表成片/发布，记录文件不能替代最终回复。

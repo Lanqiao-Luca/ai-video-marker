@@ -68,6 +68,16 @@
       "implementation": "documented_workflow",
       "example": null,
       "template": "templates/绘画世界穿行制作单.md"
+    },
+    {
+      "id": "reference-comic",
+      "name": "参考音轨与AI漫画剪映短视频",
+      "workflow": "workflows/参考音轨与AI漫画剪映短视频制作.md",
+      "status": "active",
+      "scope": "题材考据、画幅前置、AI插画/漫画、真实音轨、原生剪映及完整交付",
+      "implementation": "documented_workflow",
+      "example": null,
+      "template": "templates/参考音轨与AI漫画制作单.md"
     }
   ],
   "visual_asset_library": "assets/library/catalog.json",
@@ -78,7 +88,7 @@
     "media_implementation": "requires workflow-specific adaptation"
   },
   "framework": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "layers": [
       "graphs",
       "loops",
@@ -90,5 +100,12 @@
     "execution": "documented contracts, applied by the host assistant; no scheduler or native agent installation",
     "resume_contract": "standards/执行文档与跨窗口接续.md",
     "context_contract": "standards/上下文预算与可执行单元拆解.md"
+  },
+  "video_delivery": {
+    "contract": "standards/视频交付与发布文案.md",
+    "role": "agents/声音与后期.md",
+    "skill": "skills/animation-finish/SKILL.md",
+    "template": "templates/project/delivery.md",
+    "publishes_automatically": false
   }
 }
