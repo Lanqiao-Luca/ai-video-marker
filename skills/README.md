@@ -20,4 +20,8 @@ version: 0.1.0
 
 - [painting-world-video](painting-world-video/SKILL.md)：候选题材，按reference/plan/art/motion/sound/review取PW方法。
 
-共8项技能；复杂任务的接续/上下文拆分由animation-docs适配，不需默认全读。
+此前8项专题/阶段技能；复杂任务的接续/上下文拆分由animation-docs适配，不需默认全读。
+
+- [video-workflow-defaults](video-workflow-defaults/SKILL.md)：视频流程接入、当前阶段与交付的条件覆盖。
+
+现有9项技能；公共清单只在此新Skill维护，不要求每次全读全跑。

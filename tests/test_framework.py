@@ -29,6 +29,8 @@ class FrameworkProjectTests(unittest.TestCase):
             self.assertEqual(state['asset_strategy'], 'mixed')
             self.assertEqual(state['artifacts'], [])
             self.assertTrue((out / 'delivery.md').is_file())
+            self.assertEqual((out / 'public-defaults.md').read_bytes(),
+                             (ROOT / 'templates/project/public-defaults.md').read_bytes())
             self.assertEqual((out / 'reference-comic-brief.md').read_bytes(),
                              (ROOT / 'templates/参考音轨与AI漫画制作单.md').read_bytes())
             snapshot = {p.relative_to(out): p.read_bytes() for p in out.rglob('*') if p.is_file()}
@@ -52,7 +54,7 @@ class FrameworkProjectTests(unittest.TestCase):
             self.assertEqual(state['iterations_used'], 0)
             self.assertEqual(json.loads((out / 'artifacts.json').read_text())['artifacts'], [])
             self.assertTrue(all((out / f).is_file() for f in
-                                ['plan.md', 'events.md', 'painting-world-brief.md']))
+                                ['plan.md', 'events.md', 'painting-world-brief.md', 'public-defaults.md']))
             self.assertEqual((out / 'painting-world-brief.md').read_bytes(),
                              (ROOT / 'templates/绘画世界穿行制作单.md').read_bytes())
             self.assertFalse(any(p.suffix in {'.mp4', '.png', '.wav'} for p in out.rglob('*')))

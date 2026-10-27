@@ -3,10 +3,21 @@ name: animation-shot
 description: 依据已确认参考制作角色、代表镜头及动作；用于造型一致性、空间接触和连续风险段。
 metadata:
   status: active
-  version: 0.3.0
+  version: 0.4.0
+  atom_property_schema: "APROP01-v1"
+  atom_nature: "operation"
+  atom_secondary_natures: ["method", "acceptance"]
+  atom_applicability: "domain"
+  atom_scope_detail: "当前公开视频制作方法及本轮授权写集；不扩大权限、候选效力或工具能力"
+  atom_domain: "AI视频制作"
+  maintenance_role: "canonical"
 ---
 
 **目的**：保留已确认身份并制作可审看的动作。
+
+<!-- ATOM_PROPERTIES:BEGIN -->
+**原子属性**：主性质：操作性；辅助性质：方法性、验收性。适用范围：领域（AI视频制作，沿本次真实授权）；维护身份：canonical（本公开正文）。属性不代语义审查或实际执行。
+<!-- ATOM_PROPERTIES:END -->
 
 # 角色与镜头
 
@@ -24,3 +35,15 @@ metadata:
 实际调用沿原角色交入的输入/过程/交付位置，参数改变先返回缺项或变更，不反向调度上层。长任务记录/预算读取范围沿[文档技能](../animation-docs/SKILL.md)交回原角色；不复制另一份总体进度。
 
 把[AN10动作推进](../../standards/动作因果与场内节奏.md#action-progression)返回的链/阶段结果/接续落实为实际动作。先沿AN04选定并制作风险段，再按[AN10连续风险验收](../../standards/动作因果与场内节奏.md#连续风险段与验收)返回已完成结果、停顿用途、正常速度可读性范围或UNKNOWN、反证失败和新旧对照。已知必要问题回相交编排/接触/时序，不用换已认可音乐掩盖；静态造型任务不因此自动开动画或整片重渲。
+
+<a id="cover-production"></a>
+## 静态宣传封面制作适配
+
+接原Workflow美术职责的当前视频/冻结内容、宣传需求、采用源图/文案与实际位置，消费[AN12](../../standards/视频宣传封面制作与交付.md)。返回触发/复用判断和制作缺项；实际制作后交同版本图像、实测比例/尺寸、主文案、视觉检查与来源给原职责，再交后期核收。图像工具/授权不足只返回未执行输入，不冒称生成。
+单补封面不制作或重渲视频，用户当前规格覆盖默认，既有有效封面按规则复用。
+
+<a id="pace-adjustment"></a>
+## 画面提速与场景增补适配
+
+接导演/动画职责交入的旧候选、权威cue、节奏反馈、相交段、采用输入和工具能力，消费[AN13](../../standards/画面提速与场景增补.md)。返回需改/复用判断、旧新区间映射、新场景的信息作用；实际执行后返回新候选、时序读取证据、音轨保护、相交验证/未验与恢复点。
+声事件通过同层[后期事件输入](../animation-finish/SKILL.md#event-input)取得同版本权威cue再给动画/文字实际消费；不新造平行时间线或自动补景引擎。纯文档接入不重渲，不擅改已确认美术和音乐。

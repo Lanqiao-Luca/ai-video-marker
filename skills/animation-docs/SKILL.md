@@ -3,10 +3,21 @@ name: animation-docs
 description: 维护动画制作记录、方法文档和交接状态；用于文档变更与跨会话接续。
 metadata:
   status: active
-  version: 0.2.0
+  version: 0.4.0
+  atom_property_schema: "APROP01-v1"
+  atom_nature: "operation"
+  atom_secondary_natures: ["method", "acceptance"]
+  atom_applicability: "domain"
+  atom_scope_detail: "当前公开视频制作方法及本轮授权写集；不扩大权限、候选效力或工具能力"
+  atom_domain: "AI视频制作"
+  maintenance_role: "canonical"
 ---
 
 **目的**：保持目的、方法和真实执行记录一致。
+
+<!-- ATOM_PROPERTIES:BEGIN -->
+**原子属性**：主性质：操作性；辅助性质：方法性、验收性。适用范围：领域（AI视频制作，沿本次真实授权）；维护身份：canonical（本公开正文）。属性不代语义审查或实际执行。
+<!-- ATOM_PROPERTIES:END -->
 
 # 文档维护
 
@@ -19,3 +30,29 @@ metadata:
 长任务把EX01的计划/状态/事件/产出职责适配到同一[项目目录](../../templates/project/README.md)，按[CX01](../../standards/上下文预算与可执行单元拆解.md)登记就绪单元、必要读取范围、累计预算及失败接续。沿原角色返回位置/记录身份，不反向调度所有层；根路径改变先交回原Workflow再写相交位置。
 
 文档维护和原则复核是不同职责；由同一助手完成时明确标为自检。发布、付费、外部审核或后台流程不从文档更新推定授权。
+
+<a id="execution-docs"></a>
+## 执行文档适配
+
+接原职责给的当前run、阶段、计划/输入/产物身份，消费EX01并复用同一项目的plan/status/events/artifacts。返回实际落点、有效前缀、未决动作与恢复点；不另建总体进度，空格式不倒填旧执行。
+
+<a id="context-units"></a>
+## 当前单元适配
+
+按CX01核下一单元依赖、必要读集、累计预算和停止条件；只返回就绪单元与缺项，不自动开窗口、后台或循环。
+
+<a id="retention"></a>
+## 留存适配
+
+按RET01在准备、位置变更、收束时核实际输入/过程/交付绑定及必要恢复索引，把参数交回当前制作职责实际使用。无清理授权不删文件；只读任务按真实理由N/A。
+
+<a id="atom-properties"></a>
+## 属性与保存适配
+
+新建/修改能力正文时消费[APROP01](../../standards/atom-properties.md)，按正文给主辅性质、范围、维护身份与混合组依据；资源明确排除理由，不用改名豁免旧原子。
+核本次候选与前件SHA、属性结构、目的/语义分类和来源边界，保存后读回SHA；返回真实写集、分类依据、结构结果、未审语义及恢复点。公开版未包含私人受控保存运行时，不声称已执行其保存器或自动锁。
+
+## 视频流程公共覆盖核收
+
+对象为新建/修订视频Workflow时，文档维护先交同候选差异给[制作视频职责](../../agents/制作视频.md#public-entry)，接公共Skill的逐项触发/职责/阶段/返回，再保存该候选；修订后只重核受影响覆盖。
+此返回是流程合同检查，不等于公共项本轮媒体已执行，不能因插入链接就标已消费。纯文档/归档仍走原职责，不变成视频制作。

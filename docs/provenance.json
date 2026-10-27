@@ -209,39 +209,59 @@
     },
     {
       "source": "skills/animation-shot/SKILL.md",
-      "source_sha256": "111db5026521b91858d9925b5ebdccf27b775e93aac2edb70befc558015c2abc",
+      "source_sha256": "c302874b211ffa6041519a1a6606e8c0f83371f7df7b6a74ffabaeabd797ee49",
       "target": "skills/animation-shot/SKILL.md",
-      "target_sha256": "c4837064c860bcb667059df55ac3d80b162848c158c94ba7b6399fa47ff9a2b2",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "previous_baseline": {
-        "source_sha256": "752d632138d766f7a981f7c14ce036ec0240c1264b2b386aeb7800237649ff19",
-        "target_sha256": "fb9d04e80a30084f8054ccfb73ff35a17e0fb79c41e895f3ac3ab590ad78c6a6"
-      },
-      "source_version": "V1.0.4",
-      "adaptation_history": [
+      "target_sha256": "5f52ed4f25add7e1f61cecf97fdfc7170e1dc43f405a8a70a1c459e513192dec",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.1.0",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "5acbaba7e5c39375dd38bd8804df8963e5df9f19b34ebc6bd7b603e041dee0c1",
-          "target_sha256": "1f8e7d73c8b3adb0b25acb1a0e05274a5cd7e99c429c935cd610b1d67c522e2c"
+          "source": "skills/animation-shot/SKILL.md",
+          "source_sha256": "111db5026521b91858d9925b5ebdccf27b775e93aac2edb70befc558015c2abc",
+          "target": "skills/animation-shot/SKILL.md",
+          "target_sha256": "c4837064c860bcb667059df55ac3d80b162848c158c94ba7b6399fa47ff9a2b2",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "previous_baseline": {
+            "source_sha256": "752d632138d766f7a981f7c14ce036ec0240c1264b2b386aeb7800237649ff19",
+            "target_sha256": "fb9d04e80a30084f8054ccfb73ff35a17e0fb79c41e895f3ac3ab590ad78c6a6"
+          },
+          "source_version": "V1.0.4",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "5acbaba7e5c39375dd38bd8804df8963e5df9f19b34ebc6bd7b603e041dee0c1",
+              "target_sha256": "1f8e7d73c8b3adb0b25acb1a0e05274a5cd7e99c429c935cd610b1d67c522e2c"
+            }
+          ]
         }
       ]
     },
     {
       "source": "skills/animation-finish/SKILL.md",
-      "source_sha256": "e0b208472ff58d947f7c8fe110bdd2e5d454548ac09a737f8e2a1ae4afb6e3bc",
+      "source_sha256": "df4ce7f59449d893f6455898de8dade72f1c6be1b1f64157036095e7fb18d513",
       "target": "skills/animation-finish/SKILL.md",
-      "target_sha256": "3c4dc4b98a51eda2f5998891372aecee3aea026f83931c53b4bbe21512d53198",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "previous_baseline": {
-        "source_sha256": "198ccff10007821366cbd21367bed85b4830c93ef5192ec96609e5403b90a6e2",
-        "target_sha256": "f2160a111c148f03e5c44f23adb4f1d6c20a20b34a0b8a9b50ac70afce60d558"
-      },
-      "source_version": "V1.1.0",
-      "adaptation_history": [
+      "target_sha256": "1ae5554e9d13eb91f487274ef1da29bb5c1da278b45dcb3386a5c7288400425b",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.2.0",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "ca743fcf33033f989332aeb8ad7f5501156e7f1241b6aa2c1dec8e2cb4ec7c8d",
-          "target_sha256": "71ba8b69cc3cc6306cfbe65ecd11e392718efa0041a460a6550756f98c51e9bb"
+          "source": "skills/animation-finish/SKILL.md",
+          "source_sha256": "e0b208472ff58d947f7c8fe110bdd2e5d454548ac09a737f8e2a1ae4afb6e3bc",
+          "target": "skills/animation-finish/SKILL.md",
+          "target_sha256": "3c4dc4b98a51eda2f5998891372aecee3aea026f83931c53b4bbe21512d53198",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "previous_baseline": {
+            "source_sha256": "198ccff10007821366cbd21367bed85b4830c93ef5192ec96609e5403b90a6e2",
+            "target_sha256": "f2160a111c148f03e5c44f23adb4f1d6c20a20b34a0b8a9b50ac70afce60d558"
+          },
+          "source_version": "V1.1.0",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "ca743fcf33033f989332aeb8ad7f5501156e7f1241b6aa2c1dec8e2cb4ec7c8d",
+              "target_sha256": "71ba8b69cc3cc6306cfbe65ecd11e392718efa0041a460a6550756f98c51e9bb"
+            }
+          ]
         }
       ]
     },
@@ -249,13 +269,23 @@
       "source": "skills/animation-docs/SKILL.md",
       "source_sha256": "5128546f43e2ba22e47601eafb61c23e39166f3793d61893127b7f9a3c110a21",
       "target": "skills/animation-docs/SKILL.md",
-      "target_sha256": "f3c3d1a0bee798e23b40022c14ee9f09fd9addb0fc3fb23220048f60123495cc",
-      "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
-      "previous_baseline": {
-        "source_sha256": "5128546f43e2ba22e47601eafb61c23e39166f3793d61893127b7f9a3c110a21",
-        "target_sha256": "09c23aa185a57a5ca3a371385a25aab6354145c87a99e010a94f594fd66b9f07"
-      },
-      "source_version": "V1.3.3"
+      "target_sha256": "8058587fb82b1c8fd70a42f7f06e6e50af31a1f2cc84e72a45e0023d109e534c",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.3.3",
+      "prior_adaptations": [
+        {
+          "source": "skills/animation-docs/SKILL.md",
+          "source_sha256": "5128546f43e2ba22e47601eafb61c23e39166f3793d61893127b7f9a3c110a21",
+          "target": "skills/animation-docs/SKILL.md",
+          "target_sha256": "f3c3d1a0bee798e23b40022c14ee9f09fd9addb0fc3fb23220048f60123495cc",
+          "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
+          "previous_baseline": {
+            "source_sha256": "5128546f43e2ba22e47601eafb61c23e39166f3793d61893127b7f9a3c110a21",
+            "target_sha256": "09c23aa185a57a5ca3a371385a25aab6354145c87a99e010a94f594fd66b9f07"
+          },
+          "source_version": "V1.3.3"
+        }
+      ]
     },
     {
       "source": "skills/pixel-rhythm-short/SKILL.md",
@@ -299,13 +329,23 @@
       "source": "agents/美术与一致性.md",
       "source_sha256": "526a59f97ce73214ae3eb5dd29a8f80a5558171bdf8c54650e5d5fab8c0edab1",
       "target": "agents/美术与一致性.md",
-      "target_sha256": "7ee8f93075fd435204667f2b1d37c9a1ab5efd183659b533214691b7f9863e62",
-      "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
-      "previous_baseline": {
-        "source_sha256": "ac37fd3dccd1e9c56fcda3221334188c4e935f6490a4e3b0a75b118b0200dd57",
-        "target_sha256": "02efab5a397d6d56b893269d77ccdbfd50819d08bb46926fdf14e57f6c527dc2"
-      },
-      "source_version": "V1.2.5"
+      "target_sha256": "8d4b5a79ebae34b53cfbfe0ad1cf2ea8edb9f0c85b65260cda44122034755e62",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.2.5",
+      "prior_adaptations": [
+        {
+          "source": "agents/美术与一致性.md",
+          "source_sha256": "526a59f97ce73214ae3eb5dd29a8f80a5558171bdf8c54650e5d5fab8c0edab1",
+          "target": "agents/美术与一致性.md",
+          "target_sha256": "7ee8f93075fd435204667f2b1d37c9a1ab5efd183659b533214691b7f9863e62",
+          "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
+          "previous_baseline": {
+            "source_sha256": "ac37fd3dccd1e9c56fcda3221334188c4e935f6490a4e3b0a75b118b0200dd57",
+            "target_sha256": "02efab5a397d6d56b893269d77ccdbfd50819d08bb46926fdf14e57f6c527dc2"
+          },
+          "source_version": "V1.2.5"
+        }
+      ]
     },
     {
       "source": "agents/动画与合成.md",
@@ -323,18 +363,28 @@
       "source": "agents/声音与后期.md",
       "source_sha256": "7f1a3064a16243c960170c9c536b443188d54a57c7d427c80d62c01b9b399001",
       "target": "agents/声音与后期.md",
-      "target_sha256": "5106b8d4dae69779bafff0932b966ea3b73e51175d599cf2c532be9890f331b3",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "previous_baseline": {
-        "source_sha256": "72120c67d58f57c2f8623f86660963e2600f16b44020f9bba1e8b8463654d597",
-        "target_sha256": "4eb6b126510000faa2cc7649e108ca89d5d23a9024dca5cc7ab19015a118b4a0"
-      },
+      "target_sha256": "212e8976b127d8103d2773bd5270ab425bdb379b0341df2b1a6cb8837c4ba8f8",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
       "source_version": "V1.4.0",
-      "adaptation_history": [
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "35e53421029e71134bf3f1af2adda478fe72ec2ad526e332ec8a3c27865e52ae",
-          "target_sha256": "27df6a85c74394d5bd95615a1f77f724dd9e51bbb17d4a4fae38b1eb1dfbd33f"
+          "source": "agents/声音与后期.md",
+          "source_sha256": "7f1a3064a16243c960170c9c536b443188d54a57c7d427c80d62c01b9b399001",
+          "target": "agents/声音与后期.md",
+          "target_sha256": "5106b8d4dae69779bafff0932b966ea3b73e51175d599cf2c532be9890f331b3",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "previous_baseline": {
+            "source_sha256": "72120c67d58f57c2f8623f86660963e2600f16b44020f9bba1e8b8463654d597",
+            "target_sha256": "4eb6b126510000faa2cc7649e108ca89d5d23a9024dca5cc7ab19015a118b4a0"
+          },
+          "source_version": "V1.4.0",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "35e53421029e71134bf3f1af2adda478fe72ec2ad526e332ec8a3c27865e52ae",
+              "target_sha256": "27df6a85c74394d5bd95615a1f77f724dd9e51bbb17d4a4fae38b1eb1dfbd33f"
+            }
+          ]
         }
       ]
     },
@@ -354,13 +404,23 @@
       "source": "agents/文档维护.md",
       "source_sha256": "5aa1e86786e7205ea3ad6f6a4bd7e8f9e31c11dba3f88b702efe325bff31ad62",
       "target": "agents/文档维护.md",
-      "target_sha256": "b288938b7d67d69afe01ffc8ec4c09ad2912243723d2dac45db08fe6b7f00723",
-      "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
-      "previous_baseline": {
-        "source_sha256": "5aa1e86786e7205ea3ad6f6a4bd7e8f9e31c11dba3f88b702efe325bff31ad62",
-        "target_sha256": "98ff04957035993cf659323e585727d42a3be5e004158acb7ef0972a1d1bab86"
-      },
-      "source_version": "V1.3.2"
+      "target_sha256": "a7b7dda840c9e40634c9016bc5247c2df324855c6184d40ae289b5dc61534dd3",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.3.2",
+      "prior_adaptations": [
+        {
+          "source": "agents/文档维护.md",
+          "source_sha256": "5aa1e86786e7205ea3ad6f6a4bd7e8f9e31c11dba3f88b702efe325bff31ad62",
+          "target": "agents/文档维护.md",
+          "target_sha256": "b288938b7d67d69afe01ffc8ec4c09ad2912243723d2dac45db08fe6b7f00723",
+          "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
+          "previous_baseline": {
+            "source_sha256": "5aa1e86786e7205ea3ad6f6a4bd7e8f9e31c11dba3f88b702efe325bff31ad62",
+            "target_sha256": "98ff04957035993cf659323e585727d42a3be5e004158acb7ef0972a1d1bab86"
+          },
+          "source_version": "V1.3.2"
+        }
+      ]
     },
     {
       "source": "agents/原则审查.md",
@@ -378,99 +438,159 @@
     },
     {
       "source": "workflows/短片制作.md",
-      "source_sha256": "c551db47f0bc4db9462be82b980ba52b239f0dc788737b686c5e4bd521a68b99",
+      "source_sha256": "e1c9059dba2e4b6b4538707da78547cd9ce48f9d13fb41751aeb9f45b22d5e6b",
       "target": "workflows/短片制作.md",
-      "target_sha256": "b525a8ebe1e846d569481d13bc57795a219b57acfea3fbcd5e9bc91db84f04c5",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "previous_baseline": {
-        "source_sha256": "10e5f391e21268d618327b6609a118bf087d890b5d7f7fef41eb35c7cfb35910",
-        "target_sha256": "70f8ee68ed919e75fcdd78051cb16ad7ade8bf983394ae2b18f6da0c6eecd4ff"
-      },
-      "source_version": "V1.6.0",
-      "adaptation_history": [
+      "target_sha256": "58b76781e5bb44ca043dbc27fcb696391cba5c59d3218f654d52352aebc5ec2f",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.6.1",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "68ea2e4dded61b0170d1b3f158e82b7015fffb32c70b555effd904acbbf0b76b",
-          "target_sha256": "704fb3a9fec577719c99a6acb184b81279bdbe29d52fb0619167a3b28f2b5e80"
+          "source": "workflows/短片制作.md",
+          "source_sha256": "c551db47f0bc4db9462be82b980ba52b239f0dc788737b686c5e4bd521a68b99",
+          "target": "workflows/短片制作.md",
+          "target_sha256": "b525a8ebe1e846d569481d13bc57795a219b57acfea3fbcd5e9bc91db84f04c5",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "previous_baseline": {
+            "source_sha256": "10e5f391e21268d618327b6609a118bf087d890b5d7f7fef41eb35c7cfb35910",
+            "target_sha256": "70f8ee68ed919e75fcdd78051cb16ad7ade8bf983394ae2b18f6da0c6eecd4ff"
+          },
+          "source_version": "V1.6.0",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "68ea2e4dded61b0170d1b3f158e82b7015fffb32c70b555effd904acbbf0b76b",
+              "target_sha256": "704fb3a9fec577719c99a6acb184b81279bdbe29d52fb0619167a3b28f2b5e80"
+            }
+          ]
         }
       ]
     },
     {
       "source": "workflows/古诗词动画制作.md",
-      "source_sha256": "2a6b1462cd478c87ef255255ff314712b64eabd2072a8cc5114d7095987df857",
+      "source_sha256": "58fc060d43a72ced0423b949e1f75eca29376e88d934113809f903a977713b57",
       "target": "workflows/古诗词动画制作.md",
-      "target_sha256": "ce6ea32bbc5558fcac6afbb60bf496691ab19ee97709f99ae417045d34c554a9",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "adaptation_history": [
+      "target_sha256": "a228264e840351189d1879631ed92d3156085a6c3656f11b0eb2dd1630b17671",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.1.1",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "b36a6163dd0aae24971863bc48793cef30f6458cd02736cb0c9bee2cf0db3263",
-          "target_sha256": "7dc7189050621188865b5aa812f4658ab912482726a439d5734b3c21920dec84"
+          "source": "workflows/古诗词动画制作.md",
+          "source_sha256": "2a6b1462cd478c87ef255255ff314712b64eabd2072a8cc5114d7095987df857",
+          "target": "workflows/古诗词动画制作.md",
+          "target_sha256": "ce6ea32bbc5558fcac6afbb60bf496691ab19ee97709f99ae417045d34c554a9",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "b36a6163dd0aae24971863bc48793cef30f6458cd02736cb0c9bee2cf0db3263",
+              "target_sha256": "7dc7189050621188865b5aa812f4658ab912482726a439d5734b3c21920dec84"
+            }
+          ],
+          "source_version": "V1.1.0"
         }
-      ],
-      "source_version": "V1.1.0"
+      ]
     },
     {
       "source": "workflows/定格动画制作.md",
-      "source_sha256": "152740a744cd1f74b60b46baff4cfeecdbe5cf27b2011090910236879532b373",
+      "source_sha256": "33d45f16fd3be74bbe1341196c8f119aecb8011b473e1aa6d21e6a709dc6ddb6",
       "target": "workflows/定格动画制作.md",
-      "target_sha256": "dbb9ca083cf6c7e2824d875dc6e2a62188cc6ff1386e0c4b5018b183f5b67219",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "adaptation_history": [
+      "target_sha256": "c3dc23bf3bb69da3e2cb75395943a65a3511ae4c9a57a600d1b702a4cc4f4bb4",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.1.1",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "09fc4655ea50d2c2a3e40f6897a6a662149b8a764fa79f26dae990531e13a842",
-          "target_sha256": "b0404f9145b550e2fd6d11da294001b82e458bbd9e4b5a7a25f3e2f8e52d8c2a"
+          "source": "workflows/定格动画制作.md",
+          "source_sha256": "152740a744cd1f74b60b46baff4cfeecdbe5cf27b2011090910236879532b373",
+          "target": "workflows/定格动画制作.md",
+          "target_sha256": "dbb9ca083cf6c7e2824d875dc6e2a62188cc6ff1386e0c4b5018b183f5b67219",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "09fc4655ea50d2c2a3e40f6897a6a662149b8a764fa79f26dae990531e13a842",
+              "target_sha256": "b0404f9145b550e2fd6d11da294001b82e458bbd9e4b5a7a25f3e2f8e52d8c2a"
+            }
+          ],
+          "source_version": "V1.1.0"
         }
-      ],
-      "source_version": "V1.1.0"
+      ]
     },
     {
       "source": "workflows/像素节奏创意短片制作.md",
-      "source_sha256": "705040534faf1b3ab4c9a3addc3643da6ea97d2b6bcd1076189f244823fb4d02",
+      "source_sha256": "9acc21f60d56fb4e431e719bed536eba0db7637f8fd97b033efe68b6bd28615a",
       "target": "workflows/像素节奏创意短片制作.md",
-      "target_sha256": "94d8dc998fef7b72070a7cee25ea249249e4db08af9c33fddf31b8dbaec15904",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "adaptation_history": [
+      "target_sha256": "7599e0e310a3d0211a8a87d0b906994b43d2c206cc057dfa06487ea032594ccb",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V4.4.1",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "65b752978315bedcd19f60cf304c65e678aa1c1441402c2d2b11da933863dfcc",
-          "target_sha256": "d048d96da8884da09cdfba3a98a553b3d433ccd1ddc456a44823030e5244f081"
+          "source": "workflows/像素节奏创意短片制作.md",
+          "source_sha256": "705040534faf1b3ab4c9a3addc3643da6ea97d2b6bcd1076189f244823fb4d02",
+          "target": "workflows/像素节奏创意短片制作.md",
+          "target_sha256": "94d8dc998fef7b72070a7cee25ea249249e4db08af9c33fddf31b8dbaec15904",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "65b752978315bedcd19f60cf304c65e678aa1c1441402c2d2b11da933863dfcc",
+              "target_sha256": "d048d96da8884da09cdfba3a98a553b3d433ccd1ddc456a44823030e5244f081"
+            }
+          ],
+          "source_version": "V4.4.0"
         }
-      ],
-      "source_version": "V4.4.0"
+      ]
     },
     {
       "source": "workflows/情绪诗词短视频制作.md",
-      "source_sha256": "5a58ca61f0a1b421e0f97c8afefc792a033798c41d279af7a06ca5fb1a1f7c1a",
+      "source_sha256": "7d3c5ea2c1ec3b28cbd88188be9e1e6782e5b57483fc6577be63dc1c07c24204",
       "target": "workflows/情绪诗词短视频制作.md",
-      "target_sha256": "934b723c8e1acba4ce652ae146a0d19ebd51109d1c587048cdbb5eb9d76ceaed",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "adaptation_history": [
+      "target_sha256": "1c724e5e3dbec26941aaa458669ecfaf3aaf1fab0bba1e0860129d52450b137e",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.1.1",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "a879efda5726f6aa6bd952800b935ee72326f0f73741c6f18e4e5146f6c2f888",
-          "target_sha256": "94a15bd11b48fa9b18665728cbdbe38e930a89b8a55204211f09963b8647cfc9"
+          "source": "workflows/情绪诗词短视频制作.md",
+          "source_sha256": "5a58ca61f0a1b421e0f97c8afefc792a033798c41d279af7a06ca5fb1a1f7c1a",
+          "target": "workflows/情绪诗词短视频制作.md",
+          "target_sha256": "934b723c8e1acba4ce652ae146a0d19ebd51109d1c587048cdbb5eb9d76ceaed",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "a879efda5726f6aa6bd952800b935ee72326f0f73741c6f18e4e5146f6c2f888",
+              "target_sha256": "94a15bd11b48fa9b18665728cbdbe38e930a89b8a55204211f09963b8647cfc9"
+            }
+          ],
+          "source_version": "V1.1.0"
         }
-      ],
-      "source_version": "V1.1.0"
+      ]
     },
     {
       "source": "workflows/歌词驱动程序动画MV制作.md",
-      "source_sha256": "28f37fae6f821b0288a9e47682710b17469ca2c081590b9c19f53c5dcda7812e",
+      "source_sha256": "b9175b442746b21b983e1b07fbe13c9764c0f48167e72cc0771271f9b59e537f",
       "target": "workflows/歌词驱动程序动画MV制作.md",
-      "target_sha256": "76ff22d7d52b0a3d17e8fef44dd3076095fa9b19f98ddcecb941813c7739076a",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "previous_baseline": {
-        "source_sha256": "ce1b1a1fe7ea4395ba5e02e5e5eb57da05700d4f5a856eadf1d561644a2be147",
-        "target_sha256": "080421f536b592bf83cbfabb1621a2c01aa8763c131aca8baf9ffdf271534f67"
-      },
-      "source_version": "V1.3.1",
-      "adaptation_history": [
+      "target_sha256": "e998c2f684d3ed43704d30f74ced41f2dae2f8bbad225052401f87f7d14997c9",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.3.2",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "d6444dec6f13412f755f3434ba152a1e17508cf85b00d415f036795399d3ade5",
-          "target_sha256": "8b448ce96bbda745815cbd25643e95bab50346df263ab7b3fcd04f3b2fc3f39a"
+          "source": "workflows/歌词驱动程序动画MV制作.md",
+          "source_sha256": "28f37fae6f821b0288a9e47682710b17469ca2c081590b9c19f53c5dcda7812e",
+          "target": "workflows/歌词驱动程序动画MV制作.md",
+          "target_sha256": "76ff22d7d52b0a3d17e8fef44dd3076095fa9b19f98ddcecb941813c7739076a",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "previous_baseline": {
+            "source_sha256": "ce1b1a1fe7ea4395ba5e02e5e5eb57da05700d4f5a856eadf1d561644a2be147",
+            "target_sha256": "080421f536b592bf83cbfabb1621a2c01aa8763c131aca8baf9ffdf271534f67"
+          },
+          "source_version": "V1.3.1",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "d6444dec6f13412f755f3434ba152a1e17508cf85b00d415f036795399d3ade5",
+              "target_sha256": "8b448ce96bbda745815cbd25643e95bab50346df263ab7b3fcd04f3b2fc3f39a"
+            }
+          ]
         }
       ]
     },
@@ -491,18 +611,28 @@
     },
     {
       "source": "workflows/文档维护与原则审查.md",
-      "source_sha256": "db4c045fbdeaf14bcd40cc393b4331ba35ec05a75b064a0c81e73b4057a0d5ba",
+      "source_sha256": "bf78938de2646f573e8f59de54df3264036ae6bafc9d30c721a4684ebb2b4d25",
       "target": "workflows/文档维护与原则审查.md",
-      "target_sha256": "b249030207418fd6581b91726f4bf0e1311abd8fc5fb3bd6732755c4162bea7c",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "adaptation_history": [
+      "target_sha256": "04de179a9e8c9c4cb608924dcb2336cdc1367895bde6557c5a53cb755e80887c",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.4.1",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "7d636f1900f2977e6b70a780598399d6a833fb70ea9ff1600293de6094c4758b",
-          "target_sha256": "af48d551cb3b29d61f31f38d4bf094f29e681aa5ae057eb84e034457f013911e"
+          "source": "workflows/文档维护与原则审查.md",
+          "source_sha256": "db4c045fbdeaf14bcd40cc393b4331ba35ec05a75b064a0c81e73b4057a0d5ba",
+          "target": "workflows/文档维护与原则审查.md",
+          "target_sha256": "b249030207418fd6581b91726f4bf0e1311abd8fc5fb3bd6732755c4162bea7c",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "7d636f1900f2977e6b70a780598399d6a833fb70ea9ff1600293de6094c4758b",
+              "target_sha256": "af48d551cb3b29d61f31f38d4bf094f29e681aa5ae057eb84e034457f013911e"
+            }
+          ],
+          "source_version": "V1.4.0"
         }
-      ],
-      "source_version": "V1.4.0"
+      ]
     },
     {
       "source": "workflows/资源/像素节奏创意短片/当前模板/01-创作任务单.txt",
@@ -665,18 +795,28 @@
     },
     {
       "source": "workflows/绘画世界穿行短片制作.md",
-      "source_sha256": "6fe55cb013061e9e4c7d68e64251aba3a68256f90bf7e514987aca3af45d902a",
+      "source_sha256": "bba31b5912a28f797a4a96ce2470c391ebcf3b52629842857fd05bfb6240be51",
       "target": "workflows/绘画世界穿行短片制作.md",
-      "target_sha256": "af4d016fab3e3203864800f6b1c0fdfd3e6d54a80ef994dabd60d42c8bf9c8d7",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "adaptation_history": [
+      "target_sha256": "41599aaa6fba6ed21b05942c8465e5d706dea377120141f4ca24b01bb6d08147",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.1.1",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "a8f38f0de42ee0d1f9461eb862d00a613139dea7e2678b7713684f74275c592a",
-          "target_sha256": "77cd2d4eb1661025be26e0c26608c2d1eaa3e45cc09ead62228a37102e0600bc"
+          "source": "workflows/绘画世界穿行短片制作.md",
+          "source_sha256": "6fe55cb013061e9e4c7d68e64251aba3a68256f90bf7e514987aca3af45d902a",
+          "target": "workflows/绘画世界穿行短片制作.md",
+          "target_sha256": "af4d016fab3e3203864800f6b1c0fdfd3e6d54a80ef994dabd60d42c8bf9c8d7",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "a8f38f0de42ee0d1f9461eb862d00a613139dea7e2678b7713684f74275c592a",
+              "target_sha256": "77cd2d4eb1661025be26e0c26608c2d1eaa3e45cc09ead62228a37102e0600bc"
+            }
+          ],
+          "source_version": "V1.1.0"
         }
-      ],
-      "source_version": "V1.1.0"
+      ]
     },
     {
       "source": "skills/painting-world-video/SKILL.md",
@@ -791,11 +931,21 @@
     },
     {
       "source": "workflows/参考音轨与AI漫画剪映短视频制作.md",
-      "source_sha256": "3a6d21194a9d25f4cc5a8056ea72ce6e6d25aceba0de743e9407928c838e1542",
+      "source_sha256": "585c440164421987452ae39bef5b2d650711b4892c16baad2ffb3c1241d84d7f",
       "target": "workflows/参考音轨与AI漫画剪映短视频制作.md",
-      "target_sha256": "6e2f8645bbe78f198b951c763239e1da258e1682ac40eadbc7e3e0b89dce5653",
-      "adaptation": "0.3.0公开适配；保留当前方法效力/题材与真实执行边界，去除私人案例、路径、反馈与治理运行依赖；表单只是未实例化文字",
-      "source_version": "V1.0.0"
+      "target_sha256": "d3a92e33052813b1a01f6f924edf3845c50bd416cdda23ef857ae0d25186f406",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.0.1",
+      "prior_adaptations": [
+        {
+          "source": "workflows/参考音轨与AI漫画剪映短视频制作.md",
+          "source_sha256": "3a6d21194a9d25f4cc5a8056ea72ce6e6d25aceba0de743e9407928c838e1542",
+          "target": "workflows/参考音轨与AI漫画剪映短视频制作.md",
+          "target_sha256": "6e2f8645bbe78f198b951c763239e1da258e1682ac40eadbc7e3e0b89dce5653",
+          "adaptation": "0.3.0公开适配；保留当前方法效力/题材与真实执行边界，去除私人案例、路径、反馈与治理运行依赖；表单只是未实例化文字",
+          "source_version": "V1.0.0"
+        }
+      ]
     },
     {
       "source": "workflows/参考音轨与AI漫画剪映短视频制作.md",
@@ -806,12 +956,79 @@
       "source_version": "V1.0.0"
     },
     {
-      "source": "standards/视频交付与发布文案.md",
-      "source_sha256": "065fb34423236fb11fec2f73f622a51e0d810a933235c0011d4984c07c1fca72",
+      "source": "standards/视频宣传封面制作与交付.md",
+      "source_sha256": "bf040aeb1a1b574092eba8739577731a7f14b1fa49b2fe1da80766a61187015c",
       "target": "templates/project/delivery.md",
-      "target_sha256": "ca38f6d226577e35360dea5365101b8c5c3c20236287864fa6ab1249dd559645",
-      "adaptation": "0.3.0公开适配；保留当前方法效力/题材与真实执行边界，去除私人案例、路径、反馈与治理运行依赖；表单只是未实例化文字",
+      "target_sha256": "06c9318c98f3368f947858c866aae4db68d6b1cd8d1d6c7a430e5524d9b3a0be",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.0.0",
+      "prior_adaptations": [
+        {
+          "source": "standards/视频交付与发布文案.md",
+          "source_sha256": "065fb34423236fb11fec2f73f622a51e0d810a933235c0011d4984c07c1fca72",
+          "target": "templates/project/delivery.md",
+          "target_sha256": "ca38f6d226577e35360dea5365101b8c5c3c20236287864fa6ab1249dd559645",
+          "adaptation": "0.3.0公开适配；保留当前方法效力/题材与真实执行边界，去除私人案例、路径、反馈与治理运行依赖；表单只是未实例化文字",
+          "source_version": "V1.0.0"
+        }
+      ]
+    },
+    {
+      "source": "agents/制作视频.md",
+      "source_sha256": "e78e9074d2aa40d851f512de52f34791abc0e4afdd173cc531221ee62633e1d1",
+      "target": "agents/制作视频.md",
+      "target_sha256": "fe33a8c3f12a4832124ae34f1c4b244482514ff9e1d667ea1462165f2f08bad5",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
       "source_version": "V1.0.0"
+    },
+    {
+      "source": "skills/video-workflow-defaults/SKILL.md",
+      "source_sha256": "35550525fb197bd1c00700e2f18d8fe6142af57e3f40769f76a450a7e9934b25",
+      "target": "skills/video-workflow-defaults/SKILL.md",
+      "target_sha256": "b37680808ddb1d0bd0cb1d25f3360a1d3ebfea8a3bc6e3333ab102f6f9caaeef",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.2.0"
+    },
+    {
+      "source": "standards/视频宣传封面制作与交付.md",
+      "source_sha256": "bf040aeb1a1b574092eba8739577731a7f14b1fa49b2fe1da80766a61187015c",
+      "target": "standards/视频宣传封面制作与交付.md",
+      "target_sha256": "90233ed6f0293660940b23754f9a6bb4647a25d48389a9ea659a925b7bf00480",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.0.0"
+    },
+    {
+      "source": "standards/画面提速与场景增补.md",
+      "source_sha256": "7a34e39ebb47acd271b4e61f82d689d72691f21c80b2aa981f71c0d74a53682a",
+      "target": "standards/画面提速与场景增补.md",
+      "target_sha256": "6ac57857ccf36b67a8fdc0363f7ca0e6e7ea28babe4da8efef3c6f08e6045e5c",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.0.0"
+    },
+    {
+      "source": "standards/atom-properties.md",
+      "source_sha256": "ccc6e0e8d453d334f5985396abf01762dfdb8d2e252eb8ee6accbd20284d3d97",
+      "target": "standards/atom-properties.md",
+      "target_sha256": "a851fd79f9f9a9411703b5658612aa12d720778d7e924d4785da8b5d632b4a39",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.0.0",
+      "source_maintenance_role": "portable_replica"
+    },
+    {
+      "source": "skills/video-workflow-defaults/SKILL.md",
+      "source_sha256": "35550525fb197bd1c00700e2f18d8fe6142af57e3f40769f76a450a7e9934b25",
+      "target": "templates/project/public-defaults.md",
+      "target_sha256": "381f856379cac49f50e45f6c968b0755ef53db2794dc6254e9004e0a0e06a8e4",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.2.0"
+    },
+    {
+      "source": "AGENTS.md",
+      "source_sha256": "6cc55cb59f705f75e73407fb60bdc0a42eb78c331e64199e9743f2ea533f4e4e",
+      "target": "AGENTS.md",
+      "target_sha256": "7985f2b55e08978dbd8252487fad09b72dd17d9da6a0d35af0e01240934e343a",
+      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "source_version": "V1.6.2"
     }
   ],
   "generated_assets": [
@@ -824,9 +1041,11 @@
   ],
   "framework_sync": {
     "date": "2026-10-27",
-    "release": "0.3.0",
+    "release": "0.4.0",
     "source_read_only": true,
     "media_added": false,
-    "kind": "selected public adaptations; not a synchronized private-vault replica"
+    "source_snapshot_captured": "2026-10-27T22:13:21.620013",
+    "source_public_skill_version": "V1.2.0",
+    "kind": "selected frozen-source public adaptations; not a synchronized private-vault replica"
   }
 }

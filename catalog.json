@@ -90,7 +90,7 @@
     "media_implementation": "requires workflow-specific adaptation"
   },
   "framework": {
-    "version": "0.3.1",
+    "version": "0.4.0",
     "layers": [
       "graphs",
       "loops",
@@ -101,13 +101,61 @@
     ],
     "execution": "documented contracts, applied by the host assistant; no scheduler or native agent installation",
     "resume_contract": "standards/执行文档与跨窗口接续.md",
-    "context_contract": "standards/上下文预算与可执行单元拆解.md"
+    "context_contract": "standards/上下文预算与可执行单元拆解.md",
+    "video_defaults": {
+      "role": "agents/制作视频.md",
+      "skill": "skills/video-workflow-defaults/SKILL.md",
+      "workflow_anchor": "video-public-entry",
+      "record_template": "templates/project/public-defaults.md",
+      "required_atoms": [
+        "AP01",
+        "AP02",
+        "AP03",
+        "AP04",
+        "AP05",
+        "AN07",
+        "AN08",
+        "AN09",
+        "RET01",
+        "EX01",
+        "CX01",
+        "APROP01",
+        "AN11",
+        "AN12",
+        "AN13"
+      ],
+      "execution": "conditional documented handoffs, no automatic scheduler or media generation"
+    },
+    "property_targets": [
+      "agents/制作视频.md",
+      "agents/声音与后期.md",
+      "agents/文档维护.md",
+      "agents/美术与一致性.md",
+      "skills/animation-docs/SKILL.md",
+      "skills/animation-finish/SKILL.md",
+      "skills/animation-shot/SKILL.md",
+      "skills/video-workflow-defaults/SKILL.md",
+      "standards/atom-properties.md",
+      "standards/画面提速与场景增补.md",
+      "standards/视频宣传封面制作与交付.md",
+      "workflows/像素节奏创意短片制作.md",
+      "workflows/参考音轨与AI漫画剪映短视频制作.md",
+      "workflows/古诗词动画制作.md",
+      "workflows/定格动画制作.md",
+      "workflows/情绪诗词短视频制作.md",
+      "workflows/文档维护与原则审查.md",
+      "workflows/歌词驱动程序动画MV制作.md",
+      "workflows/短片制作.md",
+      "workflows/绘画世界穿行短片制作.md"
+    ]
   },
   "video_delivery": {
     "contract": "standards/视频交付与发布文案.md",
     "role": "agents/声音与后期.md",
     "skill": "skills/animation-finish/SKILL.md",
     "template": "templates/project/delivery.md",
-    "publishes_automatically": false
+    "publishes_automatically": false,
+    "cover_contract": "standards/视频宣传封面制作与交付.md",
+    "cover_skill_anchor": "cover-delivery"
   }
 }

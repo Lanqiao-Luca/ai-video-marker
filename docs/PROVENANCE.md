@@ -2,6 +2,9 @@
 
 # 来源与适配
 
+0.4.0按本次冻结来源选择性适配制作视频职责、video-workflow-defaults V1.2.0、AN12/AN13/APROP01及相邻阶段接口。逐条旧适配身份保留在prior_adaptations，未修改条目维持原来源身份；清单的源SHA代表读取时版本，不表示持续追踪私人源。
+APROP01的私人源为portable_replica，本公开正文是单独维护的canonical公开适配，不复制其synchronized声明或声称规范字节相同。没有迁入私人保存器、语义回执/上游运行时、作品采用记录或案例参数；本轮新增公共覆盖与封面字段均为空格式。
+
 六层方法来自维护者的动画制作体系，保留目的、基线、证据、来源、局部返工和候选状态；去除个人路径、会话、迁移账本与私有治理运行依赖。
 
 像素示例直接取自真实作品 PIXEL-010《屋顶晒太阳》，保留18个原绘图函数；公开执行入口、场景校验与实例隔离是适配实现。来源SHA、公开文件SHA和改造边界见 [provenance.json](provenance.json)，全部原RGB帧的冻结基线见 [source-frame-baseline.json](../examples/pixel/source-frame-baseline.json)。
