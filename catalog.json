@@ -76,8 +76,10 @@
       "status": "active",
       "scope": "题材考据、画幅前置、AI插画/漫画、真实音轨、原生剪映及完整交付",
       "implementation": "documented_workflow",
-      "example": null,
-      "template": "templates/参考音轨与AI漫画制作单.md"
+      "example": "examples/reference-comic/README.md",
+      "template": "templates/参考音轨与AI漫画制作单.md",
+      "showcase_video": "examples/reference-comic/preview.mp4",
+      "showcase_scope": "watchable hybrid precomposition and native Jianying title/export; no bundled scene renderer or raw project"
     }
   ],
   "visual_asset_library": "assets/library/catalog.json",
@@ -88,7 +90,7 @@
     "media_implementation": "requires workflow-specific adaptation"
   },
   "framework": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "layers": [
       "graphs",
       "loops",

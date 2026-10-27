@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "night-tram-comic",
+  "title": "雨夜最后一班电车",
+  "kind": "watchable_showcase",
+  "license": "MIT",
+  "video": {
+    "path": "preview.mp4",
+    "sha256": "7a66fc3eda7d01c0ffad9f7ea85ac00371cd4f3f987570794a93e9745a880cbf",
+    "bytes": 11380586,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 899,
+    "duration_seconds": 29.97,
+    "has_audio": true
+  },
+  "poster": {
+    "path": "poster.jpg",
+    "sha256": "554e2685f831c2c2757097f5ee2655cb1a98e84baea653df66f3a77a6fed4cbd",
+    "source": "same public video at 21 seconds",
+    "width": 960,
+    "height": 540
+  },
+  "source_export": {
+    "sha256": "d68d2ef7d3393dd9021e40b36bbc3453e5e2ec63c0ae0dc9458faad2f52aaa1e",
+    "bytes": 46708777,
+    "native_editor": "Jianying Pro",
+    "modified": false
+  },
+  "derivation": "H.264 web-display re-encode; copied AAC audio; faststart; container metadata stripped",
+  "artwork": {
+    "origin": "six original built-in image_gen illustrations",
+    "raw_images_included": false
+  },
+  "music": {
+    "origin": "original locally program-synthesized instrumental and rain texture",
+    "external_recordings_or_samples": false,
+    "separate_audio_included": false,
+    "public_and_source_adts_sha256": "92c23b59d2eb74f78f3868c652550733abb6808be5e5bcbb108fbf6409e2a751"
+  },
+  "actual_pipeline": [
+    "AI illustrations",
+    "local motion/caption/audio precomposition",
+    "native Jianying title layer and export",
+    "web-display re-encode"
+  ],
+  "raw_project_included": false,
+  "bundled_scene_renderer": false,
+  "publication": "explicitly authorized by the owner",
+  "full_realtime_art_review": "NOT_RUN",
+  "independent_media_review": "NOT_RUN"
+}
