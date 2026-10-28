@@ -4,11 +4,11 @@
 
 这是首页展示与同作复现入口。首次说“做一个视频”默认去[海港机器人](../harbor/README.md)做另一支短片；仅在明确要求复现时使用本页命令。
 
-小兔倒置雨伞收集雨水，引水后发现叶片卡住水轮，拉叶解卡驱动齿轮花展开；随后鱼旗、花、盆栽共同活动，镜头沿同一屋顶拉远。[完整带音乐预览](preview.mp4) · [静音母版](preview-silent.mp4)
+小兔倒置雨伞收集雨水，引水后发现叶片卡住水轮，拉叶解卡驱动齿轮花展开；随后鱼旗、花、盆栽共同活动，镜头沿同一屋顶拉远。[完整带音乐预览](../../assets/videos/pixel-rooftop/preview.mp4) · [静音母版](../../assets/videos/pixel-rooftop/preview-silent.mp4)
 
 本示例直接抽取原作的18个绘图函数，保留角色、屋顶层次、物体细节、动作和机位；公开适配拆开路径与执行入口，音频单独作为包内文件读取。它是一部具体作品的可复现示例，不是换标题就能生成任意故事的引擎。
 
-原绘制360×640，输出720×1280、24fps、44秒、1056帧。画面为程序绘图，无需外部图片/字体/API。仓库已带新编44秒程序合成配乐及生成源码，采用MIT许可。默认输出带音乐版本并保留静音母版；见 [配乐说明](audio/NOTICE.md)。
+原绘制360×640，输出720×1280、24fps、44秒、1056帧。画面为程序绘图，无需外部图片/字体/API。仓库已带新编44秒程序合成配乐及生成源码，采用MIT许可。默认输出带音乐版本并保留静音母版；见 [配乐说明](../../assets/audio/pixel-rooftop/NOTICE.md)。
 
 ## 运行与效果核对
 
@@ -55,4 +55,4 @@ python tools/render_pixel.py --audio my-audio.wav --out outputs/rooftop-my-music
 
 [Workflow](../../workflows/像素节奏创意短片制作.md) → [像素职责](../../agents/像素节奏短片制作.md) → [Skill](../../skills/pixel-rhythm-short/SKILL.md) → [制作标准](../../standards/像素节奏创意与连续性.md)。新作使用 [12份工作表](../../templates/pixel/README.md)。
 
-保真抽取的实际过程见 [制作记录](production.md)及 [验证](../../docs/VALIDATION.md)。本例视觉由内置源码/配置生成，无需外部原图片。默认读取包内audio/music.wav；若未携带音频，可使用--silent，或--audio FILE换自己的音轨，不会暗中寻找原电脑文件。新主题是否复用本地素材、补缺或从零制作，以及时间/Token提示，见 [素材说明](../../docs/ASSETS.md)。
+保真抽取的实际过程见 [制作记录](production.md)及 [验证](../../docs/VALIDATION.md)。本例视觉由内置源码/配置生成，无需外部原图片。默认读取assets/audio/pixel-rooftop/music.wav；若未携带音频，可使用--silent，或--audio FILE换自己的音轨，不会暗中寻找原电脑文件。新主题是否复用本地素材、补缺或从零制作，以及时间/Token提示，见 [素材说明](../../docs/ASSETS.md)。

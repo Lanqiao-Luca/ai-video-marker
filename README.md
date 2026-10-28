@@ -14,15 +14,15 @@
 |---|---|---|
 | 先看效果、运行一支视频 | [漫画案例](#ai漫画案例雨夜最后一班电车)、[新手体验](#做你的第一支视频) | 约30秒漫画展示；默认36秒机器人短片可在本地重渲 |
 | 换题材、做自己的故事 | [12个开场文案](examples/story-starters/README.md)、[8条制作流程](#一共有多少种制作流程) | 创作需求、分镜和阶段方法；新故事按路线适配实现 |
-| 找图片、视频与音频 | [素材中心](assets/README.md)：[图片](assets/images/README.md) · [视频](assets/videos/README.md) · [音频](assets/audio/README.md) | 现有素材与成片统一导航，新增媒体按类型/用途存放；素材组不等于现成影片 |
+| 找图片、视频与音频 | [素材中心](assets/README.md)：[图片](assets/images/README.md) · [视频](assets/videos/README.md) · [音频](assets/audio/README.md) | 已公开素材实际按类型/模块归档，配置与来源正确引用；素材组不等于现成影片 |
 | 理解AI怎么组织制作 | [六层方法](#六层如何配合)、[创作与接续](#从创意到交付如何推进与接续) | 分工、代表段迭代、动作与验收方法、跨窗口继续制作 |
 | 找工具和项目模板 | [本地工具](#本地工具能做什么)、[制作模板](templates/README.md) | 项目初始化、像素12份工作表、渲染、音轨处理与检查 |
 
 仓库同时提供**制作知识、可执行工具与作品展示**。各流程表中分别标明实际实现范围；生图、语音、图生视频和剪映等能力由使用者当前的助手与本机环境提供。
 
-![像素示例：屋顶晒太阳](docs/images/rooftop-preview.gif)
+![像素示例：屋顶晒太阳](assets/images/pixel-rooftop/rooftop-preview.gif)
 
-*《屋顶晒太阳》：小兔集雨、解开水轮卡点，带动齿轮花开放，最后同一屋顶共同活动。以上为16–30秒原速节选；[44秒完整带音乐视频](examples/pixel/preview.mp4)。示例直接抽取真实作品绘图代码，保留角色、层次、动作和镜头。*
+*《屋顶晒太阳》：小兔集雨、解开水轮卡点，带动齿轮花开放，最后同一屋顶共同活动。以上为16–30秒原速节选；[44秒完整带音乐视频](assets/videos/pixel-rooftop/preview.mp4)。示例直接抽取真实作品绘图代码，保留角色、层次、动作和镜头。*
 
 **0.4.0**：新增统一视频制作入口与15项条件公共覆盖；接入双比例宣传封面、局部提速/有效增景、原子属性与来源边界。8条视频流程逐条接回原阶段，9项职责/9项技能；方法文档更新，不新增素材、自动引擎或媒体执行结果。详见[升级说明](docs/FRAMEWORK_UPGRADE.md)。
 
@@ -30,9 +30,9 @@
 
 ## AI漫画案例：雨夜最后一班电车
 
-[![雨夜最后一班电车，点击封面查看完整视频](examples/reference-comic/poster.jpg)](examples/reference-comic/preview.mp4)
+[![雨夜最后一班电车，点击封面查看完整视频](assets/images/reference-comic/poster.jpg)](assets/videos/reference-comic/preview.mp4)
 
-[▶ 查看或下载完整视频（约30秒，1080p，带原创配乐）](examples/reference-comic/preview.mp4) · [制作说明](examples/reference-comic/README.md)
+[▶ 查看或下载完整视频（约30秒，1080p，带原创配乐）](assets/videos/reference-comic/preview.mp4) · [制作说明](examples/reference-comic/README.md)
 
 六幅新生成漫画讲述雨夜站台上的一次停留。实际制作路径是**运镜/字幕预合成 → 剪映添加片名并导出**，属于漫画有限运镜的混合制作展示；原素材和剪映工程没有随视频上传。想制作自己的案例，可沿[参考音轨与AI漫画流程](workflows/参考音轨与AI漫画剪映短视频制作.md)开始。
 
@@ -61,7 +61,7 @@
 
 > 我们先用仓库新带的机器人、海港和灯塔素材，做一支《小机器人与归航灯塔》吧。它与首页展示的兔子视频不同，不用准备图片和音乐。我先检查装电池的短段，再导出完整视频；你也可以直接指定其他主题。
 
-新手默认片是**36秒的机器人海港短片**：机器人拾起三枚电池，逐个装入控制台，点亮灯塔引导渔船归港。新的角色、道具、场景和动作均已放进仓库；[12张PNG素材及使用说明](assets/harbor/README.md)可供后续创作复用，含站立、搬运和挥手三种完整姿态以及拆分角色部件。
+新手默认片是**36秒的机器人海港短片**：机器人拾起三枚电池，逐个装入控制台，点亮灯塔引导渔船归港。新的角色、道具、场景和动作均已放进仓库；[12张PNG素材及使用说明](assets/images/harbor/README.md)可供后续创作复用，含站立、搬运和挥手三种完整姿态以及拆分角色部件。
 
 自己运行时，需要Python 3.9+，按下面操作：
 
@@ -100,24 +100,24 @@ Windows创建环境可用 `py -3 -m venv .venv`，激活使用 `.venv\Scripts\ac
 
 ## 更多现成素材：从本地制作库精选10组
 
-![第一批素材](docs/images/library-overview.jpg)
+![第一批素材](assets/images/library/library-overview.jpg)
 
 新增[素材库](assets/library/README.md)，累计含**73张PNG，约73.74MiB**：
 
 | 素材组 | 图片数 | 可复用内容 |
 |---|---:|---|
-| [狐狸与獾](assets/library/woodland-friends/README.md) | 21 | 角色拆件/姿态、暖光罐、村庄和室内背景 |
-| [撑伞机器人与小鸟](assets/library/rainy-umbrella/README.md) | 10 | 雨伞、雨天背景和修订后的角色部件 |
-| [纸艺少年与教室](assets/library/paper-classroom/README.md) | 3 | 男女孩角色/动作图集、教室场景 |
-| [竹林与山岩](assets/library/bamboo-wind/README.md) | 2 | 无字竹石远景/近景 |
-| [山水与书本](assets/library/poetry-book/README.md) | 7 | 翻页三状态、山水、纸面与原图集 |
-| [蜗牛与温暖灯光](assets/library/snail-lantern/README.md) | 18 | 水彩机器人和蜗牛姿态、暮色背景、地面光与阴影 |
-| [晚霞房间与圆润机器人](assets/library/sunset-room/README.md) | 8 | 已选圆润机器人参考图、推凳/走路/晚霞姿态、房间和凳子 |
-| [雪江与独钓渔舟](assets/library/snow-river/README.md) | 2 | 无字雪江背景与独立渔舟原画，适合冬景/诗词有限动画 |
-| [太阳邮差狐狸图集](assets/library/sunmail-fox/README.md) | 1 | 狐狸邮递员与朋友/动作部件图集，按主体框拆分使用 |
-| [星光邮差狐狸图集](assets/library/starlight-fox/README.md) | 1 | 六姿态纸艺狐狸原图集，适合折星、追星与送信动作适配 |
+| [狐狸与獾](assets/images/woodland-friends/README.md) | 21 | 角色拆件/姿态、暖光罐、村庄和室内背景 |
+| [撑伞机器人与小鸟](assets/images/rainy-umbrella/README.md) | 10 | 雨伞、雨天背景和修订后的角色部件 |
+| [纸艺少年与教室](assets/images/paper-classroom/README.md) | 3 | 男女孩角色/动作图集、教室场景 |
+| [竹林与山岩](assets/images/bamboo-wind/README.md) | 2 | 无字竹石远景/近景 |
+| [山水与书本](assets/images/poetry-book/README.md) | 7 | 翻页三状态、山水、纸面与原图集 |
+| [蜗牛与温暖灯光](assets/images/snail-lantern/README.md) | 18 | 水彩机器人和蜗牛姿态、暮色背景、地面光与阴影 |
+| [晚霞房间与圆润机器人](assets/images/sunset-room/README.md) | 8 | 已选圆润机器人参考图、推凳/走路/晚霞姿态、房间和凳子 |
+| [雪江与独钓渔舟](assets/images/snow-river/README.md) | 2 | 无字雪江背景与独立渔舟原画，适合冬景/诗词有限动画 |
+| [太阳邮差狐狸图集](assets/images/sunmail-fox/README.md) | 1 | 狐狸邮递员与朋友/动作部件图集，按主体框拆分使用 |
+| [星光邮差狐狸图集](assets/images/starlight-fox/README.md) | 1 | 六姿态纸艺狐狸原图集，适合折星、追星与送信动作适配 |
 
-![第二批素材](docs/images/library-batch2-overview.jpg)
+![第二批素材](assets/images/library/library-batch2-overview.jpg)
 
 两批各选择5/19组，每批约26.3%，累计**10组、约52.6%**；按作品组统计，未按全库文件数或字节量计算。复制的是可复用视觉素材，未打包参考歌曲、配音、视频、雨滴缓存帧或个人记录。
 
@@ -221,10 +221,10 @@ ai-video-marker/
 ├── skills/                          # 九项按阶段读取的技能
 ├── standards/                       # 共用方法和判断依据
 ├── templates/                       # 通用、专题及像素12份工作表
-├── assets/README.md                 # 图片、视频、音频统一素材入口
-├── assets/images/ / videos/ / audio/ # 后续新增可复用素材按类型/用途存放
-├── assets/harbor/                   # 机器人与海港12张PNG素材
-├── assets/library/                  # 10组73张可复用PNG及来源记录
+├── assets/README.md                 # 图片、视频、音频素材中心
+├── assets/images/<module>/          # 图片及包内来源/布局
+├── assets/videos/<module>/          # 公开成片或可复用片段
+├── assets/audio/<module>/           # 原创配乐与音源说明
 ├── tools/                           # 初始化、渲染、音频、抽帧与检查
 ├── examples/pixel/                  # 场景配置与可运行示例
 ├── docs/                            # 预览、验证、来源与发布审阅

@@ -13,4 +13,4 @@ python tools/asset_library.py preview --pack sunset-room --out outputs/sunset-pr
 
 可用于窗边等待、推来凳子看晚霞等分镜，先验证代表段。preview只生成素材联系表。PNG为原字节复制，源原件不变；按[MIT](../../../LICENSE)公开，未包含原声音、私人记录或外部参考媒体。
 
-返回：[素材库](../README.md)。
+返回：[素材库](../../library/README.md)。

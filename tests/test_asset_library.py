@@ -68,7 +68,7 @@ class AssetLibraryTests(unittest.TestCase):
 
     def test_changed_image_is_reported_without_claiming_pass(self):
         with tempfile.TemporaryDirectory() as temp:
-            root=Path(temp);base=root/'assets/library/demo';base.mkdir(parents=True)
+            root=Path(temp);base=root/'assets/images/demo';base.mkdir(parents=True)
             (base/'image.png').write_bytes(b'changed')
             (base/'manifest.json').write_text(json.dumps({'id':'demo','license':'MIT','files':[{'file':'image.png','sha256':'0'*64,'size':[1,1]}]}))
             (base.parent/'catalog.json').write_text(json.dumps({'license':'MIT','packs':[{'id':'demo','manifest':'demo/manifest.json','image_count':1}],'image_count':1}))

@@ -11,4 +11,4 @@ python tools/asset_library.py preview --pack starlight-fox --out outputs/starlig
 
 可设计折星、捡星或向月亮邮局投信。此狐狸与太阳邮差包外观不同，新故事先固定一种角色身份，不按镜头交替换造型。preview仅生成联系表，新剧情仍需动画适配。PNG原字节复制、原件不变，按[MIT](../../../LICENSE)公开，不含原配乐或私人记录。
 
-返回：[素材库](../README.md)。
+返回：[素材库](../../library/README.md)。

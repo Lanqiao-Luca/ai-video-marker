@@ -37,7 +37,7 @@ def main(argv=None):
     a=parser.parse_args(argv)
     if a.list:
         print(json.dumps({'default':'harbor','stories':[
-            {'theme':'harbor','title':'小机器人与归航灯塔','character':'robot','duration':36,'assets':'assets/harbor','palettes':list(HARBOR_PALETTES)},
+            {'theme':'harbor','title':'小机器人与归航灯塔','character':'robot','duration':36,'assets':'assets/images/harbor','palettes':list(HARBOR_PALETTES)},
             {'theme':'garden','title':'月光风铃','character':'rabbit','duration':32,'palettes':list(PALETTES)},
             {'theme':'rooftop','title':'屋顶晒太阳','character':'rabbit','duration':44,'command':'python tools/render_pixel.py'}]},ensure_ascii=False,indent=2))
         return

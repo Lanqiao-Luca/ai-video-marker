@@ -11,4 +11,4 @@ python tools/asset_library.py preview --pack sunmail-fox --out outputs/sunmail-p
 
 可适配骑车送信、太阳邮票等新故事；图集不是骑行骨骼或完整影片引擎。preview只生成联系表。PNG原字节复制，定位参数仅保留素材名、SHA和数值框，未包含私人路径。按[MIT](../../../LICENSE)公开；原曲、配音和参考媒体不在本包内。
 
-返回：[素材库](../README.md)。
+返回：[素材库](../../library/README.md)。

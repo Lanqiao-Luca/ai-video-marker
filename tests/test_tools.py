@@ -28,7 +28,7 @@ class HarborTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             out=Path(temporary)/'kit'
             manifest=build_harbor_assets(out)
-            shipped=json.loads((ROOT/'assets/harbor/manifest.json').read_text())
+            shipped=json.loads((ROOT/'assets/images/harbor/manifest.json').read_text())
             self.assertEqual(manifest,shipped)
             self.assertEqual(len(manifest['files']),12)
             self.assertTrue(all(sha256(out/name)==v['sha256'] for name,v in manifest['files'].items()))
@@ -36,7 +36,7 @@ class HarborTests(unittest.TestCase):
 
     def test_broken_asset_is_rejected(self):
         with tempfile.TemporaryDirectory() as temporary:
-            kit=Path(temporary)/'kit';shutil.copytree(ROOT/'assets/harbor',kit)
+            kit=Path(temporary)/'kit';shutil.copytree(ROOT/'assets/images/harbor',kit)
             (kit/'robot-head.png').write_bytes(b'changed')
             with self.assertRaisesRegex(ValueError,'SHA mismatch'):
                 HarborRenderer(make_scene(42,'sunset','harbor'),asset_root=kit)

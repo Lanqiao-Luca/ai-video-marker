@@ -291,8 +291,18 @@
       "source": "skills/pixel-rhythm-short/SKILL.md",
       "source_sha256": "fa4395d44128a10fa90ecbe7f424dbe74a5da179fae9e9c30bbd938b2033feec",
       "target": "skills/pixel-rhythm-short/SKILL.md",
-      "target_sha256": "0acbf8a326557079990681755b612e90c15baf324c4e941f8bc7e17d7b72b102",
-      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口；0.1.5新增首次创作路由，展示复现与新主题制作分开；0.1.6默认路由改为新机器人素材包"
+      "target_sha256": "55d23e053c61b01d4b30d167774f3079e068835f89d5d0439f2d9e9cbd2d8bdc",
+      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口；0.1.5新增首次创作路由，展示复现与新主题制作分开；0.1.6默认路由改为新机器人素材包",
+      "prior_adaptations": [
+        {
+          "source": "skills/pixel-rhythm-short/SKILL.md",
+          "source_sha256": "fa4395d44128a10fa90ecbe7f424dbe74a5da179fae9e9c30bbd938b2033feec",
+          "target": "skills/pixel-rhythm-short/SKILL.md",
+          "target_sha256": "0acbf8a326557079990681755b612e90c15baf324c4e941f8bc7e17d7b72b102",
+          "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口；0.1.5新增首次创作路由，展示复现与新主题制作分开；0.1.6默认路由改为新机器人素材包"
+        }
+      ],
+      "public_path_migration": "2026-10-28: media regrouping and consumer/link adaptation; source identity unchanged"
     },
     {
       "source": "skills/poetry-short-video/SKILL.md",
@@ -1026,17 +1036,29 @@
       "source": "AGENTS.md",
       "source_sha256": "6cc55cb59f705f75e73407fb60bdc0a42eb78c331e64199e9743f2ea533f4e4e",
       "target": "AGENTS.md",
-      "target_sha256": "7985f2b55e08978dbd8252487fad09b72dd17d9da6a0d35af0e01240934e343a",
+      "target_sha256": "caafa5b344f284a352c7619ebc1923a7a646a8f9f3c569dd053cccccda4e9da8",
       "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
-      "source_version": "V1.6.2"
+      "source_version": "V1.6.2",
+      "prior_adaptations": [
+        {
+          "source": "AGENTS.md",
+          "source_sha256": "6cc55cb59f705f75e73407fb60bdc0a42eb78c331e64199e9743f2ea533f4e4e",
+          "target": "AGENTS.md",
+          "target_sha256": "7985f2b55e08978dbd8252487fad09b72dd17d9da6a0d35af0e01240934e343a",
+          "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+          "source_version": "V1.6.2"
+        }
+      ],
+      "public_path_migration": "2026-10-28: media regrouping and consumer/link adaptation; source identity unchanged"
     }
   ],
   "generated_assets": [
     {
-      "target": "examples/pixel/audio/music.wav",
+      "target": "assets/audio/pixel-rooftop/music.wav",
       "generator": "tools/make_demo_music.py",
       "sha256": "85138dbdaee6faf6b769086c0040d958c988504093ba7e8033484a7ee6e9e763",
-      "license": "MIT"
+      "license": "MIT",
+      "previous_target": "examples/pixel/audio/music.wav"
     }
   ],
   "framework_sync": {

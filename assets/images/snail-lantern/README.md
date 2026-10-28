@@ -13,4 +13,4 @@ python tools/asset_library.py preview --pack snail-lantern --out outputs/snail-p
 
 可用于陪伴蜗牛、为慢行者留灯等新分镜。preview是静态资产联系表，新剧情仍需适配动画/合成实现。PNG为原字节复制，原件保持不变；按仓库[MIT](../../../LICENSE)公开，不含原曲、旁白、私人记录或第三方参考媒体。
 
-返回：[素材库](../README.md)。
+返回：[素材库](../../library/README.md)。

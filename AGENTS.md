@@ -12,7 +12,7 @@
 
 说明默认值后直接推进，不必停下来再次确认。先doctor，固定seed，运行7–9秒装电池片段，再用同一seed/配色完整导出36秒全片。输出放到新目录；省略seed时自动选新值并记录。
 
-[素材包](assets/harbor/README.md)含12张可复用PNG及绘图源码。默认运行直接读取这些PNG，不重新调用生图/配音/付费AI；不要求新人先找图或选歌。素材缺失或SHA不匹配先报具体错误，不暗中换回兔子。
+[素材包](assets/images/harbor/README.md)含12张可复用PNG及绘图源码。默认运行直接读取这些PNG，不重新调用生图/配音/付费AI；不要求新人先找图或选歌。素材缺失或SHA不匹配先报具体错误，不暗中换回兔子。
 
 用 `python tools/make_video.py --list`列出现有内容：海港机器人（默认，sunset/midnight/mist），月光风铃（`--theme garden`，moon/dawn/forest），屋顶晒太阳（明确要求复现时运行render_pixel.py）。3个现成场景、2套角色；配色和seed细节不算新故事。
 

@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-28",
+  "kind": "byte-preserving relocation of existing public media",
+  "media_count": 97,
+  "total_bytes": 117210687,
+  "files": [
+    {
+      "previous_path": "assets/harbor/cell-amber.png",
+      "path": "assets/images/harbor/cell-amber.png",
+      "sha256": "2a2d5c5c12b0702d6584a6b5f3ee6c736079392b9c9469e20dff1ffc3cb1405c",
+      "bytes": 202,
+      "image": {
+        "width": 15,
+        "height": 20,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/cell-coral.png",
+      "path": "assets/images/harbor/cell-coral.png",
+      "sha256": "0feb9e147c0851991a500f174dff8cb1c868d413d7d0a446aac7fb6760f3a5d1",
+      "bytes": 202,
+      "image": {
+        "width": 15,
+        "height": 20,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/cell-teal.png",
+      "path": "assets/images/harbor/cell-teal.png",
+      "sha256": "c6c5ee9df0130e7d135079983844af911cd16f8b9e314e722c14b14e546b50f9",
+      "bytes": 201,
+      "image": {
+        "width": 15,
+        "height": 20,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/charging-console.png",
+      "path": "assets/images/harbor/charging-console.png",
+      "sha256": "0346f2ba8dec3ae42fa7cdaed70acf198a01964df072a634b6518fca75c2419b",
+      "bytes": 438,
+      "image": {
+        "width": 46,
+        "height": 96,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/harbor-background.png",
+      "path": "assets/images/harbor/harbor-background.png",
+      "sha256": "372e3d06758484ad3d1be240d21c461d39d5ee96c069ad4aa04ab20893d5308e",
+      "bytes": 10549,
+      "image": {
+        "width": 360,
+        "height": 640,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/lighthouse.png",
+      "path": "assets/images/harbor/lighthouse.png",
+      "sha256": "9c2e7f36cb1fb36ef19804ddeba4000f30d6ca8a84a59368df4eeb0706e8fa19",
+      "bytes": 3025,
+      "image": {
+        "width": 116,
+        "height": 350,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/robot-body.png",
+      "path": "assets/images/harbor/robot-body.png",
+      "sha256": "e6fa0a1b08f47a9b24697b05f1f1c16a4f0b939cdcb3896ff4a00b4b6490f65c",
+      "bytes": 397,
+      "image": {
+        "width": 36,
+        "height": 34,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/robot-carry.png",
+      "path": "assets/images/harbor/robot-carry.png",
+      "sha256": "bf6026a31e2167fc09bf9a21f3d58e1b56d0c8061f8bac9a04712f3b14bb3758",
+      "bytes": 1313,
+      "image": {
+        "width": 90,
+        "height": 110,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/robot-head.png",
+      "path": "assets/images/harbor/robot-head.png",
+      "sha256": "b7b70683003f8e3a5a4d8ffb00769f560d24d6e0aa7bea83996f3c8217382784",
+      "bytes": 472,
+      "image": {
+        "width": 50,
+        "height": 43,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/robot-idle.png",
+      "path": "assets/images/harbor/robot-idle.png",
+      "sha256": "27a944e340f1c01b5d0c66532e32083e96ab6146c998674f426f55d5ae41a804",
+      "bytes": 1200,
+      "image": {
+        "width": 90,
+        "height": 110,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/robot-wave.png",
+      "path": "assets/images/harbor/robot-wave.png",
+      "sha256": "7859c4b4a0286665424c29a74fc0390d644b1224ec4ca0c06a2717a700fc37a5",
+      "bytes": 1192,
+      "image": {
+        "width": 90,
+        "height": 110,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/harbor/sailboat.png",
+      "path": "assets/images/harbor/sailboat.png",
+      "sha256": "05f50a8ccd915d61d0f1aefc2b2466e3e0c68807e2734c85ed8b6e859ce694dd",
+      "bytes": 642,
+      "image": {
+        "width": 76,
+        "height": 62,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/bamboo-wind/bamboo-close.png",
+      "path": "assets/images/bamboo-wind/bamboo-close.png",
+      "sha256": "a316c8b533994f3616c836a2114258437063479b9557ccd9275488c10bb343ee",
+      "bytes": 2785735,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/bamboo-wind/bamboo-wide.png",
+      "path": "assets/images/bamboo-wind/bamboo-wide.png",
+      "sha256": "f100e9cc5dc7cedd8805a80b4394c42b3b555225a6e2959c9087686e77b1dbee",
+      "bytes": 2963577,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/paper-classroom/action-atlas-v3.png",
+      "path": "assets/images/paper-classroom/action-atlas-v3.png",
+      "sha256": "221ced89463c42c01395bd8ccfa5d9e6de698b650ae3e914513e1b69249f6f2d",
+      "bytes": 2818491,
+      "image": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/paper-classroom/character-atlas-v1.png",
+      "path": "assets/images/paper-classroom/character-atlas-v1.png",
+      "sha256": "8084f976b92313173992827920ba3a8684419960d35cd8e682c7925af929bb78",
+      "bytes": 2204505,
+      "image": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/paper-classroom/classroom-v1.png",
+      "path": "assets/images/paper-classroom/classroom-v1.png",
+      "sha256": "7420109d91a83402e4c6d6d8a8e66ad687c4304048f46090a02f69c266e7f172",
+      "bytes": 1947575,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/poetry-book/book-opening-sprites.png",
+      "path": "assets/images/poetry-book/book-opening-sprites.png",
+      "sha256": "3fb40da02ce99db3a774a13bc33710f1c3e8759939185187f5398b6672bc7be0",
+      "bytes": 1620776,
+      "image": {
+        "width": 2172,
+        "height": 724,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/poetry-book/book-state-0.png",
+      "path": "assets/images/poetry-book/book-state-0.png",
+      "sha256": "a878c55932a14b65948100473c86f223871ef3d7d2004ded81a2b4c8577e6926",
+      "bytes": 321487,
+      "image": {
+        "width": 780,
+        "height": 620,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/poetry-book/book-state-1.png",
+      "path": "assets/images/poetry-book/book-state-1.png",
+      "sha256": "67ed06caced21ecf8e3530c6c83d950e2a36e37af6d8a2159572298bb7eb4fb3",
+      "bytes": 355277,
+      "image": {
+        "width": 780,
+        "height": 620,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/poetry-book/book-state-2.png",
+      "path": "assets/images/poetry-book/book-state-2.png",
+      "sha256": "fa90583ff274c000a8b07f217541d3871bb99c3368425de27f9d5b1f9bde1382",
+      "bytes": 388992,
+      "image": {
+        "width": 780,
+        "height": 620,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/poetry-book/landscape.png",
+      "path": "assets/images/poetry-book/landscape.png",
+      "sha256": "a15109bc37b179fe0260878d25ce4c6b9f5a1dcf8c2c90222957d45a88a52e2f",
+      "bytes": 697229,
+      "image": {
+        "width": 740,
+        "height": 485,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/poetry-book/paper-background.png",
+      "path": "assets/images/poetry-book/paper-background.png",
+      "sha256": "3a12a7e64cbabcc374d7af0cc6019f27ddb52ce9266bb436e9436c29ef50e5fc",
+      "bytes": 1750389,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/poetry-book/poetry-landscape.png",
+      "path": "assets/images/poetry-book/poetry-landscape.png",
+      "sha256": "3fba757b538e1ff8068ad4f5cd3aba4f9208ef30010386ed94b7d136a2a6d371",
+      "bytes": 2637767,
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/rainy-umbrella/background.png",
+      "path": "assets/images/rainy-umbrella/background.png",
+      "sha256": "6caa33d8a06c5ae0ce4a4c441a1a666d3c4c899494d47d19607eec12483c859e",
+      "bytes": 4334983,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/rainy-umbrella/bird.png",
+      "path": "assets/images/rainy-umbrella/bird.png",
+      "sha256": "b7945ca67fdebffb97708ef78a12e1a74ed1ed6ffc84bf28d53063a0b5d1ee42",
+      "bytes": 56135,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/rainy-umbrella/body.png",
+      "path": "assets/images/rainy-umbrella/body.png",
+      "sha256": "4820c16f6fe313abac3beb91258855b1e60a8696d6354811831a39038e51269d",
+      "bytes": 195694,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/rainy-umbrella/fore.png",
+      "path": "assets/images/rainy-umbrella/fore.png",
+      "sha256": "3d65f8b9977cc72e43dbaab9ba68e54a46a01652ed65347fe30efc11276972c6",
+      "bytes": 37516,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/rainy-umbrella/hand.png",
+      "path": "assets/images/rainy-umbrella/hand.png",
+      "sha256": "41013d332fcc3c9601be842eabb6364c82d1acaa899b34cea50703514a2b2ea1",
+      "bytes": 23447,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/rainy-umbrella/head.png",
+      "path": "assets/images/rainy-umbrella/head.png",
+      "sha256": "a264afeef21595fad3a7aaf38a019e64aef9d0c05fe37c263b4890ee48f25636",
+      "bytes": 218238,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/rainy-umbrella/shadow.png",
+      "path": "assets/images/rainy-umbrella/shadow.png",
+      "sha256": "2c240ed78a0a441ae816f6723f6538175f7bbb65662e79c70a7c6c1166a5bf2f",
+      "bytes": 8695,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/rainy-umbrella/shoulder_joint-clean.png",
+      "path": "assets/images/rainy-umbrella/shoulder_joint-clean.png",
+      "sha256": "7269ec96db3c0e6a0bc86058e04680a432933f8b154963f0076c27834ded66c2",
+      "bytes": 14896,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/rainy-umbrella/umbrella.png",
+      "path": "assets/images/rainy-umbrella/umbrella.png",
+      "sha256": "9abf7a85e7814193c2589b6a8d6dbf245519a5cc4fed94751c6d58e5e5cffd98",
+      "bytes": 630206,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/rainy-umbrella/upper.png",
+      "path": "assets/images/rainy-umbrella/upper.png",
+      "sha256": "9c16529e02dd5805a38384fca5b464cea2c59e61334e95048df01e4c0a57f091",
+      "bytes": 49288,
+      "image": {
+        "width": 1920,
+        "height": 1080,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/background.png",
+      "path": "assets/images/snail-lantern/background.png",
+      "sha256": "42cb8d5b9afdd7f18e86f6c9b2108db57307ee850227153b5de12f8241a69224",
+      "bytes": 1803163,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/ground-light.png",
+      "path": "assets/images/snail-lantern/ground-light.png",
+      "sha256": "2f99a91dffecf73d046e3d2e631b95a08a589d212f428022e56c2b997debd26e",
+      "bytes": 67096,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/original-background.png",
+      "path": "assets/images/snail-lantern/original-background.png",
+      "sha256": "ff85d9dadf5e9e54ad6fffca47fc21d69c950013aa897f49b952d79a9b6834e4",
+      "bytes": 2652201,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/original-robot-poses.png",
+      "path": "assets/images/snail-lantern/original-robot-poses.png",
+      "sha256": "576146015111bbe127616d6ccc9a273306f4d99c86627eeabbf03beb89ba34a1",
+      "bytes": 1700190,
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/original-snail-poses.png",
+      "path": "assets/images/snail-lantern/original-snail-poses.png",
+      "sha256": "68655edd90c54530fdcaf8437afc8c290de4a7fe0b8277e44d5f939e5a7dcca5",
+      "bytes": 1152338,
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/robot-pose-0.png",
+      "path": "assets/images/snail-lantern/robot-pose-0.png",
+      "sha256": "6888d27c06dec1da0447480563797789a99de50fbcc99b51afb166d7a60a28c1",
+      "bytes": 154223,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/robot-pose-1.png",
+      "path": "assets/images/snail-lantern/robot-pose-1.png",
+      "sha256": "5675958bacd90f71b7c7322023f13fee178047777188bd2372a3ab997e498ae9",
+      "bytes": 146373,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/robot-pose-2.png",
+      "path": "assets/images/snail-lantern/robot-pose-2.png",
+      "sha256": "9d5faff111b24433d30d90c5e3aae2c124003330abe849f885c08f46b5db174a",
+      "bytes": 150637,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/robot-pose-3.png",
+      "path": "assets/images/snail-lantern/robot-pose-3.png",
+      "sha256": "4fa08f405f09d01977f6ab910ca36b336b9dbfda1b82567790690d56817716d9",
+      "bytes": 137391,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/robot-pose-4.png",
+      "path": "assets/images/snail-lantern/robot-pose-4.png",
+      "sha256": "0905fbf888b20c515972248f363abc831c56a26d4b6fb68dadf87e6d95014838",
+      "bytes": 145885,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/robot-pose-5.png",
+      "path": "assets/images/snail-lantern/robot-pose-5.png",
+      "sha256": "ebdb3e76f5620aba2c89b82384e6532383df46e41c8dcc4dbb77f7cc464d381d",
+      "bytes": 133004,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/robot-pose-6.png",
+      "path": "assets/images/snail-lantern/robot-pose-6.png",
+      "sha256": "eb1101b67ad6b20efce4a83bd9bf768e3e8abd76187373b2289257560b0c629b",
+      "bytes": 128400,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/robot-pose-7.png",
+      "path": "assets/images/snail-lantern/robot-pose-7.png",
+      "sha256": "19da80fded6a6bdcf2d66975af090dd689da71faf7f432a303d93f8c899299be",
+      "bytes": 128875,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/robot-shadow.png",
+      "path": "assets/images/snail-lantern/robot-shadow.png",
+      "sha256": "ba5f37cb1cbebde1aa1660e99bc6c8957d899ef2c56da9022c7117d5cffa9842",
+      "bytes": 11593,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/snail-pose-0.png",
+      "path": "assets/images/snail-lantern/snail-pose-0.png",
+      "sha256": "182dd710feba7f6f6deed75e5ea2090b2b7006239c74f0a5735e4ed5c4478c78",
+      "bytes": 19422,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/snail-pose-1.png",
+      "path": "assets/images/snail-lantern/snail-pose-1.png",
+      "sha256": "866204d75ba83d3646a9faf56a5cfeb283639c38933a99156b5ee7d14fd43fd3",
+      "bytes": 18033,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/snail-pose-2.png",
+      "path": "assets/images/snail-lantern/snail-pose-2.png",
+      "sha256": "6e0009e0327ec9d5cecef34dc489d9969f5e4810ef6195735ec0b59fdacfa38a",
+      "bytes": 17324,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snail-lantern/snail-pose-3.png",
+      "path": "assets/images/snail-lantern/snail-pose-3.png",
+      "sha256": "49203be5f14048a85af7868c957bc71b7811b45d788d13224ad06d4884121179",
+      "bytes": 19166,
+      "image": {
+        "width": 1280,
+        "height": 720,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snow-river/fishing-boat.png",
+      "path": "assets/images/snow-river/fishing-boat.png",
+      "sha256": "6d61bd50f9314291041e191440d8d63ca6a6d6a1a6fe98ff7de241dbb3f79ae3",
+      "bytes": 1089833,
+      "image": {
+        "width": 1774,
+        "height": 887,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/snow-river/snow-river.png",
+      "path": "assets/images/snow-river/snow-river.png",
+      "sha256": "542a852feeafd0edb8ee81da8404c10895e52167d5457814fbbfc1f326138959",
+      "bytes": 2735972,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/starlight-fox/starlight-fox-atlas.png",
+      "path": "assets/images/starlight-fox/starlight-fox-atlas.png",
+      "sha256": "82070f2c9cbf94bf8d187ecafd116d5ab24c8a77fa2a8d2229a9d6bed8b6bea4",
+      "bytes": 2352580,
+      "image": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/sunmail-fox/sunmail-fox-atlas.png",
+      "path": "assets/images/sunmail-fox/sunmail-fox-atlas.png",
+      "sha256": "702d2ae3232689431827d803429b31e70158583b0bac1e8a6b25fc03a93aa5b6",
+      "bytes": 2544792,
+      "image": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/sunset-room/push-poses.png",
+      "path": "assets/images/sunset-room/push-poses.png",
+      "sha256": "2b97859d0a6b82cb4417fd488669196e3191b278d2a2c999b6918efe73c1a8f0",
+      "bytes": 1900780,
+      "image": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/sunset-room/robot-reference-sheet.png",
+      "path": "assets/images/sunset-room/robot-reference-sheet.png",
+      "sha256": "35db4ce07c7d8fd201b6d6f0b7dcb57b7930de2d0de8572b623a9d0dd0334008",
+      "bytes": 2247962,
+      "image": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/sunset-room/robot-rounded-reference.png",
+      "path": "assets/images/sunset-room/robot-rounded-reference.png",
+      "sha256": "a0db678e6547869a3f6d5ae5e29d0ef99f78b83c17448ed56fface20836830b1",
+      "bytes": 2104489,
+      "image": {
+        "width": 1122,
+        "height": 1402,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/sunset-room/room.png",
+      "path": "assets/images/sunset-room/room.png",
+      "sha256": "ce58de8bb4b9b8c7112bc41fabba681fa21effe26f6a7e916f2463322570640b",
+      "bytes": 2258853,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/sunset-room/stool.png",
+      "path": "assets/images/sunset-room/stool.png",
+      "sha256": "fb06d2d68aa8a336a91a7b43ba7990a4550f7d619d99086b03fa43603967d0ee",
+      "bytes": 659492,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/sunset-room/sunset-poses.png",
+      "path": "assets/images/sunset-room/sunset-poses.png",
+      "sha256": "df3d010f94efa65da95b96e032ab06ab977c728472f3d5c6b59be8dbf184b5ef",
+      "bytes": 867920,
+      "image": {
+        "width": 2172,
+        "height": 724,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/sunset-room/sunset-room.png",
+      "path": "assets/images/sunset-room/sunset-room.png",
+      "sha256": "5f6082b432da1a2433591fdcaeafa6513ec08bc4ecbb85ac039f1c97fd87362d",
+      "bytes": 2003587,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/sunset-room/walk-poses.png",
+      "path": "assets/images/sunset-room/walk-poses.png",
+      "sha256": "34e96025bdfb1a6c89fcc92fb351a2b75b228e93d488b5c272da3532011a1f1c",
+      "bytes": 1987505,
+      "image": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/badger-blink.png",
+      "path": "assets/images/woodland-friends/badger-blink.png",
+      "sha256": "80a6816f93a230e76b1b291b956d115a3e482ff7a55679101d5f4bbaf9ae6c81",
+      "bytes": 329840,
+      "image": {
+        "width": 323,
+        "height": 533,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/badger-happy.png",
+      "path": "assets/images/woodland-friends/badger-happy.png",
+      "sha256": "1abb05296a2ff59efe340895e37ce43dc25b62593215f9813dff970300d8dae7",
+      "bytes": 333316,
+      "image": {
+        "width": 323,
+        "height": 536,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/badger-reference.png",
+      "path": "assets/images/woodland-friends/badger-reference.png",
+      "sha256": "9b4933b45d88c8203c3f2c3842d52a95a757e46459ed19c5c0d94068e88ca693",
+      "bytes": 1450345,
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/badger-sad.png",
+      "path": "assets/images/woodland-friends/badger-sad.png",
+      "sha256": "03cb84ca3bc9a92234201a81f84b65cb247e95dc227188a5eb060f03fb90d8d2",
+      "bytes": 339292,
+      "image": {
+        "width": 341,
+        "height": 531,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/badger-wave.png",
+      "path": "assets/images/woodland-friends/badger-wave.png",
+      "sha256": "05ac5feadda35ffcd8caa2b9e83cba578dc9de37bb50c606fcc64e43baeafbf0",
+      "bytes": 329664,
+      "image": {
+        "width": 355,
+        "height": 533,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-arm-l.png",
+      "path": "assets/images/woodland-friends/fox-arm-l.png",
+      "sha256": "050a2dc53a5e6831e9d7f303ad7f46a6597d62d1690bbc87cf686c18fd44ccad",
+      "bytes": 104691,
+      "image": {
+        "width": 214,
+        "height": 296,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-arm-r.png",
+      "path": "assets/images/woodland-friends/fox-arm-r.png",
+      "sha256": "5a9b87f88b895f8a030aa2bcba69ca8dc822c2449aa6ccdf8026cd9fa2d0be64",
+      "bytes": 108354,
+      "image": {
+        "width": 218,
+        "height": 306,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-blink.png",
+      "path": "assets/images/woodland-friends/fox-blink.png",
+      "sha256": "4fad5f7979dd3fc05b540f595799eb3bdf025506f9c68f847db3ebd408ed3e14",
+      "bytes": 267075,
+      "image": {
+        "width": 397,
+        "height": 413,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-body.png",
+      "path": "assets/images/woodland-friends/fox-body.png",
+      "sha256": "f066f02fdf83c0188ecc7b522ffad1ee3f4a18b65f7cbaa0783f11c8b35b1fcf",
+      "bytes": 2140885,
+      "image": {
+        "width": 1275,
+        "height": 1234,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-boot-l.png",
+      "path": "assets/images/woodland-friends/fox-boot-l.png",
+      "sha256": "d91cc8655141a6be22a8411c22c3613baf5e41c1511e3c9e3bc0e83c9ea100cc",
+      "bytes": 60922,
+      "image": {
+        "width": 139,
+        "height": 220,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-boot-r.png",
+      "path": "assets/images/woodland-friends/fox-boot-r.png",
+      "sha256": "b8175b9ea38fe5b5e4317d8447856bef142188563a9c2d009870dd8462fde3be",
+      "bytes": 60474,
+      "image": {
+        "width": 154,
+        "height": 218,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-crouch.png",
+      "path": "assets/images/woodland-friends/fox-crouch.png",
+      "sha256": "783b26827ddaac4846545f24174ecb1db3fcad093d74fabf190893f680019799",
+      "bytes": 430840,
+      "image": {
+        "width": 598,
+        "height": 542,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-head.png",
+      "path": "assets/images/woodland-friends/fox-head.png",
+      "sha256": "1587346820c4f2c66f3ce1b032cb04d3e06584aef14bfaacf58959959ddec9f7",
+      "bytes": 264474,
+      "image": {
+        "width": 393,
+        "height": 413,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-reference.png",
+      "path": "assets/images/woodland-friends/fox-reference.png",
+      "sha256": "26cf564ab4f3778334561b31f045116e41727d390650aa76e5509dd834167ace",
+      "bytes": 1679368,
+      "image": {
+        "width": 1774,
+        "height": 887,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-sit-blink.png",
+      "path": "assets/images/woodland-friends/fox-sit-blink.png",
+      "sha256": "e5a1256c776a62507005c70bc286504bd5e6a3e899d4a49a76b90c918393f86c",
+      "bytes": 432423,
+      "image": {
+        "width": 561,
+        "height": 586,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-sit.png",
+      "path": "assets/images/woodland-friends/fox-sit.png",
+      "sha256": "ed0807f5eb0b6e3ed102fac2cad057955f16a39febddb9ecaae763c7af6e01fd",
+      "bytes": 258918,
+      "image": {
+        "width": 389,
+        "height": 433,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/fox-tail.png",
+      "path": "assets/images/woodland-friends/fox-tail.png",
+      "sha256": "b264df68e53a7f46dcc0777c5747f94799a2e11144c6ce94aa12ee3c7d1626b2",
+      "bytes": 222384,
+      "image": {
+        "width": 390,
+        "height": 322,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/jar.png",
+      "path": "assets/images/woodland-friends/jar.png",
+      "sha256": "d50fb5ce67ef8b95f5c1b6a112868184b2a06cd590d4f2d14e28635dd2901ed3",
+      "bytes": 149359,
+      "image": {
+        "width": 211,
+        "height": 301,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/plate.png",
+      "path": "assets/images/woodland-friends/plate.png",
+      "sha256": "efa38c16a91a933afae70befa6a4bcd9e83270aff4b58532b8a56b67f6a1c7af",
+      "bytes": 3499911,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/village.png",
+      "path": "assets/images/woodland-friends/village.png",
+      "sha256": "9b0f31d6bd1dbb4d588ac03370b6e6fa8478b298d45604e99d6ccbd31d4169cc",
+      "bytes": 3872771,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "assets/library/woodland-friends/window.png",
+      "path": "assets/images/woodland-friends/window.png",
+      "sha256": "39fe1b805cc457004dd3fc49f7ce9df793840cb1c5263f57a4df24054c92e4c8",
+      "bytes": 3589702,
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "docs/images/first-video-contact-sheet.png",
+      "path": "assets/images/garden/first-video-contact-sheet.png",
+      "sha256": "8b2e93a20165b5474b57b715be4bf74bd5e4d33bd339cd383ed49565a1bfe1a9",
+      "bytes": 614054,
+      "image": {
+        "width": 960,
+        "height": 1776,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "docs/images/harbor-assets.png",
+      "path": "assets/images/harbor/harbor-assets.png",
+      "sha256": "509bcb006e376c26e315ac6a117006cb72412c7389f5609ffa7012c395b431ca",
+      "bytes": 17273,
+      "image": {
+        "width": 960,
+        "height": 620,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "docs/images/harbor-contact-sheet.png",
+      "path": "assets/images/harbor/harbor-contact-sheet.png",
+      "sha256": "1c8a3a6bc31194ddf96df85b56d1582234f3ffe3a94823c7f08a7b2309297487",
+      "bytes": 612358,
+      "image": {
+        "width": 960,
+        "height": 1776,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "docs/images/library-batch2-overview.jpg",
+      "path": "assets/images/library/library-batch2-overview.jpg",
+      "sha256": "d29ed300c0cfa1f3f31ff05a6926ae61fd3a6fb090fe7d375fafcc1256bb1a5f",
+      "bytes": 107487,
+      "image": {
+        "width": 1080,
+        "height": 660,
+        "format": "JPEG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "docs/images/library-overview.jpg",
+      "path": "assets/images/library/library-overview.jpg",
+      "sha256": "a319996fe74929ebfefb63c9f523e505727318a320ca7306904443fbd922eefc",
+      "bytes": 96732,
+      "image": {
+        "width": 1080,
+        "height": 660,
+        "format": "JPEG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "docs/images/rooftop-contact-sheet.png",
+      "path": "assets/images/pixel-rooftop/rooftop-contact-sheet.png",
+      "sha256": "3c74a7d41b696afd6cbfde42005469fa61ea2b31114ad5dbbf93f655ff401132",
+      "bytes": 1112309,
+      "image": {
+        "width": 960,
+        "height": 2368,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "docs/images/rooftop-preview.gif",
+      "path": "assets/images/pixel-rooftop/rooftop-preview.gif",
+      "sha256": "b848bfcb3d5dcd1bb3ac3282df97d22ee5844d849a9a12b415df04b9d032553e",
+      "bytes": 2972496,
+      "image": {
+        "width": 288,
+        "height": 512,
+        "format": "GIF",
+        "frames": 112
+      }
+    },
+    {
+      "previous_path": "examples/pixel/audio/music.wav",
+      "path": "assets/audio/pixel-rooftop/music.wav",
+      "sha256": "85138dbdaee6faf6b769086c0040d958c988504093ba7e8033484a7ee6e9e763",
+      "bytes": 3880844,
+      "audio": {
+        "sample_rate": 22050,
+        "channels": 2,
+        "frames": 970200,
+        "duration_seconds": 44.0
+      }
+    },
+    {
+      "previous_path": "examples/pixel/preview-silent.mp4",
+      "path": "assets/videos/pixel-rooftop/preview-silent.mp4",
+      "sha256": "8b2b8e8fa95b974cf84109d2588def073bf1752f5bbd2c08d75cfa16bd280b2c",
+      "bytes": 9045813
+    },
+    {
+      "previous_path": "examples/pixel/preview.mp4",
+      "path": "assets/videos/pixel-rooftop/preview.mp4",
+      "sha256": "8abd3fbcafb70df9a434704f28cae734dd076f24daf7008309015c037888ebd5",
+      "bytes": 9811485
+    },
+    {
+      "previous_path": "examples/reference-comic/poster.jpg",
+      "path": "assets/images/reference-comic/poster.jpg",
+      "sha256": "554e2685f831c2c2757097f5ee2655cb1a98e84baea653df66f3a77a6fed4cbd",
+      "bytes": 214432,
+      "image": {
+        "width": 960,
+        "height": 540,
+        "format": "JPEG",
+        "frames": 1
+      }
+    },
+    {
+      "previous_path": "examples/reference-comic/preview.mp4",
+      "path": "assets/videos/reference-comic/preview.mp4",
+      "sha256": "7a66fc3eda7d01c0ffad9f7ea85ac00371cd4f3f987570794a93e9745a880cbf",
+      "bytes": 11380586
+    }
+  ]
+}

@@ -30,7 +30,7 @@ def main(argv=None):
     if raw.get('id')=='robot-lighthouse':
         from harbor_drawing import HarborRenderer,validate_harbor
         scene=validate_harbor(raw);renderer=HarborRenderer(scene)
-        drawing=ROOT/'tools/harbor_drawing.py';asset_manifest=ROOT/'assets/harbor/manifest.json'
+        drawing=ROOT/'tools/harbor_drawing.py';asset_manifest=ROOT/'assets/images/harbor/manifest.json'
     elif raw.get('id')=='moonlight-chimes':
         from garden_drawing import GardenRenderer,validate_garden
         scene=validate_garden(raw);renderer=GardenRenderer(scene)
@@ -45,7 +45,7 @@ def main(argv=None):
         raise ValueError('Start and end must fall on exact frame boundaries.')
     exe=ffmpeg_path(args.ffmpeg)
     bundled=not args.silent and args.audio is None
-    audio=None if args.silent else (args.audio or ROOT/'examples/pixel/audio/music.wav')
+    audio=None if args.silent else (args.audio or ROOT/'assets/audio/pixel-rooftop/music.wav')
     if not math.isfinite(args.audio_offset) or args.audio_offset<0:
         raise ValueError('Audio offset must be finite and nonnegative.')
     if not math.isfinite(args.audio_fade_out) or not 0<=args.audio_fade_out<=end-start:
@@ -53,7 +53,7 @@ def main(argv=None):
     if audio is not None:
         if not audio.is_file():raise ValueError('Audio missing. Supply --audio FILE or use --silent.')
         if bundled:
-            record=json.loads((ROOT/'examples/pixel/audio/source.json').read_text(encoding='utf-8'))
+            record=json.loads((ROOT/'assets/audio/pixel-rooftop/source.json').read_text(encoding='utf-8'))
             if sha256(audio)!=record['sha256']:raise ValueError('Bundled audio SHA mismatch.')
         audio_info=probe(audio,exe)
         if not audio_info['has_audio'] or audio_info['duration'] is None or audio_info['duration']<args.audio_offset+end-.05:

@@ -5,7 +5,7 @@
   "kind": "watchable_showcase",
   "license": "MIT",
   "video": {
-    "path": "preview.mp4",
+    "path": "../../assets/videos/reference-comic/preview.mp4",
     "sha256": "7a66fc3eda7d01c0ffad9f7ea85ac00371cd4f3f987570794a93e9745a880cbf",
     "bytes": 11380586,
     "width": 1920,
@@ -16,7 +16,7 @@
     "has_audio": true
   },
   "poster": {
-    "path": "poster.jpg",
+    "path": "../../assets/images/reference-comic/poster.jpg",
     "sha256": "554e2685f831c2c2757097f5ee2655cb1a98e84baea653df66f3a77a6fed4cbd",
     "source": "same public video at 21 seconds",
     "width": 960,

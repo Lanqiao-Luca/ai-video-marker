@@ -2,9 +2,9 @@
 
 # 雨夜最后一班电车
 
-[![雨夜最后一班电车：点击查看完整视频](poster.jpg)](preview.mp4)
+[![雨夜最后一班电车：点击查看完整视频](../../assets/images/reference-comic/poster.jpg)](../../assets/videos/reference-comic/preview.mp4)
 
-[▶ 查看或下载完整视频](preview.mp4) · 约30秒 · 1920×1080 · 30fps · 带原创器乐
+[▶ 查看或下载完整视频](../../assets/videos/reference-comic/preview.mp4) · 约30秒 · 1920×1080 · 30fps · 带原创器乐
 
 雨夜的末班电车即将离站，一条围巾让一个小小的乘客也有了回家的路。
 

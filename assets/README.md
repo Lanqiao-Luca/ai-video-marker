@@ -1,33 +1,36 @@
-**目的**：统一定位仓库可复用的图片、视频和音频，说明现有位置及后续归档方式。
+**目的**：按类型、模块和文件定位仓库已公开素材，保留来源及真实复用范围。
 
 # 素材中心
 
-从这里按类型找素材。现有文件保留原位置，供示例运行的路径和素材清单继续有效；导航不另存一份媒体副本。
+素材实际按 **类型 → 模块 → 文件** 存放，每个已有媒体文件只保留一份；示例配置、制作说明和检查记录仍由examples管理。
 
-| 类型 | 统一入口 | 已公开资源 |
+| 类型 | 模块入口 | 实际内容 |
 |---|---|---|
-| 图片 | [images](images/README.md) | [10组73张PNG](library/README.md)、[机器人与海港12张PNG](harbor/README.md) |
-| 视频 | [videos](videos/README.md) | [屋顶像素动画](../examples/pixel/README.md)、[AI漫画成片](../examples/reference-comic/README.md)；现有成片用于展示，复用范围以各案例说明为准 |
-| 音频 | [audio](audio/README.md) | [原创配乐与来源](../examples/pixel/audio/source.json)、[配乐生成源码](../tools/make_demo_music.py) |
-
-## 后续存放规则
+| [图片](images/README.md) | 10个制作素材包、harbor、pixel-rooftop、garden、library、reference-comic | 原图、拆件、图集、封面、联系表及预览GIF |
+| [视频](videos/README.md) | pixel-rooftop、reference-comic | 屋顶带声/静音成片及漫画展示片 |
+| [音频](audio/README.md) | pixel-rooftop | 原创配乐WAV、source.json与NOTICE |
 
 ```text
 assets/
-├── README.md          # 素材总入口
-├── images/            # 后续新增可复用图片，按素材包分组
-├── videos/            # 后续新增可复用视频片段，按用途分组
-├── audio/             # 后续新增配乐/音效，按用途分组
-├── library/           # 已公开图片库，保留清单与原路径
-└── harbor/            # 已公开海港图片包，保留运行路径
+├── images/
+│   ├── harbor/                # 机器人、海港PNG与manifest
+│   ├── woodland-friends/      # 图片模块，其他素材包同层
+│   ├── pixel-rooftop/         # 屋顶预览/联系表
+│   ├── reference-comic/       # 漫画封面
+│   └── catalog.json           # 10个既有素材包的唯一目录清单
+├── videos/
+│   ├── pixel-rooftop/         # preview.mp4、preview-silent.mp4
+│   └── reference-comic/       # preview.mp4
+└── audio/
+    └── pixel-rooftop/         # music.wav、source.json、NOTICE.md
 ```
 
-images、videos、audio当前只有分类说明，已有媒体通过链接定位。新素材按类型和用途放入其中的独立素材包；每包附说明或清单，写清文件用途、尺寸/时长等实际规格、来源/生成方式、版本及公开再分发许可，必要时记录SHA。仅为导航不要复制或移动已有文件。
+同一模块跨类型使用相同模块ID，避免把各项目文件混在类型根目录。现有图片包的README、manifest及图集布局随包保存；library说明页只作逻辑索引，不另存图片或第二份catalog。
 
-完整案例的视频、封面、配置与复现说明继续放在 `examples/案例名/`；可复用视频片段放 `assets/videos/`。成片展示不等于有独立分层素材、工程或任意故事渲染器，音轨已混入成片也不代表提供了独立音频。
+完整成片用于案例展示，不等于有独立镜头素材、分层工程或任意故事渲染器；参考漫画只公开成片与封面，未附原图和分离音轨。可复用片段按实际用途单独说明，不能把成片自动算作片段库。
 
-只上传本次需要且允许再分发的文件。大体积媒体先评估用途与增量大小，按授权选择压缩展示版或单独分发方式；保留必要原件，不把缓存帧、临时输出、重复副本或本机制作记录直接打包。`outputs/`仍是本地工作产物位置。
+新增素材也按类型/模块保存，记录实际用途、规格、来源、版本与再分发许可，必要时记录SHA。只上传本次需要且允许分发的内容；大文件按授权选择压缩展示或独立分发，缓存、临时输出与私人制作记录不直接打包。输出仍写本地outputs。
 
-下载与复用不调用AI服务；补做素材或设计新影片可能需要模型调用及额外时间。许可及实际能力以对应素材包/案例说明为准，不能从“本地有文件”推定可以公开。
+本次只迁移已公开文件，媒体原字节未改，无新素材生成或重编码。迁移对应和SHA见[迁移清单](migration-20261028.json)，运行工具与示例入口已更新。
 
 返回：[项目首页](../README.md)。

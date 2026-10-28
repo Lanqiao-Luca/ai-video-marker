@@ -20,7 +20,7 @@ def child(base,relative):
 
 
 def catalog(root=ROOT):
-    base=Path(root)/'assets/library';data=json.loads((base/'catalog.json').read_text(encoding='utf-8'))
+    base=Path(root)/'assets/images';data=json.loads((base/'catalog.json').read_text(encoding='utf-8'))
     ids=[]
     for pack in data['packs']:
         if not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,63}',pack['id']):raise ValueError('Invalid library pack ID.')

@@ -20,7 +20,7 @@
 
 [pixel_engine.py](pixel_engine.py)负责场景校验与实例隔离，[pixel_drawing.py](pixel_drawing.py)保留原作18个绘图函数，[media.py](media.py)为共用FFmpeg适配，[garden_drawing.py](garden_drawing.py)实现花园场景及校验，[harbor_drawing.py](harbor_drawing.py)读取新机器人PNG素材并实现海港故事，均非用户CLI入口。
 
-[harbor_assets.py](harbor_assets.py)用可编辑源码生成12张可复用PNG到新的--out目录，见[海港素材包](../assets/harbor/README.md)。
+[harbor_assets.py](harbor_assets.py)用可编辑源码生成12张可复用PNG到新的--out目录，见[海港素材包](../assets/images/harbor/README.md)。
 
 render_pixel.py默认读取包内原创配乐，--silent可只导出画面，--audio FILE可替换音轨，--audio-offset指定音源起点；导出局部片段时自动加入片段起点，避免错用开头音乐。仓库配乐采用MIT许可。
 init_project.py的--assets reuse|mixed|generate只记录素材策略，不调用AI或自动生成素材；未选时将下一步记为确认策略。

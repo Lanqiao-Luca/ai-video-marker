@@ -1,16 +1,14 @@
-**目的**：区分完整案例展示与可复用视频片段，为后续片段提供统一位置。
+**目的**：按模块定位已公开成片，区分展示影片与可复用片段。
 
-# 视频素材与成片导航
+# 视频素材与成片
 
-| 现有成片 | 当前文件 | 使用说明 |
+| 模块 | 实际媒体 | 案例配置与说明 |
 |---|---|---|
-| 屋顶晒太阳 | [44秒像素成片](../../examples/pixel/preview.mp4) | [复现与配置](../../examples/pixel/README.md) |
-| 雨夜最后一班电车 | [约30秒漫画成片](../../examples/reference-comic/preview.mp4) | [实际制作路径与范围](../../examples/reference-comic/README.md) |
+| pixel-rooftop | [带声成片](pixel-rooftop/preview.mp4)、[静音母版](pixel-rooftop/preview-silent.mp4) | [屋顶示例](../../examples/pixel/README.md) |
+| reference-comic | [漫画展示片](reference-comic/preview.mp4) | [漫画制作说明](../../examples/reference-comic/README.md) |
 
-以上是完整作品展示，仍在原案例目录；本页不新增视频副本，也不将成片冒充可拆分的镜头、原素材或剪辑工程。
+媒体实际在videos/模块ID/，配置、检查及manifest保留examples原案例目录并引用这里。成片展示不自动等于可拆分镜头、原图、音轨或剪辑工程；当前没有额外导入可复用背景/转场片段。
 
-本目录当前仅有分类说明。以后明确作为可复用素材发布的视频片段放 `videos/用途或素材包ID/`，说明主体内容、时长、尺寸、帧率、是否带声、来源和许可。循环片段、转场、背景片段按实际用途标注，不从文件存在推定适用于所有故事。
-
-新增完整案例继续使用 `examples/案例名/`，本页增加导航即可；临时渲染结果留在本地 `outputs/`。是否上传、压缩或单独分发大文件按本次需要与授权决定。
+新增已获准片段同样按模块/用途存放，说明时长、尺寸、帧率、是否带声、来源与许可；大文件按实际需要与授权分发。临时渲染留在本地outputs，不把副本重新加到examples。
 
 返回：[素材中心](../README.md)。

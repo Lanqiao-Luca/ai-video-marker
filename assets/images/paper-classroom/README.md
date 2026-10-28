@@ -27,4 +27,4 @@ python tools/asset_library.py preview --pack paper-classroom --out outputs/paper
 
 图像按[MIT](../../../LICENSE)随仓库公开，未包含原曲、语音、参考媒体或原始会话；源原件保持不变。尺寸和源/公开SHA见[manifest.json](manifest.json)，本批文件为原字节复制。
 
-返回：[素材库](../README.md)。
+返回：[素材库](../../library/README.md)。

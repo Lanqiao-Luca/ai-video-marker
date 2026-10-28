@@ -39,7 +39,7 @@
       "example": "examples/pixel/README.md",
       "first_creation": "examples/harbor/README.md",
       "runnable_scenes": 3,
-      "asset_kit": "assets/harbor/README.md"
+      "asset_kit": "assets/images/harbor/README.md"
     },
     {
       "id": "emotional-poetry",
@@ -78,11 +78,11 @@
       "implementation": "documented_workflow",
       "example": "examples/reference-comic/README.md",
       "template": "templates/参考音轨与AI漫画制作单.md",
-      "showcase_video": "examples/reference-comic/preview.mp4",
+      "showcase_video": "assets/videos/reference-comic/preview.mp4",
       "showcase_scope": "watchable hybrid precomposition and native Jianying title/export; no bundled scene renderer or raw project"
     }
   ],
-  "visual_asset_library": "assets/library/catalog.json",
+  "visual_asset_library": "assets/images/catalog.json",
   "text_examples": {
     "path": "examples/story-starters/README.md",
     "count": 12,

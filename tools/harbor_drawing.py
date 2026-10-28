@@ -7,7 +7,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw
 
 ROOT=Path(__file__).resolve().parents[1]
-ASSETS=ROOT/'assets/harbor'
+ASSETS=ROOT/'assets/images/harbor'
 INK='#263e51'
 PALETTES=('sunset','midnight','mist')
 
