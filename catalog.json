@@ -64,10 +64,11 @@
       "name": "绘画世界穿行短片",
       "workflow": "workflows/绘画世界穿行短片制作.md",
       "status": "candidate",
-      "scope": "结尾逆推路线、关键帧与代表接缝，可选平面画框退出",
+      "scope": "结尾逆推路线、关键帧/接缝、单次或连续嵌套平面揭示",
       "implementation": "documented_workflow",
       "example": null,
-      "template": "templates/绘画世界穿行制作单.md"
+      "template": "templates/绘画世界穿行制作单.md",
+      "optional_tool": "tools/nested_world_reveal.py"
     },
     {
       "id": "reference-comic",
@@ -90,7 +91,7 @@
     "media_implementation": "requires workflow-specific adaptation"
   },
   "framework": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "layers": [
       "graphs",
       "loops",
@@ -134,8 +135,10 @@
       "skills/animation-docs/SKILL.md",
       "skills/animation-finish/SKILL.md",
       "skills/animation-shot/SKILL.md",
+      "skills/painting-world-video/SKILL.md",
       "skills/video-workflow-defaults/SKILL.md",
       "standards/atom-properties.md",
+      "standards/画中世界退出与载体揭示.md",
       "standards/画面提速与场景增补.md",
       "standards/视频宣传封面制作与交付.md",
       "workflows/像素节奏创意短片制作.md",

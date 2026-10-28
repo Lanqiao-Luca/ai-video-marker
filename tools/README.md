@@ -59,3 +59,8 @@ frame = reveal_painted_world(inner, outer, quad, progress=0.5)
 progress为调用者已经缓动后的[0,1]进度：0让画中图充满输出，1回到外部场景内的固定画布；返回outer尺寸的float32 RGB。live_inner_rgb/live_weight可把动态画中帧逐渐冻结；RGBA输入、错误顺序/凹面/越界/退化四角和非有限进度会报错。函数采用直立画布的无歧义左上约定，不支持任意旋转画框。
 
 读图时由调用者明确RGB（OpenCV默认BGR须转换）、裁切/比例、四角坐标与身份；不同宽高比须先选裁切/留边，不静默拉伸。图内动效先合入内图，前景遮挡/屏幕字幕在视野变换后由调用者合成。大角度画框可能拉伸外图边缘，不会生成未知场景。完整时序、音轨、编码和正常速度审看仍沿实际制作流程。
+
+<a id="nested-world-reveal"></a>
+## 可选：连续多层嵌套揭示
+
+[工具合同与调用](多层嵌套揭示工具.md)、[nested_world_reveal.py](nested_world_reveal.py)提供多层同源复合API和静音CLI，沿用requirements-painting.txt。需本作已准备的同画布RGB、逐层四角和cue；无造图/resize/音频/字幕/3D或剪映自动化。单次退出函数继续保留，两者实际使用边界分别记录。

@@ -3,7 +3,7 @@ name: video-workflow-defaults
 description: 视频流程公共接入、当前阶段及视频或封面交付的条件覆盖；不替代题材技能或自动制作媒体。
 metadata:
   status: active
-  version: 0.4.0
+  version: 0.5.0
   atom_property_schema: "APROP01-v1"
   atom_nature: "operation"
   atom_secondary_natures: ["method", "acceptance"]
@@ -57,7 +57,7 @@ metadata:
 |[APROP01 原子属性](../../standards/atom-properties.md)|创建或修改能力文档|经[属性与保存适配](../animation-docs/SKILL.md#atom-properties)接真实分类、属性/语义依据、受控保存/读回；导航/事实资源按真实用途排除|
 |[AN11 视频交付](../../standards/视频交付与发布文案.md)|实际向用户交付已导出视频版本|经[animation-finish交付适配](../animation-finish/SKILL.md#video-delivery)接完整交付信息与缺项；由声音与后期返回宿主，在最终回复核可见绝对全路径、推荐标题、完整发布描述。未完成文件返回导出阶段，不以预览短链代替|
 |[AN12 视频宣传封面](../../standards/视频宣传封面制作与交付.md)|正式成片宣传/面向发布的宣传交付，或单独封面请求；当前需求覆盖默认、内部试片等排除及有效双图复用沿AN12判断|把制作输入/原子结果交回原Workflow，由其既有美术职责完成静态封面；原声音与后期消费[animation-finish封面交付适配](../animation-finish/SKILL.md#cover-delivery)核收同版本图像/文案/来源/检查及缺项，再由制作视频职责核收并交宿主展示；缺项只返相交图，不改视频|
-|[AN13 画面提速与场景增补](../../standards/画面提速与场景增补.md)|路线/分镜编排、粗剪评估或慢/拖沓/提速增景反馈时检查；已有满意节奏可复用，不默认所有题材2倍|由原Workflow导演/动画职责明确相交段与新增信息，动画消费[animation-shot节奏适配](../animation-shot/SKILL.md#pace-adjustment)返回实际映射/增景/验证；声事件沿既有[后期事件输入](../animation-finish/SKILL.md#event-input)保持权威cue，当前用户要求与音轨保护沿AN13；制作视频核收实际结果/未验后交原阶段，纯文档不重渲|
+|[AN13 画面提速与场景增补](../../standards/画面提速与场景增补.md)|路线/分镜编排、粗剪评估或慢/拖沓/提速增景反馈时检查；实际消费AN13当前同类像素动作r=2默认、原设计基准与防叠乘；当前用户要求优先，音乐1×与题材保护沿AN13|由原Workflow导演/动画职责明确相交段与新增信息，动画消费[animation-shot节奏适配](../animation-shot/SKILL.md#pace-adjustment)返回原设计/已执行倍率、实际映射/增景/验证与独立音乐速度；声事件沿既有[后期事件输入](../animation-finish/SKILL.md#event-input)保持权威cue，当前用户要求与音轨保护沿AN13；制作视频核收实际结果/未验后交原阶段，纯文档不重渲|
 
 
 本Skill的同层适配引用复用既有实现；Markdown/状态写入仍由文档维护职责调用animation-docs执行，媒体和交付由原专业职责执行。本Skill只返回覆盖、参数和待办责任，不夺取那些写权，也不直接反向调度Agent或Workflow。
