@@ -14,7 +14,7 @@
 |---|---|---|
 | 先看效果、运行一支视频 | [漫画案例](#ai漫画案例雨夜最后一班电车)、[新手体验](#做你的第一支视频) | 约30秒漫画展示；默认36秒机器人短片可在本地重渲 |
 | 换题材、做自己的故事 | [12个开场文案](examples/story-starters/README.md)、[8条制作流程](#一共有多少种制作流程) | 创作需求、分镜和阶段方法；新故事按路线适配实现 |
-| 复用已有图片和音乐 | [10组73张PNG](assets/library/README.md)、[海港12张PNG](assets/harbor/README.md)、[像素配乐说明](examples/pixel/audio/source.json) | 可复用素材、来源记录与仓库原创配乐；素材组不等于现成影片 |
+| 找图片、视频与音频 | [素材中心](assets/README.md)：[图片](assets/images/README.md) · [视频](assets/videos/README.md) · [音频](assets/audio/README.md) | 现有素材与成片统一导航，新增媒体按类型/用途存放；素材组不等于现成影片 |
 | 理解AI怎么组织制作 | [六层方法](#六层如何配合)、[创作与接续](#从创意到交付如何推进与接续) | 分工、代表段迭代、动作与验收方法、跨窗口继续制作 |
 | 找工具和项目模板 | [本地工具](#本地工具能做什么)、[制作模板](templates/README.md) | 项目初始化、像素12份工作表、渲染、音轨处理与检查 |
 
@@ -221,6 +221,8 @@ ai-video-marker/
 ├── skills/                          # 九项按阶段读取的技能
 ├── standards/                       # 共用方法和判断依据
 ├── templates/                       # 通用、专题及像素12份工作表
+├── assets/README.md                 # 图片、视频、音频统一素材入口
+├── assets/images/ / videos/ / audio/ # 后续新增可复用素材按类型/用途存放
 ├── assets/harbor/                   # 机器人与海港12张PNG素材
 ├── assets/library/                  # 10组73张可复用PNG及来源记录
 ├── tools/                           # 初始化、渲染、音频、抽帧与检查
