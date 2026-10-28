@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "module": "蛊真人/幽魂魔尊",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 9,
+  "total_bytes": 29249274,
+  "filename_policy": "Original supplied names and numbering preserved; no 06 file supplied",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the existing original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01_雨中弑亲_原文校正.png",
+      "sha256": "58ef01d315aea0021a9cd0f6d2e267a66c6eea2fdfae2a407ecd86c961508659",
+      "bytes": 3636002,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02_食道反制_原文校正.png",
+      "sha256": "4d89283166a76f4946980df1a27a61d1efea3cf878f978abc2baeef33e9eb596",
+      "bytes": 2969456,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03_尊者问天_原文校正.png",
+      "sha256": "ee41b422d6f0e5af0720a1367cd9474861727522864b21ccecb9481a03483676",
+      "bytes": 3528846,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04_临终读人祖传_原文校正.png",
+      "sha256": "8038c25be3c1db79fe7adc23025097799ed093c19bbb5ac2f9990842758fabac",
+      "bytes": 3000069,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05_生死门照湖_原文校正.png",
+      "sha256": "88db94c9b58afa7daf2abfea47a6bfd69de668f7be34424da97d7462b3c9ff15",
+      "bytes": 2757009,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "07_义天山抗万劫_原文校正.png",
+      "sha256": "e7bf7e03234977fff1872baab06246bf4d5af71e15a74ff2bf9d8b4541b40515",
+      "bytes": 3709424,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "08_万劫灰忆_原文校正.png",
+      "sha256": "d2f547b3eabbae023257909a78f9239cf2beb10d9c6cd0af3065677bf32f17a6",
+      "bytes": 3233738,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "09_生死门战乐土_原文校正.png",
+      "sha256": "18ed27ffcc7c67c6b2d938025d0890dd2b5df3fc515b0307d277ace4b0eed7e0",
+      "bytes": 3511227,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "10_幽天冰寒蓝火_原文校正.png",
+      "sha256": "d7b45397ab0565c19b01a526a2b98b588f631d9f408d8f9ccf1da2eb7fd8b7ac",
+      "bytes": 2903503,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}

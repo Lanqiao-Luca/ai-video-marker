@@ -294,4 +294,4 @@ python tools/check_pixel_baseline.py
 python -m unittest discover -s tests -v
 ```
 
-本仓库采用 [MIT许可证](LICENSE)，包含示例画面、原创配乐及生成源码。复现示例无需付费服务或全局技能安装。
+仓库源码与已明确注明的原创素材采用 [MIT许可证](LICENSE)，具体素材以模块说明为准；用户提供的题材图片不自动继承MIT或第三方角色设定许可。复现示例无需付费服务或全局技能安装。

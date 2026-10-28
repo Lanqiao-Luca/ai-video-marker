@@ -9,6 +9,8 @@
 - [library总览](library/library-overview.jpg)与[第二批总览](library/library-batch2-overview.jpg)：图片库导航图。
 - [reference-comic封面](reference-comic/poster.jpg)：漫画案例同片取帧；[来源清单](../../examples/reference-comic/manifest.json)留在案例目录。
 
+- [蛊真人 / 幽魂魔尊](蛊真人/幽魂魔尊/README.md)：用户指定提供的9张1672×941 PNG，单列模块，不计入上述10包73图；再利用许可见模块说明。
+
 新图片放images/模块ID/，区分原图、角色拆件、图集、封面和检查预览用途；图集格数不计为独立PNG数量。图片来源和许可沿包内清单；不要复制一份到案例目录。制作缓存留在outputs，不作为素材库上传。
 
 返回：[素材中心](../README.md)。
