@@ -55,7 +55,7 @@
       "name": "歌词／短句驱动程序动画 MV（含立体书剪纸分支）",
       "workflow": "workflows/歌词驱动程序动画MV制作.md",
       "status": "candidate",
-      "scope": "真实声音/文字、材质选择、单源事件、观看信息和风险覆盖；纸艺另取PB方法",
+      "scope": "真实声音/文字、材质选择、终态倒排与转折创意、单源事件和连续风险覆盖；纸艺另取PB方法",
       "implementation": "documented_workflow",
       "example": null
     },
@@ -91,7 +91,7 @@
     "media_implementation": "requires workflow-specific adaptation"
   },
   "framework": {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "layers": [
       "graphs",
       "loops",
@@ -149,7 +149,8 @@
       "workflows/文档维护与原则审查.md",
       "workflows/歌词驱动程序动画MV制作.md",
       "workflows/短片制作.md",
-      "workflows/绘画世界穿行短片制作.md"
+      "workflows/绘画世界穿行短片制作.md",
+      "skills/animation-plan/SKILL.md"
     ]
   },
   "video_delivery": {

@@ -190,20 +190,30 @@
     },
     {
       "source": "skills/animation-plan/SKILL.md",
-      "source_sha256": "01eed07889888567162f8df289869e09211f832477605e1b9a6c6159a02a8e40",
+      "source_sha256": "82dab59707c9f941a6350f66ec597268d86731be3afe9330066004180b83d5c6",
       "target": "skills/animation-plan/SKILL.md",
-      "target_sha256": "53b59e9f5bd36b0599cdc1dd319db8729c2eb53b17bc41acfecd6eb47a92756b",
-      "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
-      "previous_baseline": {
-        "source_sha256": "eadef1ca039fd713a5a722483bfed3a33db95ba780833d0996f553a3f6a8c2f9",
-        "target_sha256": "67c5c6ebf5c4a8317d74033451444a4ca1560ca3f42fceb89a0f4b6a775a4a99"
-      },
-      "source_version": "V1.2.4",
-      "adaptation_history": [
+      "target_sha256": "0265ba879b828ef532a4d80a08a63ed9b7631638e583b152474928b1b4fb6252",
+      "source_version": "V1.2.6",
+      "adaptation": "0.5.1选择性公开适配：仅MV转折创意与相交阶段；复用既有CRT/AN10，保候选与采用基线，不含专用方法、私人事件或媒体",
+      "prior_adaptations": [
         {
-          "release": "0.2.0",
-          "source_sha256": "8d5b09a78550413b42374a003a5560822da4684764e64188241a0915a05000bb",
-          "target_sha256": "62a1920da5637caaafeac58d3d71978e0933d080e5cbebe9548119012525bbd3"
+          "source": "skills/animation-plan/SKILL.md",
+          "source_sha256": "01eed07889888567162f8df289869e09211f832477605e1b9a6c6159a02a8e40",
+          "target": "skills/animation-plan/SKILL.md",
+          "target_sha256": "53b59e9f5bd36b0599cdc1dd319db8729c2eb53b17bc41acfecd6eb47a92756b",
+          "adaptation": "0.3.0增量公开适配；沿原目的/基线同步统一视频交付出口或AN10逐场推进/有限验收，保现有示例行为、候选身份与素材策略；不携带私人实例/路径/原始反馈或执行记录",
+          "previous_baseline": {
+            "source_sha256": "eadef1ca039fd713a5a722483bfed3a33db95ba780833d0996f553a3f6a8c2f9",
+            "target_sha256": "67c5c6ebf5c4a8317d74033451444a4ca1560ca3f42fceb89a0f4b6a775a4a99"
+          },
+          "source_version": "V1.2.4",
+          "adaptation_history": [
+            {
+              "release": "0.2.0",
+              "source_sha256": "8d5b09a78550413b42374a003a5560822da4684764e64188241a0915a05000bb",
+              "target_sha256": "62a1920da5637caaafeac58d3d71978e0933d080e5cbebe9548119012525bbd3"
+            }
+          ]
         }
       ]
     },
@@ -577,11 +587,11 @@
     },
     {
       "source": "workflows/歌词驱动程序动画MV制作.md",
-      "source_sha256": "b9175b442746b21b983e1b07fbe13c9764c0f48167e72cc0771271f9b59e537f",
+      "source_sha256": "8f5c7daa2e5006295d6b67f66654a29cfbe8b33afb53405d4a735ebd8fb137ed",
       "target": "workflows/歌词驱动程序动画MV制作.md",
-      "target_sha256": "e998c2f684d3ed43704d30f74ced41f2dae2f8bbad225052401f87f7d14997c9",
-      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
-      "source_version": "V1.3.2",
+      "target_sha256": "0b42daf8922d95005b1175faca64b78f5b41c8d646978a1a36ddb25a02eba2f6",
+      "source_version": "V1.3.3",
+      "adaptation": "0.5.1选择性公开适配：仅MV转折创意与相交阶段；复用既有CRT/AN10，保候选与采用基线，不含专用方法、私人事件或媒体",
       "prior_adaptations": [
         {
           "source": "workflows/歌词驱动程序动画MV制作.md",
@@ -601,6 +611,14 @@
               "target_sha256": "8b448ce96bbda745815cbd25643e95bab50346df263ab7b3fcd04f3b2fc3f39a"
             }
           ]
+        },
+        {
+          "source": "workflows/歌词驱动程序动画MV制作.md",
+          "source_sha256": "b9175b442746b21b983e1b07fbe13c9764c0f48167e72cc0771271f9b59e537f",
+          "target": "workflows/歌词驱动程序动画MV制作.md",
+          "target_sha256": "e998c2f684d3ed43704d30f74ced41f2dae2f8bbad225052401f87f7d14997c9",
+          "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+          "source_version": "V1.3.2"
         }
       ]
     },
