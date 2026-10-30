@@ -81,6 +81,16 @@
       "template": "templates/参考音轨与AI漫画制作单.md",
       "showcase_video": "assets/videos/reference-comic/preview.mp4",
       "showcase_scope": "watchable hybrid precomposition and native Jianying title/export; no bundled scene renderer or raw project"
+    },
+    {
+      "id": "blender-layered",
+      "name": "Blender分层角色动画",
+      "workflow": "workflows/Blender分层角色动画制作.md",
+      "status": "active",
+      "scope": "2.5D分层资产、注册绑定、表演曲线、采样缓存与可恢复工程依赖",
+      "implementation": "documented_workflow",
+      "example": null,
+      "project_template": "templates/Blender分层角色动画制作单.md"
     }
   ],
   "visual_asset_library": "assets/images/catalog.json",
@@ -91,7 +101,7 @@
     "media_implementation": "requires workflow-specific adaptation"
   },
   "framework": {
-    "version": "0.5.1",
+    "version": "0.6.0",
     "layers": [
       "graphs",
       "loops",
@@ -150,7 +160,19 @@
       "workflows/歌词驱动程序动画MV制作.md",
       "workflows/短片制作.md",
       "workflows/绘画世界穿行短片制作.md",
-      "skills/animation-plan/SKILL.md"
+      "skills/animation-plan/SKILL.md",
+      "workflows/Blender分层角色动画制作.md",
+      "skills/blender-layered-animation/SKILL.md",
+      "standards/分层贴图与变形绑定.md",
+      "standards/可重建场景与镜头.md",
+      "standards/动作采样与渲染缓存.md",
+      "standards/角色表演与曲线精修.md",
+      "agents/导演与策划.md",
+      "agents/动画与合成.md",
+      "agents/作品验收.md",
+      "standards/镜头空间与动态分镜.md",
+      "standards/版本资产与返工.md",
+      "standards/审核交接与定向复核.md"
     ]
   },
   "video_delivery": {

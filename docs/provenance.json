@@ -53,15 +53,25 @@
     },
     {
       "source": "standards/镜头空间与动态分镜.md",
-      "source_sha256": "d96134c780387f3b8f166c2f7cbecac72142c4811db883200db11e1162a00bd2",
+      "source_sha256": "0c18fd2dadbb93b1e75cac4fb1561884d3316e6e3f61bf04c75c2d2bf4486c8c",
+      "source_version": "V1.0.3",
       "target": "standards/镜头空间与动态分镜.md",
-      "target_sha256": "da30c38612dee71634ee8c1d53171602186a6acd1c23a1e5484ac110c2ac808f",
-      "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
-      "previous_baseline": {
-        "source_sha256": "99fbf41740587d719af6fd6bf7ff7f8cdb05ac02fc73e5848010e1df1b1f577f",
-        "target_sha256": "14add58a89feaf674a7984791909b1a7401dfb2f6df54a1ee9884268149f20d8"
-      },
-      "source_version": "V1.0.2"
+      "target_sha256": "16aa0d37b198b49466f498ab58b5da77cc6ea98b0fabbd8894e5be87174704ba",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行",
+      "prior_adaptations": [
+        {
+          "source": "standards/镜头空间与动态分镜.md",
+          "source_sha256": "d96134c780387f3b8f166c2f7cbecac72142c4811db883200db11e1162a00bd2",
+          "target": "standards/镜头空间与动态分镜.md",
+          "target_sha256": "da30c38612dee71634ee8c1d53171602186a6acd1c23a1e5484ac110c2ac808f",
+          "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
+          "previous_baseline": {
+            "source_sha256": "99fbf41740587d719af6fd6bf7ff7f8cdb05ac02fc73e5848010e1df1b1f577f",
+            "target_sha256": "14add58a89feaf674a7984791909b1a7401dfb2f6df54a1ee9884268149f20d8"
+          },
+          "source_version": "V1.0.2"
+        }
+      ]
     },
     {
       "source": "standards/代表镜头与动作制作.md",
@@ -89,10 +99,20 @@
     },
     {
       "source": "standards/版本资产与返工.md",
-      "source_sha256": "a47c76f6fba17dafee0a0f1746ff9d1d38f7a063a662c8a1eea1366bfe62d84e",
+      "source_sha256": "ddc731f932e4c7049060dda11dc4632d2c36093d4b9d8cf5bc6a35e9f24510da",
+      "source_version": "V1.2.2",
       "target": "standards/版本资产与返工.md",
-      "target_sha256": "a8c659489fe4061fb9b2943b446b38b1072df3d7675f4695061bb8c874c61219",
-      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+      "target_sha256": "cc94b72987f8609579f1130afd1e1d9ce71b7b1023f1affa2aeefc9122d06777",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行",
+      "prior_adaptations": [
+        {
+          "source": "standards/版本资产与返工.md",
+          "source_sha256": "a47c76f6fba17dafee0a0f1746ff9d1d38f7a063a662c8a1eea1366bfe62d84e",
+          "target": "standards/版本资产与返工.md",
+          "target_sha256": "a8c659489fe4061fb9b2943b446b38b1072df3d7675f4695061bb8c874c61219",
+          "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+        }
+      ]
     },
     {
       "source": "standards/制作验证与阶段验收.md",
@@ -103,10 +123,20 @@
     },
     {
       "source": "standards/审核交接与定向复核.md",
-      "source_sha256": "b958f452275f1f0a6c7c9cab498ff69d29c8b1905b9f09fa6a473489326994b5",
+      "source_sha256": "de50089538f70c00e3a10903b34f6f75802242e66534d5fb386e221f6267dd2d",
+      "source_version": "V1.1.3",
       "target": "standards/审核交接与定向复核.md",
-      "target_sha256": "b5b8dc3dbe6f435b1274479bab337491243f22dec57f594908c2e0c6077a6772",
-      "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+      "target_sha256": "2d9ac479a0e11e9ef847c0b0e05270afa035109b6de6f8a10beef5e57858a1d5",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行",
+      "prior_adaptations": [
+        {
+          "source": "standards/审核交接与定向复核.md",
+          "source_sha256": "b958f452275f1f0a6c7c9cab498ff69d29c8b1905b9f09fa6a473489326994b5",
+          "target": "standards/审核交接与定向复核.md",
+          "target_sha256": "b5b8dc3dbe6f435b1274479bab337491243f22dec57f594908c2e0c6077a6772",
+          "adaptation": "公开适配；保留制作方法和候选身份，移除个人事实、历史案例依赖及私有治理运行接口"
+        }
+      ]
     },
     {
       "source": "standards/渲染和工具异常恢复.md",
@@ -277,11 +307,11 @@
     },
     {
       "source": "skills/animation-docs/SKILL.md",
-      "source_sha256": "5128546f43e2ba22e47601eafb61c23e39166f3793d61893127b7f9a3c110a21",
+      "source_sha256": "f9a63d4d4e74a2dc43d01d567b7e82875c29ee5e747d95859c18c5023c4c09d9",
+      "source_version": "V1.3.4",
       "target": "skills/animation-docs/SKILL.md",
-      "target_sha256": "8058587fb82b1c8fd70a42f7f06e6e50af31a1f2cc84e72a45e0023d109e534c",
-      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
-      "source_version": "V1.3.3",
+      "target_sha256": "ebf13b97d2a6faed888416adf5444cea3bdf1bcadd080c10401ad5f29462b6ca",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行",
       "prior_adaptations": [
         {
           "source": "skills/animation-docs/SKILL.md",
@@ -293,6 +323,14 @@
             "source_sha256": "5128546f43e2ba22e47601eafb61c23e39166f3793d61893127b7f9a3c110a21",
             "target_sha256": "09c23aa185a57a5ca3a371385a25aab6354145c87a99e010a94f594fd66b9f07"
           },
+          "source_version": "V1.3.3"
+        },
+        {
+          "source": "skills/animation-docs/SKILL.md",
+          "source_sha256": "5128546f43e2ba22e47601eafb61c23e39166f3793d61893127b7f9a3c110a21",
+          "target": "skills/animation-docs/SKILL.md",
+          "target_sha256": "8058587fb82b1c8fd70a42f7f06e6e50af31a1f2cc84e72a45e0023d109e534c",
+          "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
           "source_version": "V1.3.3"
         }
       ]
@@ -335,23 +373,33 @@
     },
     {
       "source": "agents/导演与策划.md",
-      "source_sha256": "44562a4d557db0fc16b6e012f2272285fe6f32e0bf7e68bf655d3bf3a62c107e",
+      "source_sha256": "75e054816eb919de4fe0ac4d2ee0933781af96df064264adcf73dbec17a57790",
+      "source_version": "V1.2.8",
       "target": "agents/导演与策划.md",
-      "target_sha256": "8eb778f1009a5e8f00a22215ad575f358162bc0c228c383201824f5e50d5008f",
-      "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
-      "previous_baseline": {
-        "source_sha256": "335367445db4664d9ad7436f891dd3d1c62f25616af38519491d30f4bab92836",
-        "target_sha256": "d1a17a4511ad6242d9c86c2c02ff7ef089b08325cddd8f5fa9b6a663818310c0"
-      },
-      "source_version": "V1.2.5"
+      "target_sha256": "e52ac479e95326e22e4902f8ffcc44cdcc17857ac7ec71224500c51fa329c7f8",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行",
+      "prior_adaptations": [
+        {
+          "source": "agents/导演与策划.md",
+          "source_sha256": "44562a4d557db0fc16b6e012f2272285fe6f32e0bf7e68bf655d3bf3a62c107e",
+          "target": "agents/导演与策划.md",
+          "target_sha256": "8eb778f1009a5e8f00a22215ad575f358162bc0c228c383201824f5e50d5008f",
+          "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
+          "previous_baseline": {
+            "source_sha256": "335367445db4664d9ad7436f891dd3d1c62f25616af38519491d30f4bab92836",
+            "target_sha256": "d1a17a4511ad6242d9c86c2c02ff7ef089b08325cddd8f5fa9b6a663818310c0"
+          },
+          "source_version": "V1.2.5"
+        }
+      ]
     },
     {
       "source": "agents/美术与一致性.md",
-      "source_sha256": "526a59f97ce73214ae3eb5dd29a8f80a5558171bdf8c54650e5d5fab8c0edab1",
+      "source_sha256": "73e9cae30328cc5c7eb7c0bef21e741970dedebaf1036dc6cab06d81f69428cd",
+      "source_version": "V1.2.7",
       "target": "agents/美术与一致性.md",
-      "target_sha256": "8d4b5a79ebae34b53cfbfe0ad1cf2ea8edb9f0c85b65260cda44122034755e62",
-      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
-      "source_version": "V1.2.5",
+      "target_sha256": "ea5f48c8aa1a00283d5a4fe094963bc778d5e59050b3caae89efeb03d1e5c51d",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行",
       "prior_adaptations": [
         {
           "source": "agents/美术与一致性.md",
@@ -364,28 +412,46 @@
             "target_sha256": "02efab5a397d6d56b893269d77ccdbfd50819d08bb46926fdf14e57f6c527dc2"
           },
           "source_version": "V1.2.5"
+        },
+        {
+          "source": "agents/美术与一致性.md",
+          "source_sha256": "526a59f97ce73214ae3eb5dd29a8f80a5558171bdf8c54650e5d5fab8c0edab1",
+          "target": "agents/美术与一致性.md",
+          "target_sha256": "8d4b5a79ebae34b53cfbfe0ad1cf2ea8edb9f0c85b65260cda44122034755e62",
+          "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+          "source_version": "V1.2.5"
         }
       ]
     },
     {
       "source": "agents/动画与合成.md",
-      "source_sha256": "fd806747340cbdaf8dee0053220c341a6399118d1d0cee829d77c4b59f434c84",
+      "source_sha256": "3423ffdbd7f1143242ea2bfd93a83e4c91b0bb1b1346896a190a9396a1d7f7fb",
+      "source_version": "V1.3.9",
       "target": "agents/动画与合成.md",
-      "target_sha256": "e34987f12b105f3a8019056997d31594e0a490418d961708aaa3ab3c0b050ded",
-      "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
-      "previous_baseline": {
-        "source_sha256": "7775b1d9e8b74b33d4dcad3a3c037c633657fcf34c4c49741b39acf7d1441ca3",
-        "target_sha256": "c80916ecf40d216405be458ff6ccf61cd265b9c54db031aaf9ed4063e791c676"
-      },
-      "source_version": "V1.3.5"
+      "target_sha256": "cdb16d2b1e806b59d86246962a253040e35ee547e63b6235ce8af23e757dda41",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行",
+      "prior_adaptations": [
+        {
+          "source": "agents/动画与合成.md",
+          "source_sha256": "fd806747340cbdaf8dee0053220c341a6399118d1d0cee829d77c4b59f434c84",
+          "target": "agents/动画与合成.md",
+          "target_sha256": "e34987f12b105f3a8019056997d31594e0a490418d961708aaa3ab3c0b050ded",
+          "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
+          "previous_baseline": {
+            "source_sha256": "7775b1d9e8b74b33d4dcad3a3c037c633657fcf34c4c49741b39acf7d1441ca3",
+            "target_sha256": "c80916ecf40d216405be458ff6ccf61cd265b9c54db031aaf9ed4063e791c676"
+          },
+          "source_version": "V1.3.5"
+        }
+      ]
     },
     {
       "source": "agents/声音与后期.md",
-      "source_sha256": "7f1a3064a16243c960170c9c536b443188d54a57c7d427c80d62c01b9b399001",
+      "source_sha256": "1f6fc5f44a06ddbe915e7bb1e1d5518e4e59f08c03445896264b841c01ddf9db",
+      "source_version": "V1.4.1",
       "target": "agents/声音与后期.md",
-      "target_sha256": "212e8976b127d8103d2773bd5270ab425bdb379b0341df2b1a6cb8837c4ba8f8",
-      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
-      "source_version": "V1.4.0",
+      "target_sha256": "038c1710f1721888dd6bd774643ca445db6af11d7295cf4fb27592ed3bc9130d",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行",
       "prior_adaptations": [
         {
           "source": "agents/声音与后期.md",
@@ -405,20 +471,38 @@
               "target_sha256": "27df6a85c74394d5bd95615a1f77f724dd9e51bbb17d4a4fae38b1eb1dfbd33f"
             }
           ]
+        },
+        {
+          "source": "agents/声音与后期.md",
+          "source_sha256": "7f1a3064a16243c960170c9c536b443188d54a57c7d427c80d62c01b9b399001",
+          "target": "agents/声音与后期.md",
+          "target_sha256": "212e8976b127d8103d2773bd5270ab425bdb379b0341df2b1a6cb8837c4ba8f8",
+          "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+          "source_version": "V1.4.0"
         }
       ]
     },
     {
       "source": "agents/作品验收.md",
-      "source_sha256": "fcb31e705e5da612de0afc08c0f63589bf43a6c9fe4b8c51612a73683f1c21ba",
+      "source_sha256": "263909495e48a7bcf5f7111f975f10fdad9b76fe7a36d447b44726386f86e402",
+      "source_version": "V1.3.7",
       "target": "agents/作品验收.md",
-      "target_sha256": "80e23ff4e993a21dff65df0fce3a0d3207c5e62d1419a9799efbbb42c9f9e40e",
-      "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
-      "previous_baseline": {
-        "source_sha256": "ba055b10340bb01051b65503049996c87faa5f1a3caf1284f3fa1a1dce691cce",
-        "target_sha256": "eaee35e11599422df5799b8565bd522ff512802d9e62a4cb7adcf74260d6b4a6"
-      },
-      "source_version": "V1.3.5"
+      "target_sha256": "2b18144feea583774a867d632656c72695663f542e49922f3d06f7399434f68a",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行",
+      "prior_adaptations": [
+        {
+          "source": "agents/作品验收.md",
+          "source_sha256": "fcb31e705e5da612de0afc08c0f63589bf43a6c9fe4b8c51612a73683f1c21ba",
+          "target": "agents/作品验收.md",
+          "target_sha256": "80e23ff4e993a21dff65df0fce3a0d3207c5e62d1419a9799efbbb42c9f9e40e",
+          "adaptation": "0.2.0增量公开适配；保留原公开行为/素材策略与来源，消费当前源的题材、观看信息、风险覆盖、单源事件、位置交接或接续增量；移除私人实例及私有运行依赖",
+          "previous_baseline": {
+            "source_sha256": "ba055b10340bb01051b65503049996c87faa5f1a3caf1284f3fa1a1dce691cce",
+            "target_sha256": "eaee35e11599422df5799b8565bd522ff512802d9e62a4cb7adcf74260d6b4a6"
+          },
+          "source_version": "V1.3.5"
+        }
+      ]
     },
     {
       "source": "agents/文档维护.md",
@@ -1112,8 +1196,8 @@
       "source": "AGENTS.md",
       "source_sha256": "6cc55cb59f705f75e73407fb60bdc0a42eb78c331e64199e9743f2ea533f4e4e",
       "target": "AGENTS.md",
-      "target_sha256": "caafa5b344f284a352c7619ebc1923a7a646a8f9f3c569dd053cccccda4e9da8",
-      "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+      "target_sha256": "cabc091c873e544416d3cfb6f97566d97c64b7c4e67916819647058b0c4519c0",
+      "adaptation": "0.6.0沿既有源身份补公开Blender路由与真实数量；保默认新手入口/授权/媒体，未复制源域运行时",
       "source_version": "V1.6.2",
       "prior_adaptations": [
         {
@@ -1123,6 +1207,15 @@
           "target_sha256": "7985f2b55e08978dbd8252487fad09b72dd17d9da6a0d35af0e01240934e343a",
           "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
           "source_version": "V1.6.2"
+        },
+        {
+          "source": "AGENTS.md",
+          "source_sha256": "6cc55cb59f705f75e73407fb60bdc0a42eb78c331e64199e9743f2ea533f4e4e",
+          "target": "AGENTS.md",
+          "target_sha256": "caafa5b344f284a352c7619ebc1923a7a646a8f9f3c569dd053cccccda4e9da8",
+          "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+          "source_version": "V1.6.2",
+          "public_path_migration": "2026-10-28: media regrouping and consumer/link adaptation; source identity unchanged"
         }
       ],
       "public_path_migration": "2026-10-28: media regrouping and consumer/link adaptation; source identity unchanged"
@@ -1141,6 +1234,70 @@
       "target_sha256": "c18d3f603f52a79e7f1b17c1d04dd9fbb9dba14d34010fef32e2dcbc443d489c",
       "adaptation": "0.5.0选择性公开适配：连续嵌套/速度默认及必要相邻接口；移除私人案例、预设、反馈与运行依赖，不含媒体或专用分支",
       "source_version": "V1.0.0"
+    },
+    {
+      "source": "standards/分层贴图与变形绑定.md",
+      "source_sha256": "1e6c94ed29b5b4977439fa5b9a0bf6be40aa168e722e72908e08f640e9aeddc9",
+      "source_version": "V1.0.2",
+      "target": "standards/分层贴图与变形绑定.md",
+      "target_sha256": "cbc3f6eebc3b59f1eec6c0f10faa111b2f3bff0867621498d22f7de1fb3c3aa8",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行"
+    },
+    {
+      "source": "standards/可重建场景与镜头.md",
+      "source_sha256": "8c2d7a2aaf1f952315a8e4e2e190f3d93a3bae4b70097dd104ee8888cf0f9e94",
+      "source_version": "V1.0.0",
+      "target": "standards/可重建场景与镜头.md",
+      "target_sha256": "7d325eec4897cbc0645156f20842572a28b132d1a026829049db1b3960c61614",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行"
+    },
+    {
+      "source": "standards/动作采样与渲染缓存.md",
+      "source_sha256": "7a71ef13bb9afb72e65754f5e3632a75161860fa62e8ad1323cc8985dba94c5f",
+      "source_version": "V1.0.0",
+      "target": "standards/动作采样与渲染缓存.md",
+      "target_sha256": "9ea43f4c832380f8ec0cecae6f2902e84f07a500503bdfbb9aa233e01e4d508a",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行"
+    },
+    {
+      "source": "standards/角色表演与曲线精修.md",
+      "source_sha256": "c4418359efeea4a5bebf37bd0af46e2b2ab3c173ee558b6b3b7b7457140200f3",
+      "source_version": "V1.0.0",
+      "target": "standards/角色表演与曲线精修.md",
+      "target_sha256": "3281ca2fb759635de17ab43479d9f43bf09e7f399b76596fa5c83a8a2b8ed734",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行"
+    },
+    {
+      "source": "skills/blender-layered-animation/SKILL.md",
+      "source_sha256": "b8791b47d9716dea95f837822623e903be34e4139ea3bb74527c53145d6d59c2",
+      "source_version": "V1.0.5",
+      "target": "skills/blender-layered-animation/SKILL.md",
+      "target_sha256": "77df1deeb1783a27fe354e61dee435b6c4a199e46f57baa7c75e44fca163e24c",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行"
+    },
+    {
+      "source": "workflows/Blender分层角色动画制作.md",
+      "source_sha256": "0c971c8981f86aaa7dff5531106806d2c6f39fc6302b175c6e3fc9c60c15b324",
+      "source_version": "V1.0.4",
+      "target": "workflows/Blender分层角色动画制作.md",
+      "target_sha256": "eff53d8a73df236a8a6d51fabfa7a306eee41c1d669d15d699382a4031f7b5ec",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行"
+    },
+    {
+      "source": "tools/Blender分层动画实现.md",
+      "source_sha256": "bdd09bd8bcd0521b4328c4ea5e493f5a56b625d571d3c3cfb5f8c0d8e6cdea16",
+      "source_version": "V1.0.1",
+      "target": "tools/Blender分层动画实现.md",
+      "target_sha256": "2de84cdcd8c8156e9435483708d39eeb4247db11c1c41cf5badc616ca25bcbdc",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行"
+    },
+    {
+      "source": "workflows/Blender分层角色动画制作.md",
+      "source_sha256": "0c971c8981f86aaa7dff5531106806d2c6f39fc6302b175c6e3fc9c60c15b324",
+      "source_version": "V1.0.4",
+      "target": "templates/Blender分层角色动画制作单.md",
+      "target_sha256": "1f7b5b5664a1eff19c3de9f1cb9651f97075e97f8a51a3325a05591fd6bb35ec",
+      "adaptation": "0.6.0选择性公开适配：通用Blender有限动画/迭代与框架数据边界，去除私人专用方法、案例参数/源工程及运行结论；方法/空表不代表制作已执行"
     }
   ],
   "generated_assets": [

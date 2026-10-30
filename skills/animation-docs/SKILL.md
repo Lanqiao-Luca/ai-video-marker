@@ -3,7 +3,7 @@ name: animation-docs
 description: 维护动画制作记录、方法文档和交接状态；用于文档变更与跨会话接续。
 metadata:
   status: active
-  version: 0.4.0
+  version: 0.6.0
   atom_property_schema: "APROP01-v1"
   atom_nature: "operation"
   atom_secondary_natures: ["method", "acceptance"]
@@ -21,7 +21,7 @@ metadata:
 
 # 文档维护
 
-1. 确认目标文件、旧目的、明确写集和已有改动；必要时保存修改前版本。
+1. 确认目标文件、旧目的、明确写集和已有改动；必要时保存修改前版本。核能力正文是否混入某作品、账户或项目的具体事实/变动状态；必要例子标身份和适用范围，事实经已绑定来源取得，不能只换链接就声称可迁移。当前公开素材中心和案例是已授权发布资源，按各模块/案例说明维护；本条不删除、迁移它们，也不将其参数变成新作默认。
 2. 目的、复用、证据、写入与基线按 [五 AP](../../standards/README.md)，不将内容方法复制进原则审查规范。
 3. 当前制作状态使用 [EX01](../../standards/执行文档与跨窗口接续.md)及 [项目模板](../../templates/project/README.md)，来源和作品参数与共享方法分开。
 4. 缓存与交付依 [RET01](../../standards/项目留存与过程清理.md)定位，不自动清理或扫描用户其他目录。

@@ -64,3 +64,8 @@ progress为调用者已经缓动后的[0,1]进度：0让画中图充满输出，
 ## 可选：连续多层嵌套揭示
 
 [工具合同与调用](多层嵌套揭示工具.md)、[nested_world_reveal.py](nested_world_reveal.py)提供多层同源复合API和静音CLI，沿用requirements-painting.txt。需本作已准备的同画布RGB、逐层四角和cue；无造图/resize/音频/字幕/3D或剪映自动化。单次退出函数继续保留，两者实际使用边界分别记录。
+
+<a id="blender-layered-animation"></a>
+## Blender分层角色路线
+
+[工具与工程依赖说明](Blender分层动画实现.md)供相邻Skill核当前能力/恢复输入；本包未附Blender构建脚本、工程或插件。`init_project.py --route blender-layered`只复制空制作单与接续/交付记录，不执行Blender、不生成媒体。

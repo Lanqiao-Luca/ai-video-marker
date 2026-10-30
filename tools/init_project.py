@@ -28,6 +28,8 @@ def create(route_id,project_id,out,asset_mode=None):
         shutil.copy2(ROOT/'templates/绘画世界穿行制作单.md',out/'painting-world-brief.md')
     if route_id=='reference-comic':
         shutil.copy2(ROOT/'templates/参考音轨与AI漫画制作单.md',out/'reference-comic-brief.md')
+    if route_id=='blender-layered':
+        shutil.copy2(ROOT/'templates/Blender分层角色动画制作单.md',out/'blender-layered-brief.md')
     (out/'README.md').write_text('**目的**：定位本作当前状态与必要输入。\n\n# '+project_id+
         '\n\n制作路线：'+route['name']+'（'+route['status']+'）。\n\n填写 brief.md 和 shots.csv；实际进度见 status.json，反馈见 feedback.md。\n'+
         '本目录仅完成初始化，尚未制作视频或取得用户采用。\n',encoding='utf-8')
