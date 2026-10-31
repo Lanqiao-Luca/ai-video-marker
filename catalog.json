@@ -96,7 +96,7 @@
   "visual_asset_library": "assets/images/catalog.json",
   "text_examples": {
     "path": "examples/story-starters/README.md",
-    "count": 12,
+    "count": 18,
     "kind": "story opening copy and production prompts",
     "media_implementation": "requires workflow-specific adaptation"
   },

@@ -1196,8 +1196,8 @@
       "source": "AGENTS.md",
       "source_sha256": "6cc55cb59f705f75e73407fb60bdc0a42eb78c331e64199e9743f2ea533f4e4e",
       "target": "AGENTS.md",
-      "target_sha256": "cabc091c873e544416d3cfb6f97566d97c64b7c4e67916819647058b0c4519c0",
-      "adaptation": "0.6.0沿既有源身份补公开Blender路由与真实数量；保默认新手入口/授权/媒体，未复制源域运行时",
+      "target_sha256": "fc84ff7ef6bb62001a462f39604057240600725f3df9be1d5deb0ebde443cfc5",
+      "adaptation": "沿既有方法来源身份维护公开文字案例数量18；未新增方法复制或扩大媒体/专用分支范围",
       "source_version": "V1.6.2",
       "prior_adaptations": [
         {
@@ -1214,6 +1214,15 @@
           "target": "AGENTS.md",
           "target_sha256": "caafa5b344f284a352c7619ebc1923a7a646a8f9f3c569dd053cccccda4e9da8",
           "adaptation": "0.4.0选择性公开适配；保状态/授权与真实执行边界，公共覆盖条件单源，去除私人来源/案例/运行时；空格式不代表实际制作",
+          "source_version": "V1.6.2",
+          "public_path_migration": "2026-10-28: media regrouping and consumer/link adaptation; source identity unchanged"
+        },
+        {
+          "source": "AGENTS.md",
+          "source_sha256": "6cc55cb59f705f75e73407fb60bdc0a42eb78c331e64199e9743f2ea533f4e4e",
+          "target": "AGENTS.md",
+          "target_sha256": "cabc091c873e544416d3cfb6f97566d97c64b7c4e67916819647058b0c4519c0",
+          "adaptation": "0.6.0沿既有源身份补公开Blender路由与真实数量；保默认新手入口/授权/媒体，未复制源域运行时",
           "source_version": "V1.6.2",
           "public_path_migration": "2026-10-28: media regrouping and consumer/link adaptation; source identity unchanged"
         }
