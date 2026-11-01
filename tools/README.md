@@ -69,3 +69,9 @@ progress为调用者已经缓动后的[0,1]进度：0让画中图充满输出，
 ## Blender分层角色路线
 
 [工具与工程依赖说明](Blender分层动画实现.md)供相邻Skill核当前能力/恢复输入；本包未附Blender构建脚本、工程或插件。`init_project.py --route blender-layered`只复制空制作单与接续/交付记录，不执行Blender、不生成媒体。
+
+## 全素材只读检查
+
+`python tools/check_assets.py`覆盖当前素材中心全部106媒体，汇总模块/用途/说明入口、文件数和字节，核冻结身份与现行声明冲突、缺失/未登记、路径/符号链接、图片帧及WAV头；重复SHA只报告。MP4仅字节核验，不调用FFmpeg或渲染器。路径按脚本所在仓库定位，也可显式`--root`。
+
+与`asset_library.py verify`的10包73PNG范围分开；独立题材图不加入旧MIT图库。新增模块须提供现行manifest并接入读取适配，不改97媒体历史迁移账本。具体边界见[素材中心](../assets/README.md#一次检查所有已公开媒体)。

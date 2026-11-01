@@ -280,7 +280,7 @@ python tools/init_project.py --route painting-world --id blue-studio --assets re
 | 用途 | 工具入口 | 实际输出与范围 |
 |---|---|---|
 | 检查环境、建立新作品 | `doctor.py`、`init_project.py` | 环境结果、所选路线的制作单与接续模板；初始化不生成媒体 |
-| 查找、校验已有素材 | `asset_library.py` | 素材清单、SHA/图片检查和静态联系表 |
+| 查找、校验已有素材 | `asset_library.py`、`check_assets.py` | 前者查10包/出静态联系表；后者只读核全部106媒体的身份、模块声明/数量与图片/WAV信息，视频仅SHA |
 | 运行像素示例 | `make_video.py`、`render_pixel.py` | 支持场景的视频、母版、配置、动作trace与运行记录 |
 | 接入自己的音乐 | `attach_audio.py` | 带来源记录的新MP4，支持音源偏移；短音频不自动循环 |
 | 检查实际成片 | `check_video.py`、`contact_sheet.py` | 规格与完整声画解码结果、抽帧和联系表；正常速度听看另做 |
