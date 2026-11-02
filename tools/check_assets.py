@@ -15,6 +15,7 @@ else:
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA = {'.png', '.jpg', '.jpeg', '.gif', '.webp', '.mp4', '.wav', '.mp3', '.m4a', '.ogg', '.flac', '.aac'}
 TOPIC = 'assets/images/蛊真人/幽魂魔尊/manifest.json'
+TOPICS = (TOPIC, 'assets/images/蛊真人/柳贯一/manifest.json')
 
 
 def safe(root, relative):
@@ -32,7 +33,7 @@ def safe(root, relative):
     return result
 
 
-def audit(root=ROOT):
+def audit(root=ROOT, topic_manifests=TOPICS):
     root = Path(root).resolve()
     errors = []
     expected = {}
@@ -89,14 +90,16 @@ def audit(root=ROOT):
         harbor = read('assets/images/harbor/manifest.json')
         for name, item in harbor['files'].items():
             declare('assets/images/harbor/' + name, item['sha256'], image=dict(width=item['size'][0], height=item['size'][1], format='PNG'), source='harbor manifest')
-        topic = read(TOPIC)
-        if len(topic['files']) != topic['image_count'] or sum(x['bytes'] for x in topic['files']) != topic['total_bytes']:
-            errors.append('Topic module totals do not match its entries')
-        names = [x['file'] for x in topic['files']]
-        if len(names) != len(set(names)):
-            errors.append('Duplicate topic image path')
-        for item in topic['files']:
-            declare(str(Path(TOPIC).parent / item['file']), item['sha256'], item['bytes'], item, TOPIC)
+        for topic_path in topic_manifests:
+            topic = read(topic_path)
+            if len(topic['files']) != topic['image_count'] or sum(x['bytes'] for x in topic['files']) != topic['total_bytes']:
+                errors.append('Topic module totals do not match its entries')
+            names = [x['file'] for x in topic['files']]
+            if len(names) != len(set(names)):
+                errors.append('Duplicate topic image path')
+            for item in topic['files']:
+                declare(str(Path(topic_path).parent / item['file']), item['sha256'], item['bytes'], item, topic_path)
+            module(str(Path(topic_path).parent), 'user-provided images; reuse license NOT_SEPARATELY_DECLARED', str(Path(topic_path).parent / 'README.md'))
         comic = read('examples/reference-comic/manifest.json')
         for key in ('video', 'poster'):
             item = comic[key]
@@ -110,7 +113,6 @@ def audit(root=ROOT):
         audio = read('assets/audio/pixel-rooftop/source.json')
         declare('assets/audio/pixel-rooftop/' + audio['file'], audio['sha256'], source='audio source.json')
         module('assets/images/harbor', 'reusable original pixel assets', 'assets/images/harbor/README.md')
-        module(str(Path(TOPIC).parent), 'user-provided images; reuse license NOT_SEPARATELY_DECLARED', str(Path(TOPIC).parent / 'README.md'))
         for name in ('pixel-rooftop', 'garden', 'library', 'reference-comic'):
             module('assets/images/' + name, 'showcase/preview; not layered source artwork', 'assets/images/README.md')
         for name in ('pixel-rooftop', 'reference-comic'):

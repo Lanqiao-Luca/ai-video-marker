@@ -47,7 +47,7 @@ class AssetAuditTests(unittest.TestCase):
         p.write_text(json.dumps(data))
 
     def errors(self):
-        return audit(self.root)['errors']
+        return audit(self.root, (TOPIC,))['errors']
 
     def test_complete_declared_fixture_passes_without_changing_any_input(self):
         video = self.root / 'assets/videos/reference-comic/preview.mp4'
@@ -75,7 +75,7 @@ class AssetAuditTests(unittest.TestCase):
             video=dict(path='../../' + spec(video)['path'], sha256=spec(video)['sha256']),
             poster=dict(path='../../' + spec(poster)['path'], sha256=spec(poster)['sha256'], width=2, height=2)))
         before = {p.relative_to(self.root): p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
-        result = audit(self.root)
+        result = audit(self.root, (TOPIC,))
         self.assertEqual(result['errors'], [])
         self.assertEqual(result['status'], 'PASS')
         self.assertEqual(result['files'], 4)
@@ -84,7 +84,7 @@ class AssetAuditTests(unittest.TestCase):
                                   for p in self.root.rglob('*') if p.is_file()})
 
     def test_module_license_remains_separate_and_missing_files_are_reported(self):
-        result = audit(self.root)
+        result = audit(self.root, (TOPIC,))
         module = result['modules'][str(Path(TOPIC).parent)]
         self.assertIn('NOT_SEPARATELY_DECLARED', module['purpose'])
         self.assertEqual(module['files'], 1)
@@ -130,6 +130,23 @@ class AssetAuditTests(unittest.TestCase):
         manifest.write_bytes(manifest.with_name('real.json').read_bytes())
         manifest.with_name('README.md').write_text('fixture')
         self.assertTrue(any('Declaration error:' in x for x in self.errors()))
+
+    def test_second_topic_module_is_checked_independently(self):
+        from check_assets import TOPICS
+        second = TOPICS[1]
+        image = self.root / Path(second).parent / 'second.png'
+        image.parent.mkdir(parents=True)
+        image.write_bytes(self.image.read_bytes())
+        image.with_name('README.md').write_text('separate module notice')
+        topic = dict(self.topic, module='second', files=[dict(self.topic['files'][0], file='second.png')])
+        self.write(second, topic)
+        result = audit(self.root)
+        self.assertFalse(any('second.png' in x for x in result['errors']))
+        self.assertIn('NOT_SEPARATELY_DECLARED', result['modules'][str(Path(second).parent)]['purpose'])
+        image.write_bytes(b'broken')
+        result = audit(self.root)
+        self.assertTrue(any('SHA mismatch:' in x and 'second.png' in x for x in result['errors']))
+        self.assertFalse(any('one.png' in x for x in result['errors']))
 
     def test_traversal_and_internal_symlink_are_rejected(self):
         for path in ('../outside.png', '/tmp/outside.png', ''):

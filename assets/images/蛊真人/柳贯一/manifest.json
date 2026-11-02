@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "module": "蛊真人/柳贯一",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 5,
+  "total_bytes": 16203786,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01_楚度吟诗.png",
+      "sha256": "edc9634535d02481f46758f2d5c8e0213fc8071fca9b3ab684af2455e808f317",
+      "bytes": 3257596,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02_冰原相遇.png",
+      "sha256": "78a8db69b817756961fed768b1513ab0eed3b0c4ae8e827cf57a189592fbaa19",
+      "bytes": 3249903,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03_巨祸焚木.png",
+      "sha256": "f19010870a1f814a18c2020371c80acff8d97d83c82362792e520185e5f14b8d",
+      "bytes": 3114672,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04_逆流河坚持.png",
+      "sha256": "d718b7be6d894547f408b9787c9473af5269b01dfd29ca31e97494cc59056a0b",
+      "bytes": 3439679,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05_逆流护身印.png",
+      "sha256": "71926b213161e395ed7d268bec29aed66bdef0aa6c8b355e59a3442579d5b76b",
+      "bytes": 3141936,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
