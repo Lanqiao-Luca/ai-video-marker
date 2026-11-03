@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/huzidashu",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 7,
+  "total_bytes": 18212363,
+  "filename_policy": "Original supplied names and numbering preserved, including selected v2 files",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01_床前临终_方源站立_v2.png",
+      "sha256": "24ca41c8eb1cae3c2ea256b19f115cebaaee7c6acabb9b5cc0ad2793075e0ba2",
+      "bytes": 2547199,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02_童年仰望传奇.png",
+      "sha256": "e463f83716cb1b9179dbe08d7e4ec2efe5388d223cd5c865518b00d666f68203",
+      "bytes": 2604134,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03_少年望族长.png",
+      "sha256": "319cc4ef0c537cde6d548fadc955b2b759be314ba66750fa356cfbae276049b5",
+      "bytes": 2771170,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04_青年望家老.png",
+      "sha256": "6db1a8b46042144c76b3aab83a5a116400843232fde371eb1e0bbfdc6939f2e2",
+      "bytes": 2427979,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05_中年流放_双臂修正_v2.png",
+      "sha256": "7539ad584667dbd9b6d46736f898cba67f3e9428ea128585c268cf689b73facc",
+      "bytes": 2817912,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "06_养活自己与蛊.png",
+      "sha256": "3e72d9b9560362cb6c86735f8bb6b060a7cea73fa5b2950894b6a20eae483709",
+      "bytes": 2792455,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "07_墓前立誓.png",
+      "sha256": "d2d437f5ab89f19278af5d148bc0960404a7b485036e9f1fbaa9b88defac4092",
+      "bytes": 2251514,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}

@@ -148,6 +148,25 @@ class AssetAuditTests(unittest.TestCase):
         self.assertTrue(any('SHA mismatch:' in x and 'second.png' in x for x in result['errors']))
         self.assertFalse(any('one.png' in x for x in result['errors']))
 
+    def test_third_pinyin_module_has_its_own_identity_and_notice(self):
+        from check_assets import TOPICS
+        for path in TOPICS[1:]:
+            image = self.root / Path(path).parent / 'new.png'
+            image.parent.mkdir(parents=True)
+            image.write_bytes(self.image.read_bytes())
+            image.with_name('README.md').write_text('independent notice')
+            self.write(path, dict(self.topic, files=[dict(self.topic['files'][0], file='new.png')]))
+        result = audit(self.root)
+        third = str(Path(TOPICS[2]).parent)
+        self.assertEqual(result['modules'][third]['files'], 1)
+        self.assertIn('NOT_SEPARATELY_DECLARED', result['modules'][third]['purpose'])
+        self.assertFalse(any(third in x for x in result['errors']))
+        image = self.root / third / 'new.png'
+        image.write_bytes(b'broken-third')
+        result = audit(self.root)
+        self.assertTrue(any('SHA mismatch:' in x and third in x for x in result['errors']))
+        self.assertFalse(any('one.png' in x for x in result['errors']))
+
     def test_traversal_and_internal_symlink_are_rejected(self):
         for path in ('../outside.png', '/tmp/outside.png', ''):
             with self.subTest(path=path), self.assertRaises(ValueError):
