@@ -24,7 +24,7 @@
 
 *《屋顶晒太阳》：小兔集雨、解开水轮卡点，带动齿轮花开放，最后同一屋顶共同活动。以上为16–30秒原速节选；[44秒完整带音乐视频](assets/videos/pixel-rooftop/preview.mp4)。示例直接抽取真实作品绘图代码，保留角色、层次、动作和镜头。*
 
-**当前框架0.6.0**：包含Blender分层角色2.5D有限动画方法、连续平面揭示、公共制作入口与接续合同；实际工具能力见下方目录。此次补齐18个文字开场的九方向入口，未新增媒体。完整版本变化与验证见[升级说明](docs/FRAMEWORK_UPGRADE.md)和[验证记录](docs/VALIDATION.md)。
+**当前框架0.6.0**：包含Blender分层角色2.5D有限动画方法、连续平面揭示、公共制作入口与接续合同；实际工具能力见下方目录。另有18个文字开场与111个已公开媒体，按模块说明复用；素材核验覆盖图片、视频及音频的现有字节身份。完整版本变化与验证见[升级说明](docs/FRAMEWORK_UPGRADE.md)和[验证记录](docs/VALIDATION.md)。
 
 ## AI漫画案例：雨夜最后一班电车
 
@@ -99,11 +99,11 @@ Windows创建环境可用 `py -3 -m venv .venv`，激活使用 `.venv\Scripts\ac
 
 如果明确想复现首页44秒展示片，使用 `python tools/render_pixel.py --out outputs/pixel-rooftop`，详见 [屋顶示例](examples/pixel/README.md)。它的原绘图函数和1056帧基线继续保留。视频解码和静态联系表不代替正常速度观看、听审或最终采用。
 
-## 更多现成素材：从本地制作库精选10组
+## 更多现成素材：制作精选库与独立题材模块
 
 ![第一批素材](assets/images/library/library-overview.jpg)
 
-新增[素材库](assets/library/README.md)，累计含**73张PNG，约73.74MiB**：
+[制作素材精选库](assets/library/README.md)含**10组73张PNG，约73.74MiB**，与海港素材、展示预览及独立题材模块分别管理：
 
 | 素材组 | 图片数 | 可复用内容 |
 |---|---:|---|
@@ -129,6 +129,23 @@ python tools/asset_library.py preview --pack woodland-friends --out outputs/wood
 ```
 
 可以直接对AI说：“用素材库里的狐狸和獾，做一个新故事，先给我分镜和代表段；优先复用图片与包内音乐。”助手应读取相应素材清单，按工作流适配动画。**导入素材不代表已有对应的完整影片渲染器**；完整PNG、部件、图集和背景各有不同用法，预览命令生成资产联系表。默认的海港机器人短片保持不变。
+
+### 独立题材图片与全素材核验
+
+| 模块 | 已公开内容 | 来源与复用范围 |
+|---|---|---|
+| [蛊真人 / 幽魂魔尊](assets/images/蛊真人/幽魂魔尊/README.md) | 9张1672×941 PNG | 用户提供，按原名/字节保留；图片再利用许可未单独声明 |
+| [蛊真人 / 柳贯一](assets/images/蛊真人/柳贯一/README.md) | 5张1672×941 PNG | 用户提供，按原名/字节保留；图片再利用许可未单独声明 |
+
+这14图独立于10包73图的精选catalog及其MIT声明；人物设定相关权利不由本项目授予。成片、封面、完整姿态、拆件与图集的用途分别见[素材中心](assets/README.md)，完整视频不等于分层图片或剪辑工程。
+
+当前素材中心共**111媒体文件、162,663,747字节**，可在仓库根执行只读检查：
+
+```bash
+python tools/check_assets.py
+```
+
+检查冻结身份与现行模块声明、数量/字节、重复SHA及图片帧/WAV头；视频仅核SHA/大小，完整声画解码仍用check_video.py。它不生成、移动或删除素材，也不授予许可。原`asset_library.py verify`继续专查10包73PNG，默认新人仍使用海港机器人素材。
 
 ## 素材从哪里来，会花多少时间和Token
 
@@ -191,7 +208,7 @@ python tools/init_project.py --route reference-comic --id night-tram --assets mi
 
 制作后每次真正交视频，助手应同时给出**可见的本地全路径、推荐标题和一段可直接复制的发布描述**，并注明版本及未验范围。具体规则由声音与后期职责消费[AN11](standards/视频交付与发布文案.md)；准备文案不会自动发布，本机路径不进入公开发布正文。
 
-本次0.5.1为[歌词／短句MV策划](skills/animation-plan/SKILL.md#turning-creativity)补入终态倒排、逐场保留进展和机制差异检查；先验证关键兑现片段，转折不必是结尾反转。仅在该路线策划/换创意或相关反馈时使用，仍是候选方法，没有新增自动产片工具或素材。
+[歌词／短句MV策划](skills/animation-plan/SKILL.md#turning-creativity)支持终态倒排、逐场保留进展和机制差异检查；先验证关键兑现片段，转折不必是结尾反转。仅在该路线策划/换创意或相关反馈时使用，仍是候选方法，没有新增自动产片工具或素材。
 
 ## Blender：先准备角色表演与工程依赖
 
@@ -222,7 +239,7 @@ python tools/init_project.py --route blender-layered --id layered-character --as
 | [workflows](workflows/README.md) | 顺序、进入条件与返工出口 | 选路线、恢复阶段 |
 | [agents](agents/README.md) | 9项职责：公共制作接入、导演、美术、动画、声音、验收、文档、原则审查及像素制作 | 交接当前阶段 |
 | [skills](skills/README.md) | 10项技能：公共默认、策划、镜头、后期、文档、像素、诗词、纸艺MV、绘画世界及Blender分层 | 角色处理任务 |
-| [standards](standards/README.md) | 五AP、AN01–AN13、APROP01、专题方法及执行/接续规则 | 技能命中具体问题 |
+| [standards](standards/README.md) | 五AP、AN01–AN13、BL01–04、APROP01、专题方法及执行/接续规则 | 技能命中具体问题 |
 
 按需读取，角色可由同一助手依次承担；文档本身不创建多 Agent、不安装全局技能或启动后台调度。
 
