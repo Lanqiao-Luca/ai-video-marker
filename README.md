@@ -2,7 +2,7 @@
 
 # ai-video-marker：AI 视频制作与 AIGC 创作工作流
 
-把创意交给 AI，按流程做一支可以修改、可以接续的视频。
+用 AI 制作视频，从创意、分镜、素材到动画、配乐与导出，按流程做出可以修改、可以接续的短片。这套 AI Video Creation Workflow 提供可运行的 Python 像素动画示例、AI 漫画案例，以及 Blender 分层动画与剪映制作方法。
 
 这里包含 **Graph → Loop → Workflow → Agent → Skill → Standards** 六层制作方法，以及制作模板、本地工具和三个可独立运行的像素场景。简单任务直接从Workflow开始，复杂依赖/重复修订才启用Graph/Loop。AI组织阶段工作和调用工具，使用者确认创作方向与最终采用版本。
 
