@@ -4,8 +4,6 @@
 
 用 AI 制作视频，从创意、分镜、素材到动画、配乐与导出，按流程做出可以修改、可以接续的短片。这套 AI Video Creation Workflow 提供可运行的 Python 像素动画示例、AI 漫画案例，以及 Blender 分层动画与剪映制作方法。
 
-这里包含 **Graph → Loop → Workflow → Agent → Skill → Standards** 六层制作方法，以及制作模板、本地工具和三个可独立运行的像素场景。简单任务直接从Workflow开始，复杂依赖/重复修订才启用Graph/Loop。AI组织阶段工作和调用工具，使用者确认创作方向与最终采用版本。
-
 ## 仓库里有什么
 
 **9条内容流程（6正式、3候选） · 2条辅助流程 · 9项角色职责 · 10项技能 · 3个可运行像素场景 · 1个AI漫画成片展示 · 18个文字案例**。
@@ -233,6 +231,8 @@ python tools/init_project.py --route blender-layered --id layered-character --as
 同一作品的[公共覆盖空格式](templates/project/public-defaults.md)随初始化复制，记录已消费、复用有效结果、本次未触发或缺项；status.json仍是唯一当前状态。完整覆盖表只在公共Skill维护，2条辅助流程保持文档/归档职责。
 
 ## 六层如何配合
+
+这里包含 **Graph → Loop → Workflow → Agent → Skill → Standards** 六层制作方法，以及制作模板、本地工具和三个可独立运行的像素场景。简单任务直接从Workflow开始，复杂依赖/重复修订才启用Graph/Loop。AI组织阶段工作和调用工具，使用者确认创作方向与最终采用版本。
 
 | 层 | 职责 | 何时读取 |
 |---|---|---|
