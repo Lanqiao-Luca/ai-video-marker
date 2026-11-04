@@ -148,7 +148,7 @@ class AssetAuditTests(unittest.TestCase):
         self.assertTrue(any('SHA mismatch:' in x and 'second.png' in x for x in result['errors']))
         self.assertFalse(any('one.png' in x for x in result['errors']))
 
-    def test_third_pinyin_module_has_its_own_identity_and_notice(self):
+    def test_additional_modules_have_independent_identity_and_notice(self):
         from check_assets import TOPICS
         for path in TOPICS[1:]:
             image = self.root / Path(path).parent / 'new.png'
@@ -156,16 +156,20 @@ class AssetAuditTests(unittest.TestCase):
             image.write_bytes(self.image.read_bytes())
             image.with_name('README.md').write_text('independent notice')
             self.write(path, dict(self.topic, files=[dict(self.topic['files'][0], file='new.png')]))
-        result = audit(self.root)
-        third = str(Path(TOPICS[2]).parent)
-        self.assertEqual(result['modules'][third]['files'], 1)
-        self.assertIn('NOT_SEPARATELY_DECLARED', result['modules'][third]['purpose'])
-        self.assertFalse(any(third in x for x in result['errors']))
-        image = self.root / third / 'new.png'
-        image.write_bytes(b'broken-third')
-        result = audit(self.root)
-        self.assertTrue(any('SHA mismatch:' in x and third in x for x in result['errors']))
-        self.assertFalse(any('one.png' in x for x in result['errors']))
+        for path in TOPICS[2:]:
+            with self.subTest(module=path):
+                result = audit(self.root)
+                module = str(Path(path).parent)
+                self.assertEqual(result['modules'][module]['files'], 1)
+                self.assertIn('NOT_SEPARATELY_DECLARED', result['modules'][module]['purpose'])
+                self.assertFalse(any(module in x for x in result['errors']))
+                image = self.root / module / 'new.png'
+                original = image.read_bytes()
+                image.write_bytes(b'broken-additional-module')
+                result = audit(self.root)
+                self.assertTrue(any('SHA mismatch:' in x and module in x for x in result['errors']))
+                self.assertFalse(any('one.png' in x for x in result['errors']))
+                image.write_bytes(original)
 
     def test_traversal_and_internal_symlink_are_rejected(self):
         for path in ('../outside.png', '/tmp/outside.png', ''):
