@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/huanglongjiang",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 14,
+  "total_bytes": 43815708,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01_黄江破筏.png",
+      "sha256": "560067c08feb7c7534dc72992abe3c17b415e8e161bd66168f4220f2a0331963",
+      "bytes": 2992883,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02_麻绳竹结.png",
+      "sha256": "6b7e15774df6d978559bc62c6281d39c45d773f6b7c5e1e7e38a98fea854587b",
+      "bytes": 3205125,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03_梭箭黑鱼.png",
+      "sha256": "42b80e5c3215bacdef2e995a1cd5d8620f8a779d9a1853974348971a9b3daa20",
+      "bytes": 3100680,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04_破白风帆.png",
+      "sha256": "8559a353a4369b010c95a10d71d51f925dec52453124223e184447702db2a6e4",
+      "bytes": 3121867,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05_扯帆靠岸.png",
+      "sha256": "7d964bffd31b24507c5ba3d8fe2101543f99646bdc014f9a8f009c40e80fcc32",
+      "bytes": 3264854,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "06_凝望远方.png",
+      "sha256": "9640ec71bb22b76258e71446cceba4f6341a2e6477be49be6d3eeb38222e2ff8",
+      "bytes": 2893762,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "07_双掌稳筏.png",
+      "sha256": "f5d6f8c94729f2211b5d3e4240af7f0172a64f60b0ee6f7cdc5ffd9931eabc1e",
+      "bytes": 3069318,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "08_递绳重扎.png",
+      "sha256": "591f7b13497cebee4f2b65989b3c7d119fccf920e2a95d81b39aae969508b8e1",
+      "bytes": 3067108,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "09_虚甲挡鱼.png",
+      "sha256": "e9c3dd5ebf35fcbb24b982a1d13bc3e0d81ea01e1679dfee2a0c433d1760e6a0",
+      "bytes": 3091787,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "10_搁浅上岸.png",
+      "sha256": "9bdb96a523f6997e2a8c29f3920959e348d66877111a6b80762ce0001b1df75e",
+      "bytes": 3293458,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "11_药浆绷带.png",
+      "sha256": "4420a8e8f7e089aa5ec001cf85164630fd83ad92d661a050ee693218da0b4e60",
+      "bytes": 3124790,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "12_伤后仍笑.png",
+      "sha256": "ec80c7fb0273ffa231b4cc8a6fc43bb3030f1a1648a1ffca3df73659332f14a7",
+      "bytes": 3109798,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "13_峭壁密林.png",
+      "sha256": "47f72b5656ba49e6c409b186cbd7de33eec819e52ca2121c347953be75314fc6",
+      "bytes": 3375794,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "14_整备前路.png",
+      "sha256": "d0bad97922a7705d2cbde8e7c82ea09d1befa1d5f37d14bfb27fb083789e22ed",
+      "bytes": 3104484,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}

@@ -17,7 +17,8 @@ MEDIA = {'.png', '.jpg', '.jpeg', '.gif', '.webp', '.mp4', '.wav', '.mp3', '.m4a
 TOPIC = 'assets/images/蛊真人/幽魂魔尊/manifest.json'
 TOPICS = (TOPIC, 'assets/images/蛊真人/柳贯一/manifest.json',
           'assets/images/guzhenren/huzidashu/manifest.json',
-          'assets/images/guzhenren/road/manifest.json')
+          'assets/images/guzhenren/road/manifest.json',
+          'assets/images/guzhenren/huanglongjiang/manifest.json')
 
 
 def safe(root, relative):
