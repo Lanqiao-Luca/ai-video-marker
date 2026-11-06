@@ -19,6 +19,8 @@
 
 - [蛊真人 / 黄龙江](guzhenren/huanglongjiang/README.md)：14张用户指定PNG，许可与规格见模块说明。
 
+- [蛊真人 / 开窍大典](guzhenren/kaiqiaodadian/README.md)：17张用户指定PNG，含原编号及变体，规格和许可见模块说明。
+
 新图片放images/模块ID/，区分原图、角色拆件、图集、封面和检查预览用途；图集格数不计为独立PNG数量。图片来源和许可沿包内清单；不要复制一份到案例目录。制作缓存留在outputs，不作为素材库上传。
 
 返回：[素材中心](../README.md)。
