@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/sanwangshan",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 19,
+  "total_bytes": 46515382,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01.png",
+      "sha256": "10b71e344eebf69ae6172c9e7727efe5b1c8af1ecc7753f51b720e28f7ad5417",
+      "bytes": 3033212,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02.png",
+      "sha256": "7cb8c054fdaf35af5ea12b37b488471aa67a54056a2a267743c41e4766881eca",
+      "bytes": 2773703,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03.png",
+      "sha256": "6a5d723fd8f5dcce65f3a78c93d5d0e750647471d2557c54c445fc80189997fc",
+      "bytes": 2502238,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04.png",
+      "sha256": "1e2030addee1cc19f3b69ae2e7f42f92744dfc19ee69c5dc250d4fd430ba5613",
+      "bytes": 2244018,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05.png",
+      "sha256": "8f82440e1f8c14c9e8d0a0f383220d77d85e12ccc09ad75dd270327bcea479cb",
+      "bytes": 2473787,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "06.png",
+      "sha256": "440229b6e471fcbed274f6c80cef367243be8cbf1798ceb74ca96b13a9d8ea12",
+      "bytes": 2594676,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "07.png",
+      "sha256": "8ca8ba98a6b658589701d68bdc21ccc0ff3a9a6138de7ef4155d15e3b367e23b",
+      "bytes": 2615631,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "08.png",
+      "sha256": "660f78c075a27fbbabacaa9d542ca67a1cbb1af3ae0f882bf973dc1937263e68",
+      "bytes": 2582123,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "09.png",
+      "sha256": "6361493b7bacdf539f0447c36bf2e865ce9954350659a43af133f244e66bd3c6",
+      "bytes": 2317273,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "10.png",
+      "sha256": "3aef1d6c8bb13cd825e694ae435dae9b260854b3e87ee6adef98cafa00b21892",
+      "bytes": 2513459,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "11-r2.png",
+      "sha256": "5c9c22cb737eb44b7e4f68e8fb9e450bcbaedb21c72367f3dddc8a55a0c8b551",
+      "bytes": 1894515,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "11.png",
+      "sha256": "cb523e236801b18c312df3cad2742ae06a98558908eb6415d5aaf279546319aa",
+      "bytes": 2267730,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "12-r2.png",
+      "sha256": "5d4145289673d09916dba625c12f37926727f3c352f7cc410e6d2c9b1b2caccc",
+      "bytes": 1923428,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "12.png",
+      "sha256": "01c2baaee7d88ad4c7653239f41d2fe8b24a1027d8065f11852309a99e67e4af",
+      "bytes": 2324424,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "13.png",
+      "sha256": "429975899fe54e8cdf569bf38babdbe8bbd871c9528c686b0d51662096b3d3df",
+      "bytes": 2343293,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "14.png",
+      "sha256": "b9446a3ca0cf0c3fd6c71670a4425d919992c419f78cc6afb1462420d632d044",
+      "bytes": 2204991,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "15.png",
+      "sha256": "4695cfe5b4295f4c0e5e50bd16e8a857a680976f741be5ae4ad8da26458e063e",
+      "bytes": 2101662,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "cover-h.png",
+      "sha256": "0b5b4cba440d774a470ae6259788e4fc5707e89d9a4fd2e71365428b6ac4df5b",
+      "bytes": 2871919,
+      "width": 1448,
+      "height": 1086,
+      "format": "PNG"
+    },
+    {
+      "file": "cover-v.png",
+      "sha256": "362b5df422a4ae3d8a50580e56a06ce4727889c0e0c5b08eab19dd5c3549f644",
+      "bytes": 2933300,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG"
+    }
+  ]
+}
