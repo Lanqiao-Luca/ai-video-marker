@@ -22,7 +22,7 @@
 
 *《屋顶晒太阳》：小兔集雨、解开水轮卡点，带动齿轮花开放，最后同一屋顶共同活动。以上为16–30秒原速节选；[44秒完整带音乐视频](assets/videos/pixel-rooftop/preview.mp4)。示例直接抽取真实作品绘图代码，保留角色、层次、动作和镜头。*
 
-**当前框架0.6.0**：包含Blender分层角色2.5D有限动画方法、连续平面揭示、公共制作入口与接续合同；实际工具能力见下方目录。另有18个文字开场与179个已公开媒体，按模块说明复用；素材核验覆盖图片、视频及音频的现有字节身份。完整版本变化与验证见[升级说明](docs/FRAMEWORK_UPGRADE.md)和[验证记录](docs/VALIDATION.md)。
+**当前框架0.6.0**：包含Blender分层角色2.5D有限动画方法、连续平面揭示、公共制作入口与接续合同；实际工具能力见下方目录。另有18个文字开场与185个已公开媒体，按模块说明复用；素材核验覆盖图片、视频及音频的现有字节身份。完整版本变化与验证见[升级说明](docs/FRAMEWORK_UPGRADE.md)和[验证记录](docs/VALIDATION.md)。
 
 ## AI漫画案例：雨夜最后一班电车
 
@@ -139,10 +139,11 @@ python tools/asset_library.py preview --pack woodland-friends --out outputs/wood
 | [蛊真人 / 黄龙江](assets/images/guzhenren/huanglongjiang/README.md) | 14张PNG | 用户提供，按原名/字节保留；图片再利用许可未单独声明 |
 | [蛊真人 / 开窍大典](assets/images/guzhenren/kaiqiaodadian/README.md) | 17张PNG | 用户提供，按原名/字节保留；图片再利用许可未单独声明 |
 | [蛊真人 / 三王山](assets/images/guzhenren/sanwangshan/README.md) | 19张PNG（含横竖封面） | 用户提供，按原名/字节保留；图片再利用许可未单独声明 |
+| [动画 / 风云](assets/images/donghua/fengyun/README.md) | 6张1672×941 PNG | 用户提供的黑金风格参考图；图片再利用许可未单独声明 |
 
-这82图独立于10包73图的精选catalog及其MIT声明；人物设定相关权利不由本项目授予。成片、封面、完整姿态、拆件与图集的用途分别见[素材中心](assets/README.md)，完整视频不等于分层图片或剪辑工程。
+这88图独立于10包73图的精选catalog及其MIT声明；人物设定相关权利不由本项目授予。成片、封面、完整姿态、拆件与图集的用途分别见[素材中心](assets/README.md)，完整视频不等于分层图片或剪辑工程。
 
-当前素材中心共**179媒体文件、362,555,307字节**，可在仓库根执行只读检查：
+当前素材中心共**185媒体文件、367,715,156字节**，可在仓库根执行只读检查：
 
 ```bash
 python tools/check_assets.py
@@ -302,7 +303,7 @@ python tools/init_project.py --route painting-world --id blue-studio --assets re
 | 用途 | 工具入口 | 实际输出与范围 |
 |---|---|---|
 | 检查环境、建立新作品 | `doctor.py`、`init_project.py` | 环境结果、所选路线的制作单与接续模板；初始化不生成媒体 |
-| 查找、校验已有素材 | `asset_library.py`、`check_assets.py` | 前者查10包/出静态联系表；后者只读核全部179媒体的身份、模块声明/数量与图片/WAV信息，视频仅SHA |
+| 查找、校验已有素材 | `asset_library.py`、`check_assets.py` | 前者查10包/出静态联系表；后者只读核全部185媒体的身份、模块声明/数量与图片/WAV信息，视频仅SHA |
 | 运行像素示例 | `make_video.py`、`render_pixel.py` | 支持场景的视频、母版、配置、动作trace与运行记录 |
 | 接入自己的音乐 | `attach_audio.py` | 带来源记录的新MP4，支持音源偏移；短音频不自动循环 |
 | 检查实际成片 | `check_video.py`、`contact_sheet.py` | 规格与完整声画解码结果、抽帧和联系表；正常速度听看另做 |
