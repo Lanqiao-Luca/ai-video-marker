@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/sanwangshan/v2",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 16,
+  "total_bytes": 44237180,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01.png",
+      "sha256": "bf913cd47533adf22cc83d6ee4f6f99c41ad1245a327535a45cb7d5334f0e7cf",
+      "bytes": 2808016,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02.png",
+      "sha256": "00f07935ea3bf0f32154f316e733e5d0f701013058e724be836d7d3a331ba7d1",
+      "bytes": 3045293,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03.png",
+      "sha256": "ce6150a6f2191cd4f9791c167039e212d6504f75f36a6d731437c5561d754615",
+      "bytes": 2626146,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05.png",
+      "sha256": "aef08de6f122468809a63725bdd10cd78312870d044d041583466fa47704b4e3",
+      "bytes": 2488573,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "06.png",
+      "sha256": "55acff1a5cabaf3263d2cb2e897e12a485abd1eae14c973ab1cfda1606cda578",
+      "bytes": 2900226,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "07.png",
+      "sha256": "7bc3236ffe45db1fedf1645d8c6bad0f27ce949c097d88169e6b7b1af99fb2f5",
+      "bytes": 2727716,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "08.png",
+      "sha256": "ba974bf60f4148905bd83c4ebce92c0747f043ba6b1b071854d251d39ff9752c",
+      "bytes": 2089870,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "09.png",
+      "sha256": "e0cc23fbed77e8b39fb15dbad847ce07fee136c8ac7f85a7dcd9f4cadefcb9d7",
+      "bytes": 3355919,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "10.png",
+      "sha256": "a1f5a42dcd63acc10ae730e923a596e119bce748bc8de92ba311ca21bfd6ca2c",
+      "bytes": 2820064,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "11.png",
+      "sha256": "181f5f214ecd2bf3eded1198b36a7eb229afdfa0a5a1e25411677ad94de906c2",
+      "bytes": 2715093,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "12.png",
+      "sha256": "342c3e42634aee96d2a2e161d0fbc85e3ede66a0b78c032bb5060d355e82ae33",
+      "bytes": 2905111,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "13.png",
+      "sha256": "413d713c3f64fe59b7fdebffe341fe65dc8a46c90c81ab56721a4246d72a2d1d",
+      "bytes": 2649434,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "14.png",
+      "sha256": "001c77e6f7345f0cc801044a62ee312f4367f0bbbdc4dbbb1c592e7f7c00a151",
+      "bytes": 2598567,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "15.png",
+      "sha256": "24338b4deaf35e7c4061dde2fc3bd20d05af56911f26f9c88a22906c85901ac9",
+      "bytes": 3059616,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "17.png",
+      "sha256": "4e2a0d3a5f32e6134df44bcfe13c3825247fc37f711d6d845ece292cca150f46",
+      "bytes": 3083959,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "18.png",
+      "sha256": "874525f36cf58ff16a439ad74f4abf71b2807c3aa3fe469ce167d1d9851a475e",
+      "bytes": 2363577,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
