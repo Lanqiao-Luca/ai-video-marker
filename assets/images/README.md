@@ -32,3 +32,5 @@
 [三王山第二批 v2](guzhenren/sanwangshan/v2/README.md)：16张PNG，与原批次并存，许可见模块说明。
 
 [动画 / 心静万事可期](donghua/xinjing/README.md)：6张参考PNG，规格与独立许可见模块说明。
+
+[蛊真人 / 灰骨](guzhenren/huigu/README.md)：5张参考PNG，规格与独立许可见模块说明。

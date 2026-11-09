@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/huigu",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 5,
+  "total_bytes": 13523797,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "A.png",
+      "sha256": "c2f70e8a84b7b6c6c61446e071151996465c601600ed2a190103cc3ea0d950d7",
+      "bytes": 2937708,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG"
+    },
+    {
+      "file": "B.png",
+      "sha256": "7bf8d0cceb2eb385ef494dca23e53f2da1b182c0780a5b6b33b567987f085ef4",
+      "bytes": 2222448,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG"
+    },
+    {
+      "file": "C.png",
+      "sha256": "f27fc36cd294d709815b828cf5908a919195f1de864234c271bcb02993c3b497",
+      "bytes": 2442000,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG"
+    },
+    {
+      "file": "D.png",
+      "sha256": "2a5a0c48204bf723ec8ffb5dac9e7df6178654509405aa40355b9399677fd3fb",
+      "bytes": 3010559,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG"
+    },
+    {
+      "file": "E.png",
+      "sha256": "3ab62cf3c9c7736a5ef18a8f95bda7d314281d6fa8adcdbae5cf26da0d1ded65",
+      "bytes": 2911082,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG"
+    }
+  ]
+}
