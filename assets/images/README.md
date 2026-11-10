@@ -38,3 +38,5 @@
 [动画 / 一束光](donghua/yishuguang/README.md)：6张参考PNG，规格与独立许可见模块说明。
 
 [蛊真人 / 逆境](guzhenren/nijing/README.md)：5张用户提供PNG，规格与独立许可见模块说明。
+
+[动画 / 守灯人](donghua/shoudengren/README.md)：6张参考PNG，规格和独立许可见模块说明。
