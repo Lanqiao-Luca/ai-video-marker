@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/nijing",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 5,
+  "total_bytes": 13681672,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01-confirmed-candidate.png",
+      "sha256": "c524ee38af6514e1401e14e34c66a84330358a204974e63e9bcf9ca64a9782b8",
+      "bytes": 2575737,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03.png",
+      "sha256": "68c281c2ef1f9b9273de55b082ab62222176de9a8dfe7f1c453b23e4ef71d124",
+      "bytes": 2807997,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04.png",
+      "sha256": "446a16552a322708fe427e2a2f4ef594916cd9cc914e5a9329248ef4cc8f4ea5",
+      "bytes": 2964765,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05-close.png",
+      "sha256": "8154f4c4c4ec1148f813cce8a1ab7ea41e80cb4ad2a5c97492c2a32612ba0eee",
+      "bytes": 2549737,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "06-reverse.png",
+      "sha256": "2701847fd0631b72f05ab6fbff1daeea7807b85e7c15db3137fd3a9cba2ddf02",
+      "bytes": 2783436,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
