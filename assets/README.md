@@ -57,9 +57,9 @@ assets/
 python tools/check_assets.py
 ```
 
-工具只读并按模块输出文件数/字节、用途与许可说明入口、重复SHA和具体错误。当前覆盖241媒体（492,578,692字节），逐一核已有来源声明与字节身份；图片含GIF各帧解码，WAV核头信息，MP4只核SHA/大小，不冒称完整声画解码。旧`asset_library.py verify`仍只检查10包73图，适合选包复用。
+工具只读并按模块输出文件数/字节、用途与许可说明入口、重复SHA和具体错误。当前覆盖245媒体（501,556,403字节），逐一核已有来源声明与字节身份；图片含GIF各帧解码，WAV核头信息，MP4只核SHA/大小，不冒称完整声画解码。旧`asset_library.py verify`仍只检查10包73图，适合选包复用。
 
-身份输入复用97媒体的冻结迁移账本及十六个题材模块144图的现行manifest，并交叉核图片包、harbor、漫画和音频当前声明；声明冲突会报错。迁移账本仅是历史基线：以后新增素材应附现行模块manifest并扩展本检查器的读取适配，**不改写旧迁移账本来登记新文件**。尚未接入的文件报Unregistered media，新增前先核当前授权与来源。
+身份输入复用97媒体的冻结迁移账本及十七个题材模块148图的现行manifest，并交叉核图片包、harbor、漫画和音频当前声明；声明冲突会报错。迁移账本仅是历史基线：以后新增素材应附现行模块manifest并扩展本检查器的读取适配，**不改写旧迁移账本来登记新文件**。尚未接入的文件报Unregistered media，新增前先核当前授权与来源。
 
 该检查不生成联系表或修改任何素材。重复SHA仅供人工了解，不自动删除；技术PASS不授予再利用许可，用户提供的题材图仍按各独立模块说明处理，不能套用旧图库MIT。
 
@@ -80,3 +80,5 @@ python tools/check_assets.py
 [蛊真人 / 方源认输](images/guzhenren/fangyuanrenshu/README.md)：6张用户提供PNG，规格与独立许可见模块说明。
 
 [动画 / 留一盏灯](images/donghua/liuyizhandeng/README.md)：6张参考PNG，规格和独立许可见模块说明。
+
+[蛊真人 / 方源成尊](images/guzhenren/fangyuanchengzun/README.md)：4张用户提供PNG，规格与独立许可见模块说明。

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/fangyuanchengzun",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 4,
+  "total_bytes": 8977711,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "arena.png",
+      "sha256": "f69800c02f549dd3f48f6fd6267a077616ecc9877e932a0ab3a50bfca213bee4",
+      "bytes": 2061383,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "question.png",
+      "sha256": "ef1c337503c3a34403c376783d85c134a0f76d247edcbe0f891bdf05d05cdaf8",
+      "bytes": 2163554,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "reveal.png",
+      "sha256": "9e760536390a93706ab57f8a664193a0aed0bd424dfdb4aa937b147bd6a41bde",
+      "bytes": 2393504,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "乐土抓臂_修正版.png",
+      "sha256": "291beccfec0ff56106a7059024633bddb7e360679174a0b12906660d2b35a978",
+      "bytes": 2359270,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    }
+  ]
+}
