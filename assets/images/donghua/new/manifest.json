@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "module": "donghua/new",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 8,
+  "total_bytes": 15075187,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "风停之前-S01-参考图.png",
+      "sha256": "e89b34bca27b3b43d8fb29a3d2ee0331e8aeb7dd278593f10cd0545b856df3c5",
+      "bytes": 1760770,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "风停之前-S02-参考图.png",
+      "sha256": "8748f472c3b790a11f55e597f40bf9e28088fb9c41ee9d5849e82716248449ca",
+      "bytes": 1889827,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "风停之前-S03-参考图.png",
+      "sha256": "989ead0fda00e1679d94d417eaddccfbbd72e7762fa25a7e2f896f355651fdba",
+      "bytes": 2090035,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "风停之前-S04-参考图.png",
+      "sha256": "edebf0c0b9e7e5c65487b34483f03e22d03d656169d441af122331b5b35d4ea7",
+      "bytes": 2267584,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "风停之前-S05-参考图.png",
+      "sha256": "dd1c664325afd1b38b44aca749be5724a28455e3e1051d0f3478372693c27ad8",
+      "bytes": 2200495,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "风停之前-S06-参考图.png",
+      "sha256": "10a96e7280a106af6763379b05e30b4892235e5ae64735f0dbb27f4e38cf0e12",
+      "bytes": 1474592,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "风停之前-封面-3x4.png",
+      "sha256": "bde9fccc0096ff582d02a474cd614080035daa7fa98469ce52e19650705d21b5",
+      "bytes": 1676542,
+      "width": 1080,
+      "height": 1440,
+      "format": "PNG"
+    },
+    {
+      "file": "风停之前-封面-4x3.png",
+      "sha256": "9c075dc09841773130e36ef6a9f2bbc9060022b41c949752a37173c3eb579bfe",
+      "bytes": 1715342,
+      "width": 1440,
+      "height": 1080,
+      "format": "PNG"
+    }
+  ]
+}
