@@ -42,3 +42,5 @@
 [动画 / 守灯人](donghua/shoudengren/README.md)：6张参考PNG，规格和独立许可见模块说明。
 
 [蛊真人 / 方源认输](guzhenren/fangyuanrenshu/README.md)：6张用户提供PNG，规格与独立许可见模块说明。
+
+[动画 / 留一盏灯](donghua/liuyizhandeng/README.md)：6张参考PNG，规格和独立许可见模块说明。
