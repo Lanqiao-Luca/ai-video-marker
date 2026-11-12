@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/chengzun",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 13,
+  "total_bytes": 32196419,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01.png",
+      "sha256": "25bbefcd4926f566ce3d6da3166fb49ce22cbb11ad6a519c13a20620261db6e5",
+      "bytes": 2282823,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "growth-01.png",
+      "sha256": "dd5dfcdd70a57a31661a863d8d7a4e61d3f5ae1ceab3cc812d74cb0b356a9022",
+      "bytes": 2292447,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "growth-05.png",
+      "sha256": "0ecba193cfe113569aa1bc20a95e020bec67b2609820bdc34eed1285f042a1c5",
+      "bytes": 2411446,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "extra-01.png",
+      "sha256": "8710a660341a6250e2472cf001fd9489f35f1008f3ff4631ee410355f607a0a8",
+      "bytes": 2433654,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "growth-02.png",
+      "sha256": "c1cb05a9f3e189512df0cb65356a9ed4d36dab6e0e1a275e0779014a8017c651",
+      "bytes": 2715609,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "growth-03.png",
+      "sha256": "39cf0290a869d54733623ad1ba65254760b620b82101a255202421e03c57c2bd",
+      "bytes": 2501538,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "growth-04.png",
+      "sha256": "fa3ca08d5eda6cbf8c590f144e4b0d3c99b5237c55e599bf31e12bb1eb38db2f",
+      "bytes": 2630434,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "extra-02.png",
+      "sha256": "174b2503086a3d351b5287b596731187b09af67b2c64d7a50ae468693cdbd170",
+      "bytes": 2751270,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "02.png",
+      "sha256": "3c8647c0b994aae61ee99e485df28dbd03a7280c383423997362e0cfb751a8b5",
+      "bytes": 2486720,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "extra-03.png",
+      "sha256": "dd8429f69c27eac1e95847c74837ac8e2440a429c99b0ce8ceac57cfca9d7755",
+      "bytes": 2545692,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "extra-04.png",
+      "sha256": "aa8ad2180426100332aae21b8098189b130c7aade418c39c4ac1ee7022304242",
+      "bytes": 2650725,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "extra-05.png",
+      "sha256": "22a45f05a40d6a90262858b392ca9e52491b4f913ba73ff108dc1b7e1173f65f",
+      "bytes": 2273245,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "03.png",
+      "sha256": "69acaaabfa440c10cf7d05a5387b03fef66eca2a3e8ec68cb3e6a3c768abfa5f",
+      "bytes": 2220816,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    }
+  ]
+}

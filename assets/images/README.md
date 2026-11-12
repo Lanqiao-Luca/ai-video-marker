@@ -48,3 +48,5 @@
 [蛊真人 / 方源成尊](guzhenren/fangyuanchengzun/README.md)：4张用户提供PNG，规格与独立许可见模块说明。
 
 [动画 / 风停之前](donghua/new/README.md)：8张用户提供PNG，规格与独立许可见模块说明。
+
+[蛊真人 / 成尊](guzhenren/chengzun/README.md)：13张用户提供PNG，规格与独立许可见模块说明。
