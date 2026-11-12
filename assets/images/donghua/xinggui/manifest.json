@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "module": "donghua/xinggui",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 6,
+  "total_bytes": 11100623,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "S01.png",
+      "sha256": "6e94aa64217ea0288f0cb469935638ffdae47ddfcb8afd10e491274c8a4ac5ed",
+      "bytes": 1747694,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "S02.png",
+      "sha256": "d5996793e1480143d4c834c8f9d8691a7996512ca6720706241d95ae79bb7dc0",
+      "bytes": 2031127,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "S03.png",
+      "sha256": "565c67563fbeb8c3c2d2f7540c03bd252d00e87e6c5a8a11e3866eabc3d0cd85",
+      "bytes": 2212276,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "S04.png",
+      "sha256": "87b330af996bf521c8efd386dbecf88c86cc793ebb04623bb575e8c76cc8078d",
+      "bytes": 1712148,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "S05.png",
+      "sha256": "31cc83a6bfa580bd6de73efd082ffb9512f78d4f5653e5f73c774dfe61d41ee6",
+      "bytes": 1887204,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "S06.png",
+      "sha256": "ff5caecaf4cd5e0c0cfa83a6a99346343feb3ef7f730ce1f1b9effe6fec44cb3",
+      "bytes": 1510174,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    }
+  ]
+}
