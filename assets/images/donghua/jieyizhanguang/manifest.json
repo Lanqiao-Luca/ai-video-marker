@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "module": "donghua/jieyizhanguang",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "OpenAI image generation (gpt-image in embedded C2PA metadata)",
+  "image_count": 8,
+  "total_bytes": 9762016,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "notice": "See README.md; the repository MIT license does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01-雨中石阶-v2.png",
+      "sha256": "62db83c08ccbcc40dc0f959739e242fe8b88c187ebbde798bf9b53d6c48bd402",
+      "bytes": 866850,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02-旅人背后-v1.png",
+      "sha256": "39cb68ab41e0a72e3be9148952be105220bb6a51b98c9eab951f0389ef681de0",
+      "bytes": 1063393,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03-窗边来灯-v1.png",
+      "sha256": "61de456302806418a0da234738970ea99f05a769d0c57797262d34201ae6fc89",
+      "bytes": 1300997,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04-借火-v1.png",
+      "sha256": "edcec1e51e1b4e96550d680bc073a8195fa18251abe3ccd8df7de6e0f0a1de4b",
+      "bytes": 1490350,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05-岔路留灯-v1.png",
+      "sha256": "6c36e8bc94bd47554fc912364888fb283ab7dc75ca7235aed01f3ce94ee9306e",
+      "bytes": 1169720,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "06-后来的人-v2.png",
+      "sha256": "f5421b8fb2262049227077a9f14745696cc1eb9c5feffe3b738ab1e3e9b9e0e9",
+      "bytes": 1129428,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "封面-横版4比3.png",
+      "sha256": "2cf6548b11a97ca4c2db8642fea788dfc9efba77c0e68b630f28c7c355b3cc05",
+      "bytes": 1287388,
+      "width": 1448,
+      "height": 1086,
+      "format": "PNG"
+    },
+    {
+      "file": "封面-竖版3比4.png",
+      "sha256": "e7c7c4e35422c2c5e211864830e85693e6ad722c679332f899b86af82c47e7aa",
+      "bytes": 1453890,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG"
+    }
+  ]
+}
