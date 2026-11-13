@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/chengzhang",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image assets, copied without modification",
+  "image_count": 13,
+  "total_bytes": 51333042,
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "notice": "See README.md for rights and reuse scope"
+  },
+  "files": [
+    {
+      "file": "01_黄龙江竹筏.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 4336485,
+      "sha256": "1fa5df573f3458341ef452d349efc97f8669d080409cee4fe527fbadaf7879d7"
+    },
+    {
+      "file": "02_白骨传承.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 4141007,
+      "sha256": "44655ec708f2d5ba02103609f83fc6ca963326b27f1ecdf873f8e98f2dd6b7a9"
+    },
+    {
+      "file": "03_无足鸟四翅脱险.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 3671728,
+      "sha256": "db34919018da4c975c258a21269aca08544b78c861b1fe45ed38c5a325d4efa9"
+    },
+    {
+      "file": "04_烈火不改其志.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 3875211,
+      "sha256": "533bdfa787d04b225dca61a17eba576db9e6aa0ce190faab1c877e36f1a2de18"
+    },
+    {
+      "file": "05_三叉山群雄.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 4146559,
+      "sha256": "c914db3128da0b073aafd1eac7f855f7c38e5c4a34a7b17d6294646bb958f4a1"
+    },
+    {
+      "file": "06_凡躯炼定仙游.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 4240725,
+      "sha256": "778ef7ca08ecbdc58f7b736895d72fb12d2d807e228541ac8b380d6b1ce9b5df"
+    },
+    {
+      "file": "07_独行山路.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 4268866,
+      "sha256": "3a4efb9b11f568b0c1c35987d53783a83518babd5e4ddd4b86127ff89c351ecf"
+    },
+    {
+      "file": "08_认同的高墙.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 3974275,
+      "sha256": "b40bd9da3e3366ea1e76b85057ca322b48eba84e814b3b1f3c461bcf47e0178b"
+    },
+    {
+      "file": "09_走向开阔.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 3834938,
+      "sha256": "d56324bf2d7a3ebab4367b51c2dd8382269235b4c9f535203984ca457e64e140"
+    },
+    {
+      "file": "10_岔路自择.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 4299363,
+      "sha256": "a465a65be063c4c009bd55592b87bdbefc97f984da5f41b7449afb02f5be3892"
+    },
+    {
+      "file": "11_高墙眼神.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 3482814,
+      "sha256": "be1a3608db1ef6b6ded429af9dee8b2787bb886da77440c0082e1f3d8ad31480"
+    },
+    {
+      "file": "封面_横版4比3.png",
+      "width": 1448,
+      "height": 1086,
+      "format": "PNG",
+      "bytes": 3524791,
+      "sha256": "427f767f3a0049831153dba775559184d706f0b008d2e50e72b3b15b9ed90247"
+    },
+    {
+      "file": "封面_竖版3比4.png",
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "bytes": 3536280,
+      "sha256": "c7cf8efcbe566ccebc2ca2b1c7166093dcc340438e01280b44310e763a58467e"
+    }
+  ]
+}

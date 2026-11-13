@@ -54,3 +54,5 @@
 [动画 / 星轨](donghua/xinggui/README.md)：6张用户提供PNG，规格与独立许可见模块说明。
 
 [动画 / 借一盏光](donghua/jieyizhanguang/README.md) · 6张镜头图与2张封面PNG，规格和许可见模块说明。
+
+[蛊真人 / 魔子出山与独立选择](guzhenren/chengzhang/README.md) · 11张镜头图与2张封面PNG，规格和许可见模块说明。
