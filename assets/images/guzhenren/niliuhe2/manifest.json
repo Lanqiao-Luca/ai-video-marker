@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/niliuhe2",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image assets, copied without modification",
+  "image_count": 6,
+  "total_bytes": 18537007,
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "notice": "See README.md for rights and reuse scope"
+  },
+  "files": [
+    {
+      "file": "blue.png",
+      "sha256": "31e1de20c3e5168597da6016b0ab8b303391e4050b33dc7e8c230c4aced1f409",
+      "bytes": 3040947,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "grief.png",
+      "sha256": "5855b86d3079225e63803dc84724262ef4728f13e0bd36523baa4937b2915caf",
+      "bytes": 2965786,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "loss.png",
+      "sha256": "d64e4d27001643fecfe71262f5345b7f3addd2082017bd579c40f6a2b33ab3b8",
+      "bytes": 3135130,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "mink.png",
+      "sha256": "bd43e03c24a81d8f2df418bcec517602acc28f950e2666d3f9081241363419d5",
+      "bytes": 3156330,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "sky.png",
+      "sha256": "1d7f4b503640ee8ee91caf54c22539f842535882e90c6f432eccccda795dc708",
+      "bytes": 3085049,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "snow.png",
+      "sha256": "d3839160f20ba95331839c10fe98c69b3f2c53dbc22d9f54193c17102c61680f",
+      "bytes": 3153765,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
