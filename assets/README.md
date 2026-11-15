@@ -57,7 +57,7 @@ assets/
 python tools/check_assets.py
 ```
 
-工具只读并按模块输出文件数/字节、用途与许可说明入口、重复SHA和具体错误。当前覆盖311媒体（663,532,981字节），逐一核已有来源声明与字节身份；图片含GIF各帧解码，WAV核头信息，MP4只核SHA/大小，不冒称完整声画解码。旧`asset_library.py verify`仍只检查10包73图，适合选包复用。
+工具只读并按模块输出文件数/字节、用途与许可说明入口、重复SHA和具体错误。当前覆盖318媒体（688,041,843字节），逐一核已有来源声明与字节身份；图片含GIF各帧解码，WAV核头信息，MP4只核SHA/大小，不冒称完整声画解码。旧`asset_library.py verify`仍只检查10包73图，适合选包复用。
 
 身份输入复用97媒体的冻结迁移账本及二十五个题材模块214图的现行manifest，并交叉核图片包、harbor、漫画和音频当前声明；声明冲突会报错。迁移账本仅是历史基线：以后新增素材应附现行模块manifest并扩展本检查器的读取适配，**不改写旧迁移账本来登记新文件**。尚未接入的文件报Unregistered media，新增前先核当前授权与来源。
 
@@ -98,3 +98,5 @@ python tools/check_assets.py
 [动画 / 一粒种子](images/donghua/yilizhongzi/README.md) · 6张PNG镜头图，规格和许可见模块说明。
 
 [动画 / 夜行灯](images/donghua/yexingdeng/README.md)：6张用户提供PNG，规格与独立许可见模块说明。
+
+[蛊真人 / 四面楚歌](images/guzhenren/niliuhe3/README.md)：7张用户提供PNG，规格与独立许可见模块说明。

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/niliuhe3",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 7,
+  "total_bytes": 24508862,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01-围困.png",
+      "sha256": "f086b38578fd16dfd351a24183ec400afc2403f1cf910688726aef0bb0f8af58",
+      "bytes": 3553365,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02.png",
+      "sha256": "67bf42ef9259e766a89818339254336473283712a6af6e84d4f05b454910a996",
+      "bytes": 3359649,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03.png",
+      "sha256": "d3a8d1242c4371e932ab428bc8fa6481a39b6f71de74188cd23fba9f06e49356",
+      "bytes": 3525739,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04.png",
+      "sha256": "5f75beef3cbb1e36c9e88b61024840e4de72fc5fc857d28bc19fe48e7aed0505",
+      "bytes": 3544503,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05.png",
+      "sha256": "fa6843df83733dfd251996e22f5b4ff40c747fcbcf3d9a20fb23e314123ea8b8",
+      "bytes": 3490042,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "06.png",
+      "sha256": "294999d3b6da842e1769ec0bfbc288154b95f5594b541df6a22f89b83373d9e4",
+      "bytes": 3408097,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "07.png",
+      "sha256": "f658ffd52d56ac7185cfa9934309d527d08adcf2df031a93c25cb8da3c686c6c",
+      "bytes": 3627467,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
