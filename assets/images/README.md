@@ -58,3 +58,5 @@
 [蛊真人 / 魔子出山与独立选择](guzhenren/chengzhang/README.md) · 11张镜头图与2张封面PNG，规格和许可见模块说明。
 
 [蛊真人 / 四面楚歌](guzhenren/niliuhe2/README.md) · 6张PNG素材图，规格和许可见模块说明。
+
+[动画 / 一粒种子](donghua/yilizhongzi/README.md) · 6张PNG镜头图，规格和许可见模块说明。

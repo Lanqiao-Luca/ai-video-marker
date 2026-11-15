@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "module": "donghua/yilizhongzi",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "image_count": 6,
+  "total_bytes": 11228716,
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "notice": "See README.md for reuse scope"
+  },
+  "files": [
+    {
+      "file": "shot01.png",
+      "sha256": "3002fec0239acb5e0d0a3d9ab17cd50db17e1725d4ea891c06ab14e20ffee831",
+      "bytes": 1846291,
+      "width": 940,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "shot02.png",
+      "sha256": "7008e9a49d15dbde53be0d40918f554fac644c9bf5622f0d312acee5d3c2ecee",
+      "bytes": 1865092,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "shot03.png",
+      "sha256": "09d11ff0c97beacbbfa862f4a7401f15adbf0488c0e99123756042f7cbb93bff",
+      "bytes": 1940498,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "shot04.png",
+      "sha256": "e58dc89992f7d7b726adfefc3f0000784d83a96ad0862585ed0ee00f472c4b7d",
+      "bytes": 1862615,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "shot05.png",
+      "sha256": "06b4eb5c876c53ebf27a9b17e62488b66ee193349ccd95c097b6df9cbad9f66f",
+      "bytes": 1820618,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "shot06.png",
+      "sha256": "6e6fed587c81b9be069d04ce86597ccc244dd0cecc4cc58da91aaa684609f4db",
+      "bytes": 1893602,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    }
+  ]
+}
