@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/sanzhuandianfeng",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 8,
+  "total_bytes": 24603749,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01-白凝冰大笑.png",
+      "sha256": "e01f1dadf585e58c3d9713135670fd5801220909305e8ec8aa98a32aefc732ea",
+      "bytes": 2955266,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02-众人质问.png",
+      "sha256": "948e975ba80884eb9a2552b0eb1ac545a52404fa0dcccef1c4b9b1d4c6180d49",
+      "bytes": 2786643,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03-方源傲立.png",
+      "sha256": "224d7dd53b7c96569b87cac7342e846b480392c19674a5c7b9607dc4f4156665",
+      "bytes": 3252813,
+      "width": 1671,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04-白凝冰特写.png",
+      "sha256": "2d201d436aec959c23560c970cffb406c53e5fc4a72e5df288eaa3c369a2f76a",
+      "bytes": 3202810,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05-众怒.png",
+      "sha256": "8bc6d597d8e5cf78374eedd8b8c43b5510d4d58fbb566f4f09aa32ddbbf017cd",
+      "bytes": 3218928,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "06-方源微笑特写.png",
+      "sha256": "ff5134c6753bf0e68bfb31d4bfe94f20fb0e8514bf0521d76ac9ea514eb11ab6",
+      "bytes": 2644882,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "07-族人质问.png",
+      "sha256": "62172c17bef2dafcf00fdddc52f500ca2ca6f41923a2841cbbace2dc4b1b5e9c",
+      "bytes": 3367085,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "08-千夫所指.png",
+      "sha256": "9b380295e6ec70fab999750ebf91d3e141fbbb132c0f3b6e012da284a168d8ed",
+      "bytes": 3175322,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
