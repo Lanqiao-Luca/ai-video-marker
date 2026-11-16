@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "module": "donghua/dengpiaoyao",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 6,
+  "total_bytes": 10552143,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "S01.png",
+      "sha256": "937ddc3192b800167f6d9b0da8c19fd9bc16683017a79fa3b6184bcc23cb9ce6",
+      "bytes": 2010570,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "S02.png",
+      "sha256": "9200331c54e6a8e7e68f0c3e9ece43920c3385edb8be28b561f03dc4b3566395",
+      "bytes": 1991527,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "S03.png",
+      "sha256": "2b0d79ac0c1673df8f79d849ea4e199421586e928ebc8de82daab95553689916",
+      "bytes": 466003,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "S04.png",
+      "sha256": "f45aaeae72afdeeffd03a0f6f5d36f0921ab11baec819461bc15c94cee365492",
+      "bytes": 2125509,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "S05.png",
+      "sha256": "48ce7bee333f64e8eb6d1c38874236958ae6383f771453366f63b38932caa701",
+      "bytes": 2177912,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "S06.png",
+      "sha256": "b0bd25da0d0d20fb1355350ddf7bd5c28bcd1278c7a7092dcfef781d12e25880",
+      "bytes": 1780622,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    }
+  ]
+}

@@ -64,3 +64,5 @@
 [动画 / 夜行灯](donghua/yexingdeng/README.md)：6张用户提供PNG，规格与独立许可见模块说明。
 
 [蛊真人 / 四面楚歌](guzhenren/niliuhe3/README.md)：7张用户提供PNG，规格与独立许可见模块说明。
+
+[动画 / 灯飘摇](donghua/dengpiaoyao/README.md)：6张用户提供PNG，规格与独立许可见模块说明。

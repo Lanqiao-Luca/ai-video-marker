@@ -158,10 +158,11 @@ python tools/asset_library.py preview --pack woodland-friends --out outputs/wood
 | [动画 / 一粒种子](assets/images/donghua/yilizhongzi/README.md) | 6张PNG镜头图 | 图片再利用许可未单独声明 |
 | [动画 / 夜行灯](assets/images/donghua/yexingdeng/README.md) | 6张PNG | 用户提供，图片再利用许可未单独声明 |
 | [蛊真人 / 四面楚歌](assets/images/guzhenren/niliuhe3/README.md) | 7张PNG | 用户提供，图片再利用许可未单独声明 |
+| [动画 / 灯飘摇](assets/images/donghua/dengpiaoyao/README.md) | 6张PNG | 用户提供，图片再利用许可未单独声明 |
 
-这221图独立于10包73图的精选catalog及其MIT声明；人物设定相关权利不由本项目授予。成片、封面、完整姿态、拆件与图集的用途分别见[素材中心](assets/README.md)，完整视频不等于分层图片或剪辑工程。
+这227图独立于10包73图的精选catalog及其MIT声明；人物设定相关权利不由本项目授予。成片、封面、完整姿态、拆件与图集的用途分别见[素材中心](assets/README.md)，完整视频不等于分层图片或剪辑工程。
 
-当前素材中心共**318媒体文件、688,041,843字节**，可在仓库根执行只读检查：
+当前素材中心共**324媒体文件、698,593,986字节**，可在仓库根执行只读检查：
 
 ```bash
 python tools/check_assets.py
@@ -321,7 +322,7 @@ python tools/init_project.py --route painting-world --id blue-studio --assets re
 | 用途 | 工具入口 | 实际输出与范围 |
 |---|---|---|
 | 检查环境、建立新作品 | `doctor.py`、`init_project.py` | 环境结果、所选路线的制作单与接续模板；初始化不生成媒体 |
-| 查找、校验已有素材 | `asset_library.py`、`check_assets.py` | 前者查10包/出静态联系表；后者只读核全部318媒体的身份、模块声明/数量与图片/WAV信息，视频仅SHA |
+| 查找、校验已有素材 | `asset_library.py`、`check_assets.py` | 前者查10包/出静态联系表；后者只读核全部324媒体的身份、模块声明/数量与图片/WAV信息，视频仅SHA |
 | 运行像素示例 | `make_video.py`、`render_pixel.py` | 支持场景的视频、母版、配置、动作trace与运行记录 |
 | 接入自己的音乐 | `attach_audio.py` | 带来源记录的新MP4，支持音源偏移；短音频不自动循环 |
 | 检查实际成片 | `check_video.py`、`contact_sheet.py` | 规格与完整声画解码结果、抽帧和联系表；正常速度听看另做 |
