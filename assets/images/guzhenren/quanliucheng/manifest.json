@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/quanliucheng",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 8,
+  "total_bytes": 20877769,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "返工候选_落魄谷炼魂_v1.png",
+      "sha256": "2e4248292ff69b8a41497aff6dcb4ccdca78e6f9b0592845b692500d441078fe",
+      "bytes": 2376049,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "青茅重生_少年黑袍稚手_v4.png",
+      "sha256": "87b583bf44948cc4d2a1132387dee47863d2788689d24a0fccc449d8cd55ffac",
+      "bytes": 2000161,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "返工候选_岩勇受命_v1.png",
+      "sha256": "76877394d3023bc0b9066fe79d2084401e90c730b57817d25f1bf51365c0151f",
+      "bytes": 2429352,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "返工候选_初入北原_v2.png",
+      "sha256": "e93545ef334c49d5bb9fa06fb17ef09912afd2254bb13ceebdf6e24ccd0b593e",
+      "bytes": 2631358,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "返工候选_逆流河_v2.png",
+      "sha256": "8ce99186c57a982b22ff4b916b7c14be485f125d19eccd70a690ca0e92b0ef26",
+      "bytes": 2993909,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "返工候选_石莲岛悔蛊_v2.png",
+      "sha256": "1d3b0fa28bba4a38d911a1b447e7be791f1698fec5c9c9e93915172f40ab12fd",
+      "bytes": 2375098,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "后半段_商队紫枫叶.png",
+      "sha256": "6c23dc769a934ba17da72af622df6e0416117d06ad71f67c63847148e5a3f4ab",
+      "bytes": 2835327,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "后半段_四元方悔血炼池.png",
+      "sha256": "8ae24d116cf72ae6f0b5bc0cca893e0ecb6d9d49200497143be28f7c4623e5f1",
+      "bytes": 3236515,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    }
+  ]
+}

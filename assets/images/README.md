@@ -70,3 +70,5 @@
 [蛊真人 / 三转巅峰](guzhenren/sanzhuandianfeng/README.md)：8张用户提供PNG，规格与独立许可见模块说明。
 
 [动画 / 油灯](donghua/youdeng/README.md)：2张用户提供PNG，规格与独立许可见模块说明。
+
+[蛊真人 / 全流程](guzhenren/quanliucheng/README.md)：8张用户提供PNG，规格与独立许可见模块说明。
