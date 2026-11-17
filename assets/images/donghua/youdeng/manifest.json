@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "module": "donghua/youdeng",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 2,
+  "total_bytes": 1784513,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "shot01-reference.png",
+      "sha256": "5397ff5b67d47a0b9af31671d7c2fce16a4120285ba9dd0cb8a7572072395b34",
+      "bytes": 657037,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "shot02-night-reference.png",
+      "sha256": "6a36b263c63d7e0cc585135cebb875aeeae3fe431622c2bba4f7dcbc43693e7d",
+      "bytes": 1127476,
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG"
+    }
+  ]
+}
