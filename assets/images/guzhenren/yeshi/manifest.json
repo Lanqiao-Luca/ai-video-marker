@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/yeshi",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 7,
+  "total_bytes": 21206385,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01-cave-修手-v1.png",
+      "sha256": "8003e884eadef9c3357d748943d0331afde7a5a6327d3820f05793cc7222edd1",
+      "bytes": 2262277,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02-blood.png",
+      "sha256": "bcf286af53ca6e39031abac6992c3f8ae0d4aad6cb0020c688f8c10ad70ad361",
+      "bytes": 2802937,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03-ascend.png",
+      "sha256": "0b58858d9384796c67eb0e13bcb41ce5dcc98fca21d7b4e5b2699c12e0343eef",
+      "bytes": 3373307,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04-fetus.png",
+      "sha256": "2467eab1071c27938a46be06c7670c5c1efdf1bcdc22ac10a3a57192891cbeea",
+      "bytes": 2605620,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05-battle.png",
+      "sha256": "51f497c273354e49dbbbb15e90fdb6550719665bb833a935a4f0d6eca059887c",
+      "bytes": 3561871,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "06-regret.png",
+      "sha256": "01c0d4ceb0cb76088f59c285af72fb4a395a034ddd0cc824cba20cd09c30deb6",
+      "bytes": 3101553,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "07-venerable.png",
+      "sha256": "1b0f83df56682405cad6fec0a12fc5938d988ba98b43c021a41e9a2679cc176a",
+      "bytes": 3498820,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
