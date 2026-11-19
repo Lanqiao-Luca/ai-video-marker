@@ -45,7 +45,8 @@ TOPICS = (TOPIC, 'assets/images/蛊真人/柳贯一/manifest.json',
           'assets/images/donghua/youdeng/manifest.json',
           'assets/images/guzhenren/quanliucheng/manifest.json',
           'assets/images/guzhenren/yeshi/manifest.json',
-          'assets/images/donghua/jinxian/manifest.json')
+          'assets/images/donghua/jinxian/manifest.json',
+          'assets/images/guzhenren/longgong/manifest.json')
 
 
 def safe(root, relative):

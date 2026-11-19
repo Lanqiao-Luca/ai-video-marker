@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/longgong",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 5,
+  "total_bytes": 14037309,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01_天庭受命.png",
+      "sha256": "dde3fb9b03c5d00f8885cabdea4c8799d0727717ff995ce0b5968dab417efce5",
+      "bytes": 2950380,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "02_暴雨诞生.png",
+      "sha256": "97e683e8b224c5710d0843e7e3e306ee6d96d5d8dea97ea119cabc816c5a00f5",
+      "bytes": 2396778,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "03_龙公降临.png",
+      "sha256": "e332c0b7ee23a5a38587480fb66cee077cbd19a0fa937f551b32dc53d1c2178f",
+      "bytes": 3263493,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "04_龙公与洪铸交谈.png",
+      "sha256": "9dea107787adda016f2e293dae2b0987b0313b0695e96d3a07962ccb17d2c713",
+      "bytes": 2740616,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    },
+    {
+      "file": "05_夫人抱婴拜见.png",
+      "sha256": "4682cfa9b1f969d90f0bbead852a8bfb62eab0c3f3ad382cb83a6ed215e5d720",
+      "bytes": 2686042,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG"
+    }
+  ]
+}
