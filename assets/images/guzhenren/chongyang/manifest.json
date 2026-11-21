@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/chongyang",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 5,
+  "total_bytes": 13007084,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01-雪街.png",
+      "sha256": "8eaf9fcf6ffa4024630330286eab6071fb1e6e0cdfcca0915f71147df9b4f396",
+      "bytes": 2816520,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02-旧竹楼.png",
+      "sha256": "954d760fa44c0655460799bde6bfee10fe24d9a9759048c50d4eda1cd44b469f",
+      "bytes": 2786062,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03-雪屋修行.png",
+      "sha256": "9b1136ebe9fffd5ce93b266dc5d41f8208442dd216668b5b0bfa3fe349134cee",
+      "bytes": 2144006,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04-逆流河.png",
+      "sha256": "ad3e6a666c2cf6634cbe88681b128cd4eca7a5eedfc2e8319600e63f7009e1f8",
+      "bytes": 2908922,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "05-推窗.png",
+      "sha256": "c92af6c47373a50cd4a5a9a986556cad2a62c45a74d67a6e7cdfde92a531e207",
+      "bytes": 2351574,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}

@@ -78,3 +78,5 @@
 [金线归途](donghua/jinxian/README.md) · 6张PNG，规格和独立许可见模块说明。
 
 [蛊真人 / 龙公](guzhenren/longgong/README.md)：5张用户提供PNG，规格与独立许可见模块说明。
+
+[蛊真人 / 重阳](guzhenren/chongyang/README.md)：5张用户提供PNG，规格与独立许可见模块说明。
