@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/hongyunyeshi",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 4,
+  "total_bytes": 14061120,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "00-雪路.png",
+      "sha256": "34fcd92afac3e704bfaf82d4432bdb8ae48865499050f30512701fa58b906f79",
+      "bytes": 3587793,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "01-元泉.png",
+      "sha256": "522c66a83ab6186ae6334cafb16e52b694c810bf43dcf14b2035f9579e0012bd",
+      "bytes": 3408887,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "02-赐名.png",
+      "sha256": "42c57cd63666c55e4b740dd1ffc2ac0932dc29d2acf015d1d34f09f90c047b1d",
+      "bytes": 3689349,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03-石林.png",
+      "sha256": "1248b8a51be2492c231a3446810ba5e73e9793f2929102b967c4ff6e6792d478",
+      "bytes": 3375091,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
