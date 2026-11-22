@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/qingshanluori",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 4,
+  "total_bytes": 10657214,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "01-落日对峙-候选.png",
+      "sha256": "c5abae9085ed9ed2014561e0a4f3e212313be0527f188deea81a8e3d27a50062",
+      "bytes": 2643144,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "status": "candidate"
+    },
+    {
+      "file": "02-夕照近景.png",
+      "sha256": "d5daffa14fb6735dfdc16d5559a1f2cdd4e15967ecc24fd21adec32755d3b2c6",
+      "bytes": 2640303,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "03-群雄戒备.png",
+      "sha256": "568670c3e0050a527f86d86a8a6b6b219647e26129d3eb1bded09a2cd9864543",
+      "bytes": 2793846,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "04-放声大笑.png",
+      "sha256": "8549941452cc55fed10e056a8a587c66c241c03b41b1e510f0fea07181b9060c",
+      "bytes": 2579921,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}

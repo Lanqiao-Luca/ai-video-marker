@@ -82,3 +82,5 @@
 [蛊真人 / 重阳](guzhenren/chongyang/README.md)：5张用户提供PNG，规格与独立许可见模块说明。
 
 [蛊真人 / 鸿运野史](guzhenren/hongyunyeshi/README.md) · 4张PNG，规格和独立许可见模块说明。
+
+[蛊真人 / 青山落日](guzhenren/qingshanluori/README.md) · 4张PNG，首图候选，规格和独立许可见模块说明。
