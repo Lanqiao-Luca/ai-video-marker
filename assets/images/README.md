@@ -61,6 +61,8 @@
 
 [动画 / 一粒种子](donghua/yilizhongzi/README.md) · 6张PNG镜头图，规格和许可见模块说明。
 
+[动画 / 无足鸟](donghua/wuzu/README.md) · 6张PNG图片，规格和许可见模块说明。
+
 [动画 / 夜行灯](donghua/yexingdeng/README.md)：6张用户提供PNG，规格与独立许可见模块说明。
 
 [蛊真人 / 四面楚歌](guzhenren/niliuhe3/README.md)：7张用户提供PNG，规格与独立许可见模块说明。

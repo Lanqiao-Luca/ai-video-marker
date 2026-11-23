@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "module": "donghua/wuzu",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 6,
+  "total_bytes": 17636369,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; repository MIT license does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "G05-风霜.png",
+      "sha256": "71d6bac27e3b3383de97ec17f8156e66fbf9f5ea3e4560e5c2274a2a249deecc",
+      "bytes": 2963667,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G06-无足鸟-v2.png",
+      "sha256": "07db1454c6c574d9b2f5a0578ea0951cebb88bb7719e7b3715fccaf89c7866e5",
+      "bytes": 2839639,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G01-二十七步.png",
+      "sha256": "ccd51c66bd711f08146d4ec3531ca993441ba9abdb95cd68dd698062ae6f0883",
+      "bytes": 3023169,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G02-逆流河.png",
+      "sha256": "9cd2948eb17033ee1913fb44ec94472d5e2ba13616103c9bc8ade8593d5bb40b",
+      "bytes": 3281171,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G04-光阴长河.png",
+      "sha256": "59c764789f63e7cc54a9f105e4c306eeb6293f6c5a4a8aeae0842372c27e8a73",
+      "bytes": 2697196,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G03-成尊.png",
+      "sha256": "9da570db07dec0ff92a9724ef369d03c5d58bb77e500c8d83658528d67e23a25",
+      "bytes": 2831527,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
