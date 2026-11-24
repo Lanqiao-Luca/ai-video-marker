@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/qianjin",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 6,
+  "total_bytes": 15175479,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "G01_武庸咬牙.png",
+      "sha256": "0773108021d048f0af14f197ff99192c0554816e5dd64cabe21b49f163be1b45",
+      "bytes": 2446139,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G02_命败白光.png",
+      "sha256": "16202085d1dcd2a2f25b225de5bc6e9b7b8135fd25b107853df34c732693ee90",
+      "bytes": 2797789,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G03_武庸凝视.png",
+      "sha256": "2122c1491dcc56b64d6a0651c93e7239958befe7b5e7eb9423f30e3caac7342e",
+      "bytes": 2278941,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G04_一抹血红.png",
+      "sha256": "ac26741eb9e3dac89d82842c674f0b1374875296dc1a1d5c0d609733e9d2c0b7",
+      "bytes": 2299034,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G05_披风如旗.png",
+      "sha256": "d429e1c1ae1f25680c7fde4137e9bed7720a9d886d1f754e021bc44e22e28085",
+      "bytes": 2616712,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G06_方源向前.png",
+      "sha256": "5881d77e88fc2cd89b5a30123841254fa9d4b370caa04100febd281a728874aa",
+      "bytes": 2736864,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
