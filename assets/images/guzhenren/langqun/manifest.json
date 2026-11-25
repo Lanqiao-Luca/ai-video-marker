@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/langqun",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 6,
+  "total_bytes": 16795703,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "G01_白凝冰狼困.png",
+      "sha256": "f41798ddcd9082d5503197eff2cc1c17ef0801cada56c23cfa029d188194eeaa",
+      "bytes": 2664641,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G02_方源逼近.png",
+      "sha256": "a05daf1f1147a7028438b0376575718a15653906f9eb4315fa3902e4491e0e05",
+      "bytes": 2522863,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G03_白凝冰寻路.png",
+      "sha256": "c02b4f5f92138bb13b4420bd68b813fd658996b99e87a744c97af0edaa05764a",
+      "bytes": 2657107,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G04_浓烟探路.png",
+      "sha256": "6e0b3dde3e679880323328d2037d807276ce75bb2405e8974ce96e3e44c34001",
+      "bytes": 2777536,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G05_并肩突围.png",
+      "sha256": "37e041318ab52baa0c66c8467e5dbd2b87fdc6a4820c1e696961faa4ac0befc0",
+      "bytes": 3072603,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G06_白凝冰离去.png",
+      "sha256": "071251c914379571d442c52d4253ae0ac08705ea84b145a4582e991bcc1ffc59",
+      "bytes": 3100953,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
