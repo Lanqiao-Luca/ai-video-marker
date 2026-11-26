@@ -90,3 +90,5 @@
 [蛊真人 / 前进](guzhenren/qianjin/README.md) · 6张PNG，规格和独立许可见模块说明。
 
 [蛊真人 / 狼群](guzhenren/langqun/README.md) · 6张PNG，规格与许可见模块说明。
+
+[蛊真人 / 人祖与失败](guzhenren/manli/README.md) · 6张PNG，规格和独立许可见模块说明。

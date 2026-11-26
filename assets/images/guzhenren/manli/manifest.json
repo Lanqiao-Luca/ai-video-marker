@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "module": "guzhenren/manli",
+  "kind": "user-provided image collection",
+  "origin": "User-selected local image files, copied without modification",
+  "creation_tool": "NOT_VERIFIED",
+  "image_count": 6,
+  "total_bytes": 18488510,
+  "filename_policy": "Original supplied names and numbering preserved",
+  "license": {
+    "image_reuse_license": "NOT_SEPARATELY_DECLARED",
+    "underlying_characters_and_setting": "Rights are not granted by this project",
+    "notice": "See README.md; the original-asset MIT declaration does not license this image collection"
+  },
+  "files": [
+    {
+      "file": "G01_人祖试蛊.png",
+      "sha256": "1e97304618c2f53b2a2560804d63d7a47f14ea9d7a78e230945fb79f1366c1b2",
+      "bytes": 3103101,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G02_失败蛊碎.png",
+      "sha256": "48253a2c36c19e093ab05bbcd8cad5ce41304651c64d38f82e5642fd9487e747",
+      "bytes": 3203501,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G05_市井井中.png",
+      "sha256": "792c7f0da072c7e111d13ca9649e00c05cef73c7ad6b36fcdae2330806cf9f38",
+      "bytes": 3281116,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G03_重新炼蛊.png",
+      "sha256": "0387c31c745ec049c1406b7df9a827fb4b458518a1802d53be84b99fe23edda9",
+      "bytes": 3065803,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G04_自己蛊夺力.png",
+      "sha256": "4f4a34a262eead6102167867bb446e1365a82c96ea9a47f45f478af150dd060c",
+      "bytes": 2769951,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    },
+    {
+      "file": "G06_领悟失败.png",
+      "sha256": "511d8400599ef44f0488832d72d7bcc3e910d3b1444f0bcf5be32a0f72eb96c8",
+      "bytes": 3065038,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG"
+    }
+  ]
+}
